@@ -5,7 +5,7 @@ Tutor: Bossa
 Data: 2 - 31 outubro 2023
 
 1. [Funções: definição, domínio, contradomínio e imagem.](./aula01.md)
-2. [Funções de variável real.](./aula02.md)
+2. [Funções de variável real e seu gráfico.](./aula02.md)
 3. [Gráfico de uma função.](./aula03.md)
 4. [Funções pares e ímpares. Funções crescentes e decrescentes.](./aula04.md)
 5. [Operações com funções.](./aula05.md)
