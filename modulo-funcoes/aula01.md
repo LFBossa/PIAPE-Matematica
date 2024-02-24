@@ -12,8 +12,8 @@ Podemos pensar então em algo como
 
 ```mermaid
 flowchart LR
-    chaves --> fechaduras
-    placas --> veículos
+    chaves --> fechaduras;
+    placas --> veículos;
 ```
 
 Em notação matemática, usamos a notação $$f:A\to B$$ para representar uma função de nome $f$ que associa elementos do conjunto $A$ a elementos do conjunto $B$.
