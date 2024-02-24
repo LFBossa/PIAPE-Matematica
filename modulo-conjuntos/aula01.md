@@ -73,6 +73,30 @@ Dizemos que um conjunto $A$ é _subconjunto de $B$ se todo elemento de $A$ tamb�
 
 Podemos representar conjuntos de maneira visual. Para isso, utilizamos diagramas de Venn. 
 
-<svg height="100" width="100">
-  <circle cx="50" cy="50" r="40" fill="red" />
+Podemos representar o conjunto $A = \{a,b,c,d,e\}$ listando seus elementos e agrupando eles dentro de um círculo, como abaixo
+
+<svg height="200" width="200">
+  <circle cx="100" cy="100" stroke="black" r="80" fill="#000077" />
+  <text x="60" y="80" font-size="20">a</text>
+  <text x="120" y="70" font-size="20">b</text>
+  <text x="60" y="130" font-size="20">c</text>
+  <text x="120" y="140" font-size="20">d</text>
+  <text x="90" y="110" font-size="20">e</text>
+  <text x="20" y="30" font-size="32">A</text>
 </svg>
+
+Se quisermos representar o conjunto $A = \{a,b,c\}$ juntamente com o conjunto $B = \{a,b,c,d,e\}$, podemos representar todos os elementos e depois circular os que pertencem a $A$ e os que pertencem a $B$.
+
+<svg height="200" width="200">
+  <circle cx="100" cy="100" stroke="black" r="95" fill="#007700" />
+  <circle cx="70" cy="110" stroke="black" r="50" fill="#000077" />
+  <text x="60" y="80" font-size="20">a</text>
+  <text x="60" y="110" font-size="20">b</text>
+  <text x="60" y="140" font-size="20">c</text>
+  <text x="130" y="90" font-size="20">d</text>
+  <text x="130" y="130" font-size="20">e</text>
+  <text x="50" y="50" font-size="32">A</text>
+  <text x="180" y="40" font-size="32">B</text>
+</svg>
+
+Agora temos uma maneira visual de entender que $A\subseteq B$.
