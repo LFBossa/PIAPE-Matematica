@@ -76,7 +76,7 @@ Podemos representar conjuntos de maneira visual. Para isso, utilizamos diagramas
 Podemos representar o conjunto $A = \{a,b,c,d,e\}$ listando seus elementos e agrupando eles dentro de um círculo, como abaixo
 
 <svg height="200" width="200">
-  <circle cx="100" cy="100" stroke="black" r="80" fill="#000077" />
+  <circle cx="100" cy="100" stroke="black" r="80" fill="#0000BB" />
   <text x="60" y="80" font-size="20">a</text>
   <text x="120" y="70" font-size="20">b</text>
   <text x="60" y="130" font-size="20">c</text>
@@ -88,8 +88,8 @@ Podemos representar o conjunto $A = \{a,b,c,d,e\}$ listando seus elementos e agr
 Se quisermos representar o conjunto $A = \{a,b,c\}$ juntamente com o conjunto $B = \{a,b,c,d,e\}$, podemos representar todos os elementos e depois circular os que pertencem a $A$ e os que pertencem a $B$.
 
 <svg height="200" width="200">
-  <circle cx="100" cy="100" stroke="black" r="95" fill="#007700" />
-  <circle cx="70" cy="110" stroke="black" r="50" fill="#000077" />
+  <circle cx="100" cy="100" stroke="black" r="95" fill="#00BB22" />
+  <circle cx="70" cy="110" stroke="black" r="50" fill="#0000BB" />
   <text x="60" y="80" font-size="20">a</text>
   <text x="60" y="110" font-size="20">b</text>
   <text x="60" y="140" font-size="20">c</text>
@@ -100,3 +100,21 @@ Se quisermos representar o conjunto $A = \{a,b,c\}$ juntamente com o conjunto $B
 </svg>
 
 Agora temos uma maneira visual de entender que $A\subseteq B$.
+
+Se quisermos representar o conjunto $A = \{a,e,i,o,u\}$ juntamente com o conjunto $B = \{a,b,c,d,e\}$, podemos representar todos os elementos e depois circular os que pertencem a $A$ e os que pertencem a $B$.
+
+
+<svg height="200" width="400">
+  <circle cx="100" cy="110" stroke="black" r="50" fill="#00BB22A0" />
+  <circle cx="50" cy="110" stroke="black" r="50" fill="#0000BBA0" />
+  <text x="30" y="80" font-size="20">u</text>
+  <text x="10" y="110" font-size="20">o</text>
+  <text x="30" y="140" font-size="20">i</text>
+  <text x="70" y="90" font-size="20">a</text>
+  <text x="70" y="130" font-size="20">e</text>
+  <text x="100" y="80" font-size="20">b</text>
+  <text x="120" y="110" font-size="20">c</text>
+  <text x="100" y="140" font-size="20">d</text>
+  <text x="10" y="50" font-size="32">A</text>
+  <text x="110" y="50" font-size="32">B</text>
+</svg>
