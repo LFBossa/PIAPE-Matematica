@@ -79,9 +79,9 @@ Podemos representar o conjunto $A = \{a,b,c,d,e\}$ listando seus elementos e agr
 
 Se quisermos representar o conjunto $A = \{a,b,c\}$ juntamente com o conjunto $B = \{a,b,c,d,e\}$, podemos representar todos os elementos e depois circular os que pertencem a $A$ e os que pertencem a $B$.
 
-<svg height="200" width="200">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"  height="200" width="200">
   <circle cx="100" cy="100" stroke="black" r="95" fill="#00BB22" />
-  <circle cx="70" cy="110" stroke="black" r="50" fill="#0000BB" />
+  <circle cx="70" cy="110" stroke="black" r="50" fill="#5FAFD4" />
   <text x="60" y="80" font-size="20">a</text>
   <text x="60" y="110" font-size="20">b</text>
   <text x="60" y="140" font-size="20">c</text>
@@ -98,7 +98,7 @@ Se quisermos representar o conjunto $A = \{a,e,i,o,u\}$ juntamente com o conjunt
 
 <svg height="200" width="400">
   <circle cx="100" cy="110" stroke="black" r="50" fill="#00BB22A0" />
-  <circle cx="50" cy="110" stroke="black" r="50" fill="#0000BBA0" />
+  <circle cx="50" cy="110" stroke="black" r="50" fill="#5FAFD4A0" />
   <text x="30" y="80" font-size="20">u</text>
   <text x="10" y="110" font-size="20">o</text>
   <text x="30" y="140" font-size="20">i</text>
