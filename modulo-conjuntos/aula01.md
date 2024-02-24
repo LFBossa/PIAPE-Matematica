@@ -75,15 +75,7 @@ Podemos representar conjuntos de maneira visual. Para isso, utilizamos diagramas
 
 Podemos representar o conjunto $A = \{a,b,c,d,e\}$ listando seus elementos e agrupando eles dentro de um círculo, como abaixo
 
-<svg height="200" width="200">
-  <circle cx="100" cy="100" stroke="black" r="80" fill="#0000BB" />
-  <text x="60" y="80" font-size="20">a</text>
-  <text x="120" y="70" font-size="20">b</text>
-  <text x="60" y="130" font-size="20">c</text>
-  <text x="120" y="140" font-size="20">d</text>
-  <text x="90" y="110" font-size="20">e</text>
-  <text x="20" y="30" font-size="32">A</text>
-</svg>
+![Diagrama A](./aula01-img01.svg)
 
 Se quisermos representar o conjunto $A = \{a,b,c\}$ juntamente com o conjunto $B = \{a,b,c,d,e\}$, podemos representar todos os elementos e depois circular os que pertencem a $A$ e os que pertencem a $B$.
 
