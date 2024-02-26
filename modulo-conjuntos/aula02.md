@@ -36,11 +36,11 @@ Podemos visualizar da seguinte forma:
 
 ## Número de elementos
 
-Quando temos um conjunto $A$, representamos o número de elementos dele por $\#A$.
+Quando temos um conjunto $A$, representamos o número de elementos dele por $\# A$.
 
 Temos uma fórmula que relaciona o número de elementos de dois conjuntos com o o número de elementos de sua união.
 
-$$\#(A\cup B) = \#A + \#B - \#(A\cap B) $$
+$$\#(A\cup B) = \# A + \# B - \#(A\cap B) $$
 
 
 ## Produto cartesiano
