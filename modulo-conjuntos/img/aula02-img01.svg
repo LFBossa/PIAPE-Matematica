@@ -1,12 +1,12 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="200" width="410">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="120" width="350">
     <g stroke="black" stroke-width="1">
-        <circle cx="60" cy="50" r="50" fill="#00BB22C0" />
+        <circle cx="60" cy="50" r="48" fill="#00BB22C0" />
         <polygon points="100,0 50,50 100,100 150,50" fill="#0022BBC0" />
     </g>
-    <text x="0" y="20" font-family="Verdana" font-size="20" fill="black">A</text>
-    <text x="125" y="20" font-family="Verdana" font-size="20" fill="black">B</text>
+    <text x="2" y="22" font-family="Verdana" font-size="20" fill="black">A</text>
+    <text x="125" y="22" font-family="Verdana" font-size="20" fill="black">B</text>
     <g fill="red" stroke="black" stroke-width="0.1" transform="translate(160 0)">
-        <circle cx="60" cy="50" r="50"  />
+        <circle cx="60" cy="50" r="48"  />
         <polygon points="100,0 50,50 100,100 150,50"  />
     </g>
     <text x="200" y="50" font-family="Verdana" font-size="20" fill="black">A &#8746; B</text>
