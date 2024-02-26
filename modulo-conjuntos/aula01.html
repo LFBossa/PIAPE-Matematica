@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="elementos-conjuntos-e-pertinência">Elementos, Conjuntos e
+pertinência</h1>
+<p>Em Matemátemática, utilizamos <em>sistemas axiomáticos</em>. Nesses
+sistemas, temos algumas <em>noções elementares</em>, que são coisas que
+não definimos e <em>axiomas</em>, que são as regras que escolhemos como
+válidas dentro desse sistema.</p>
+<p>Na Teoria dos Conjuntos, as noções elementares são:</p>
+<ul>
+<li>conjunto</li>
+<li>elemento</li>
+<li>pertinência</li>
+</ul>
+<p>Nossa noção de conjunto em matemática é a mesma da linguagem
+coloquial: um agrupamento de coisas. Essas coisas que compõe o conjunto
+são os elementos desse conjunto. Quando um elemento faz parte de um
+conjunto, dizemos que ele <em>pertence</em> ao conjunto.</p>
+<p><strong>Exemplos</strong></p>
+<ul>
+<li>O conjunto das vogais: a, e, i, o, u</li>
+<li>O conjunto de alunos do PIAPE</li>
+<li>O conjunto de alunos da UFSC Blumenau</li>
+<li>O conjunto dos números pares: 0, 2, 4, 6, 8,…</li>
+</ul>
+<h2 id="pertinência">Pertinência</h2>
+<p>Quando queremos dizer que um elemento pertence a um conjunto,
+utilizamos o símbolo $\in$. Quando queremos dizer que um elemento não
+pertence a um conjunto, utilizamos $\notin$. Assim, $$a\in
+\text{conjunto das vogais}$$ $$c \notin \text{conjunto das vogais}$$
+$$0\in \text{conjunto dos números pares}$$ $$1\notin \text{conjunto dos
+números pares}$$</p>
+<h2 id="convenção">Convenção</h2>
+<p>Uma convenção é um acordo. A convenção geral é que utilizamos letras
+minúsculas para denotar os elementos e letras maiúsculas para denotar os
+conjuntos.</p>
+<ul>
+<li>$a, b, c$ são elementos</li>
+<li>$A, B, C$ são conjuntos</li>
+</ul>
+<h2 id="definindo-um-conjunto">Definindo um conjunto</h2>
+<p>Podemos definir um conjunto de duas maneiras:</p>
+<ul>
+<li>Enumerando seus elementos</li>
+<li>Descrevendo uma propriedade que seus elementos possuem</li>
+</ul>
+<p><strong>Exemplo</strong></p>
+<ul>
+<li>O conjunto das vogais podemos enumerar como $$V={a,e,i,o,u}$$ Sempre
+enumeramos os elementos de um conjunto entre chaves ${}$. Assim, para
+dizer que “a” é uma vogal, podemos denotar por $a\in V$.</li>
+<li>O conjunto dos números pares podemos descrever como $$P = { n \text{
+é um número par} }$$</li>
+</ul>
+<h2 id="conjunto-unitário-e-vazio">Conjunto unitário e vazio</h2>
+<p>Existe um conjunto que não possui nenhum elemento. Esse conjunto é
+chamado de <em>conjunto vazio</em>, e denotado pelo símbolo
+$\emptyset$.</p>
+<p>Um <em>conjunto unitário</em> é um conjunto que possui apenas um
+elemento.</p>
+<p><strong>Exemplo</strong>: o conjunto de tutores de matemática do
+PIAPE no campus Blumenau possui um único elemento.</p>
+<h2 id="conjunto-universo">Conjunto universo</h2>
+<p>Quando estamos trabalhando em um problema, geralmente consideramos um
+<em>conjunto universo</em>, que é o conjunto de todos os elementos que
+podemos considerar no contexto estudado.</p>
+<h2 id="subconjuntos">Subconjuntos</h2>
+<p>Dizemos que um conjunto $A$ é _subconjunto de $B$ se todo elemento de
+$A$ também pertence a $B$. Nesse caso, utilizamos a notação $A \subseteq
+B$.</p>
+<p><strong>Exemplo</strong></p>
+<ul>
+<li>Seja $A = {a,b,c}$ e $B = {a,b,c,d,e}$. Note que todo elemento de
+$A$ também percente a $B$, logo $A \subseteq B$.</li>
+<li>Seja $P = { n \text{ é um número par} }$ e $D = { n \text{ é um
+número múltiplo de 10} }$. Como todo número múltiplo de 10 também é par,
+podemos escrever $D \subseteq P$.</li>
+</ul>
+<p><strong>Contra-exemplos</strong></p>
+<ul>
+<li>Se $A = {a,e,i,o,u}$ e $B = {a,b,c,d,e}$, note que nem todo elemento
+de $A$ pertence a $B$. Nesse caso, $A$ <strong>não é</strong> um
+sonjunto de $B$, e denotamos esse fato escrevendo $$A\not\subseteq
+B$$</li>
+<li>Seja $P = { n \text{ é um número par} }$ e $C = { n \text{ é um
+número múltiplo de 5} }$. Nesse caso, $5\in C$, porém $5\not\in P$.
+Assim, $C$ não pode ser um subconjunto de $P$, e denotamos por
+$C\not\subseteq P$.</li>
+</ul>
+<h2 id="diagramas-de-venn">Diagramas de Venn</h2>
+<p>Podemos representar conjuntos de maneira visual. Para isso,
+utilizamos diagramas de Venn.</p>
+<p>Podemos representar o conjunto $A = {a,b,c,d,e}$ listando seus
+elementos e agrupando eles dentro de um círculo, como abaixo</p>
+<p><img src="./aula01-img01.svg" alt="Diagrama A" /></p>
+<p>Se quisermos representar o conjunto $A = {a,b,c}$ juntamente com o
+conjunto $B = {a,b,c,d,e}$, podemos representar todos os elementos e
+depois circular os que pertencem a $A$ e os que pertencem a $B$.</p>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"  height="200" width="200">
+<p><circle cx="100" cy="100" stroke="black" r="95" fill="#00BB22" />
+<circle cx="70" cy="110" stroke="black" r="50" fill="#5FAFD4" />
+<text x="60" y="80" font-size="20">a</text>
+<text x="60" y="110" font-size="20">b</text>
+<text x="60" y="140" font-size="20">c</text>
+<text x="130" y="90" font-size="20">d</text>
+<text x="130" y="130" font-size="20">e</text>
+<text x="50" y="50" font-size="32">A</text>
+<text x="180" y="40" font-size="32">B</text> </svg></p>
+<p>Agora temos uma maneira visual de entender que $A\subseteq B$.</p>
+<p>Se quisermos representar o conjunto $A = {a,e,i,o,u}$ juntamente com
+o conjunto $B = {a,b,c,d,e}$, podemos representar todos os elementos e
+depois circular os que pertencem a $A$ e os que pertencem a $B$.</p>
+<svg height="200" width="400">
+<p><circle cx="100" cy="110" stroke="black" r="50" fill="#00BB22A0" />
+<circle cx="50" cy="110" stroke="black" r="50" fill="#5FAFD4A0" />
+<text x="30" y="80" font-size="20">u</text>
+<text x="10" y="110" font-size="20">o</text>
+<text x="30" y="140" font-size="20">i</text>
+<text x="70" y="90" font-size="20">a</text>
+<text x="70" y="130" font-size="20">e</text>
+<text x="100" y="80" font-size="20">b</text>
+<text x="120" y="110" font-size="20">c</text>
+<text x="100" y="140" font-size="20">d</text>
+<text x="10" y="50" font-size="32">A</text>
+<text x="110" y="50" font-size="32">B</text> </svg></p>
+</body>
+</html>
