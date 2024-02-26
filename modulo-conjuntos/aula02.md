@@ -6,7 +6,7 @@ Dados dois conjuntos, podemos criar novos conjuntos a partir deles.
 
 Podemos reunir todos os elementos de um conjunto pela união. Utilizamos o símbolo $\cup$.
 
-$$A\cup B = \{ \text{elementos que pertencem a $A$ \textbf{ou} pertencem a $B$}\}$$
+$$A\cup B = \{ \text{elementos que pertencem a } A \textbf{ ou }\text{ pertencem a }B\}$$
 
 Podemos a representação utilizando diagramas de Venn é a seguinte:
 ![Diagrama da união](./img/aula02-img01.svg)
