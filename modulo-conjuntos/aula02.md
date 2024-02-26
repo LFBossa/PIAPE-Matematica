@@ -36,11 +36,11 @@ Podemos visualizar da seguinte forma:
 
 ## Número de elementos
 
-Quando temos um conjunto $A$, representamos o número de elementos dele por $\# A$.
+Quando temos um conjunto $A$, representamos o número de elementos dele por $|A|$.
 
 Temos uma fórmula que relaciona o número de elementos de dois conjuntos com o o número de elementos de sua união.
 
-$$\#(A\cup B) = \# A + \# B - \#(A\cap B) $$
+$$|A\cup B| = |A| + |B| - |A\cap B| $$
 
 
 ## Produto cartesiano
@@ -53,5 +53,9 @@ $$A\times B = \{(a,b) \text{ com } a\in A \text{ e com } b\in B \}$$
 
 A melhor maneira de representar um produto cartesiano é como uma grade.
 
-
 ![Produto cartesiano](./img/aula02-img04.svg)
+
+O número de elementos de um produto cartesiano é dado por 
+$$
+|A\times B|= |A|\cdot |B|
+$$
