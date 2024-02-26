@@ -8,16 +8,15 @@
     <text x="125" y="20" font-family="Verdana" font-size="20" fill="black">B</text>
     
     <g fill="none" stroke="black" stroke-width="1" transform="translate(160 0)">
-        <circle cx="60" cy="50" r="50" />
-        <clipPath id="circulo">
-            <circle cx="60" cy="50" r="50" />
-        </clipPath> 
+    <mask id="conjuntob">
+        <rect fill="white" x="0" y="0" width="100" height="100"/>
+        <polygon fill="black" points="100,0 50,50 100,100 150,50"  />
+    </mask>
+    <circle cx="60" cy="50" r="50" fill="red" mask="url(#conjuntob)" /> 
     <polygon points="100,0 50,50 100,100 150,50"  />
-
-    <polygon clip-path="url(#circulo)" fill="red" id="diamante1" points="100,0 50,50 100,100 150,50"  />
-     
+ 
     </g>
-    <text x="215" y="55" font-family="Verdana" font-size="20" fill="black">A &#8745; B</text>
+    <text x="180" y="32" font-family="Verdana" font-size="20" fill="black">A \ B</text>
     
     
  
