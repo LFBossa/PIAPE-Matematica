@@ -56,6 +56,8 @@ Os números inteiros são construídos pegando os números naturais e acrescenta
 $$
 \mathbb{Z} = \{ \ldots, -3,-2,-1,0,1,2,3,\ldots\}
 $$
+
+Note que $\mathbb{N}\subseteq\mathbb{Z}$.
 ### Operações
 
 Nos números inteiros, as operações de adição, subtração e multiplicação estão bem definidas. 
