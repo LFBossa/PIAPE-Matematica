@@ -101,6 +101,61 @@ Numa reta horizontal, fixamos o $0$ como origem. Dada uma unidade de medida $u$,
 
 ## Números racionais
 
+Os números racionais foram criados para fazer a operação de divisão ser possível para quaisquer inteiros. Nos racionais, faz sentido dividir $15$ por $4$. Denotamos esse conjunto por $\mathbb{Q}$
+
+Para definir $\mathbb{Q}$, vamos definir uma _fração_: é um par de números inteiros $a$, $b$, com $b\neq 0$ e denotada por $$\frac{a}{b}$$
+com $a$ sendo o _numerador_ e $b$ sendo o _denominador_. 
+
+Duas frações são iguais se a multiplicação cruzada dos numeradores pelos denominadores for igual
+$$
+\frac{a}{b} = \frac{c}{d}\quad \Leftrightarrow \quad a\cdot d = b\cdot c
+$$
+
+Defininmos a adição de duas frações da seguinte forma
+$$
+\frac{a}{b} + \frac{c}{d} = \frac{a\cdot d + b\cdot c }{b\cdot d}
+$$
+
+Definimos a multiplicação de duas frações da seguinte forma
+$$
+\frac{a}{b} \cdot  \frac{c}{d} = \frac{a\cdot c }{b\cdot d}
+$$
+
+As operações acima definidas satisfazem todas as propriedades [A1] até [A4], [M1] até [M3] e [D]. Além disso, temos mais uma propriedade 
+
+**[M4]** existência do inverso para a multiplicação: para toda fração $\frac{a}{b}$ existe uma fração $\frac{b}{a}$ que satisfaz
+$$
+\frac{a}{b}\cdot \frac{b}{a} = 1
+$$
+
+Por causa da propriedade [M4], podemos definir a divisão em $\mathbb{Q}$ como
+$$
+\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot  \frac{d}{c} 
+$$
+
+Note que para qualquer inteiro $a\in\mathbb{Z}$ a fração $\frac{a}{1}$ se comporta exatamente como $a$. Com isso, podemos dizer que $\mathbb{Z}\subseteq\mathbb{Q}$.
+
+### Representação decimal
+
+Quando fazemos a "divisão na chave", obtemos a representação decimal da fração.
+
+**Exemplo**
+
+Dividindo $15$ por $4$, obtemos $3,\!75$. Assim, a representação decimal da fração $$\frac{15}{4} = 3,\!75$$ 
+
+Dividindo $25$ por $3$ obtemos $8,\!333..$. Note que o $3$ se repete indefinidamente depois da vírgula, e nesse caso temos uma _dízima periódica_. 
+$$
+\frac{25}{3} = 8,\!3333...
+$$
+
+Toda fração tem uma representação decimal que é exata ou uma dízima periódica.
+
+### Racionais e a reta
+
+Os racionais preenchem mais a reta do que os inteiros, completando algumas lacunas entre os inteiros.
+
+![Reta com os racionais](./img/aula03-img02.svg)
+
 ## Números reais
 
 ## Números complexos
