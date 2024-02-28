@@ -69,6 +69,31 @@ $$
 a + (-a) = 0
 $$
 
+### Divisibilidade
+
+Dizemos que um inteiro $a$ _divide_ $b$ se existe algum inteiro $c$ que quando multiplicado por $a$ nos dá $b$, ou seja,
+$$
+b = a\cdot c
+$$
+Nesse caso, utilizamos a notação $a\mid b$. Quando $a$ divide $b$, dizemos que 
+- $a$ é um _divisor_ de $b$
+- $b$ é _divisível_ por $a$
+- $b$ é _múltiplo_ de $a$
+
+
+**Exemplos**
+- $5 \mid 10$, pois $10 = 5\cdot 2$.
+- $(-3) \mid 27$, pois $27 = (-3)\cdot (-9)$
+- $2\mid 0$ pois $0 = 2\cdot 0$
+
+Quando $a$ divide $b$, o número $c$ é único e podemos definir 
+$$
+b\div a = c
+$$
+
+Mas note que a divisão exata nem sempre é possível em $\mathbb{Z}$: não podemos dividir $15$ por $4$ por exemplo. 
+
+
 ## Números racionais
 
 ## Números reais
