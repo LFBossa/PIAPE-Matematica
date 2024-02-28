@@ -158,4 +158,20 @@ Os racionais preenchem mais a reta do que os inteiros, completando algumas lacun
 
 ## Números reais
 
-## Números complexos
+Embora os racionais preencham as lacunas da reta, eles não preenchem ela completamente. 
+
+O Teorema de Pitágoras garante que um quadrado de lado $1$ possui diagonal medindo $\sqrt{2}$. Um homem demonstrou que esse número não pode ser racional e diz a lenda que ele perdeu a vida por causa disto.
+
+Os reais são criados "completando as lacunas" dos racionais na reta. Deste modo, temos $\mathbb{Q} \subseteq \mathbb{R}$.
+
+
+## Números complexos 
+
+Pelas propriedades da multiplicação, sabemos que todo número elevado ao quadrado é positivo. Assim, não existe número real que elevado ao quadrado é negativo, e logo não faz sentido falar em raiz quadrada e um número negativo. 
+
+Os complexos foram criados para dar sentido a expressões como $\sqrt{-121}$. Nesse caso, juntamos a unidade imaginária $i = \sqrt{-1}$ ao conjunto dos reais, e podemos fazer a conta
+$$
+\sqrt{-121} = \sqrt{-1\cdot 121} = \sqrt{-1}\cdot\sqrt{121} = i\cdot 11
+$$
+
+## 
