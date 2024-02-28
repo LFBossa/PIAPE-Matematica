@@ -93,6 +93,11 @@ $$
 
 Mas note que a divisão exata nem sempre é possível em $\mathbb{Z}$: não podemos dividir $15$ por $4$ por exemplo. 
 
+### Inteiros e a reta
+
+Numa reta horizontal, fixamos o $0$ como origem. Dada uma unidade de medida $u$, fazemos marcações à direita de $u$ em $u$ unidades para representar os números positivos, e à esquerda para representar os negativos.
+
+![A reta dos inteiros](./img/aula03-img01.svg)
 
 ## Números racionais
 
