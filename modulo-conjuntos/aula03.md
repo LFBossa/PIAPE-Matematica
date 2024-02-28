@@ -62,6 +62,13 @@ Note que $\mathbb{N}\subseteq\mathbb{Z}$.
 
 Nos números inteiros, as operações de adição, subtração e multiplicação estão bem definidas. 
 
+Além de todas as propriedades [A1] até [A3], [M1] até [M3] e [D], a adição possui mais uma propriedade em $\mathbb{Z}$
+
+**[A4]** existência do oposto para a adição: para todo $a$ existe um $-a$ que satisfaz
+$$
+a + (-a) = 0
+$$
+
 ## Números racionais
 
 ## Números reais
