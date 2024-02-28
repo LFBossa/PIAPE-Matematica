@@ -12,13 +12,39 @@ $$
 
 ### Operações
 
-Nos naturais, estão bem definidas as operações de soma $+$ e multiplicação $\cdot$. O que significa estar bem definida? Significa que ao somar ou multiplicar dois números naturais, sempre obtemos um número natural. 
+Nos naturais, estão bem definidas as operações de adição $+$ e multiplicação $\cdot$. O que significa estar bem definida? Significa que ao somar ou multiplicar dois números naturais, sempre obtemos um número natural. 
 
-Outra operação possível é a _divisão euclidiana_: dados dois números naturais $a$ e $b$, podemos dividir $a$ por $b$ e obter um _quociente_ $q$ e um _resto_ $r$ com 
+Essas operações satisfazem as seguintes propriedades: para quaisquer $a,b,c\in\mathbb{N}$
+
+**[A1]** a adição é associativa
 $$
-a = bq + r
+(a+b) + c = a + (b+c)
 $$
-de modo que $0\le r < b$.
+**[A2]** a adição é comutativa
+$$
+a+b = b+a
+$$
+**[A3]** existe o elemento neutro da adição
+$$
+a + 0 = a
+$$
+**[M1]** a multiplicação é associativa
+$$
+(a\cdot b)\cdot c = a\cdot (b\cdot c)
+$$
+**[M2]** a multiplicação é comutativa
+$$
+a\cdot b = b\cdot a
+$$
+**[M3]** existe o elemento neutro da multiplicação
+$$
+a\cdot 1 = a
+$$
+**[D]** propriedade distributiva da multiplicação com relação a adição
+$$
+a\cdot (b+c) = a\cdot b + a\cdot c
+$$
+
 
 Note que a operação de subtração $-$ não está bem definida em $\mathbb{N}$: não podemos subtrair 10 de 5 e obtermos um número natural. 
 
