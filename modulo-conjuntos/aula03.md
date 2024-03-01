@@ -162,7 +162,7 @@ Embora os racionais preencham as lacunas da reta, eles não preenchem ela comple
 
 O Teorema de Pitágoras garante que um quadrado de lado $1$ possui diagonal medindo $\sqrt{2}$. Um homem demonstrou que esse número não pode ser racional e diz a lenda que ele perdeu a vida por causa disto.
 
-Os reais são criados "completando as lacunas" dos racionais na reta. Deste modo, temos $\mathbb{Q} \subseteq \mathbb{R}$.
+Os reais são criados "completando as lacunas" dos racionais na reta, e são representados por $\mathbb{R}$. Deste modo, temos $\mathbb{Q} \subseteq \mathbb{R}$.
 
 
 ## Números complexos 
@@ -179,3 +179,14 @@ $$
 O diagrama abaixo representa a relação de inclusão entre os conjuntos numéricos.
 
 ![Diagrama dos conjuntos numéricos](./img/aula03-img03.svg)
+
+## Notações especiais
+
+- Quando adicionamos um $*$ na notação do conjunto, estamos tirando o zero dele.
+- Quando adicionamos um $+$ na notação do conjunto, estamos considerando apenas os números maiores ou iguais a zero. 
+- Quando adicionamos um $-$ na notação do conjunto, estamos considerando apenas os números menores ou iguais a zero.
+
+Assim, 
+- $\mathbb{N}^*$ é o conjunto dos naturais sem o zero. 
+- $\mathbb{Z}_+ = \{01,2,3,4,\ldots\}$ é o conjunto dos inteiros não negativos, que é igual a $\mathbb{N}$.
+- $\mathbb{Q}_-^*$ é o conjunto dos racionais negativos.
