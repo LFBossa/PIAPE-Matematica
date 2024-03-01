@@ -52,9 +52,11 @@ Podemos representar um intervalo na reta numérica destacando seus extremos e se
 **Exemplos**
 
 1. O intervalo $[3,7]$ em $\mathbb{N}$ é o conjunto 
+
 $$ [3,7] = \{x\in \mathbb{N} \mid 3\le x \le 7\} = \{3,4,5,6,7\} $$
 
 2. O intervalo $]-3,3[$ em $\mathbb{Z}$ é o conjunto 
+
 $$ ]-3,3[ = \{x\in \mathbb{Z} \mid -3 < x < 3\} = \{-2,-1,0,1,2\} $$
 
 3. O intervalo $]0,1]$ em $\mathbb{Q}$ contém todos os racionais maiores que zero e menores ou iguais a 1. Assim, $0$ não está no intervalo, mas $1$ está. 
@@ -66,4 +68,5 @@ $$ ]-3,3[ = \{x\in \mathbb{Z} \mid -3 < x < 3\} = \{-2,-1,0,1,2\} $$
 São intervalos limitados em apenas um dos extremos. O extremo ilimitado é representado pelo símbolo do infinito $\infty$ e é sempre _aberto_ nesse extremo. 
 
 $$[a,\infty[ = \{x\in\mathbb{B}\mid x \ge a \}$$
+
 $$]-\infty,a] = \{x\in\mathbb{B}\mid x \le a \}$$
