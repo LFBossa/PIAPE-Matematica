@@ -174,4 +174,8 @@ $$
 \sqrt{-121} = \sqrt{-1\cdot 121} = \sqrt{-1}\cdot\sqrt{121} = i\cdot 11
 $$
 
-## 
+## Diagrama dos conjuntos numéricos
+
+O diagrama abaixo representa a relação de inclusão entre os conjuntos numéricos.
+
+![Diagrama dos conjuntos numéricos](./img/aula03-img03.svg)
