@@ -70,3 +70,26 @@ São intervalos limitados em apenas um dos extremos. O extremo ilimitado é repr
 $$[a,\infty[ = \{x\in\mathbb{B}\mid x \ge a \}$$
 
 $$]-\infty,a] = \{x\in\mathbb{B}\mid x \le a \}$$
+
+## Operações com intervalos
+
+Para operar dois intervalos, é interessante desenhar ambos os intervalos em retas paralelas, respeitando a ordem dos extremos.
+
+**Exemplo**
+
+Para calcular a interseção dos intervalos $[-2,2[$ e $[0,3]$, desenhamos um em cima do outro e marcamos a região que estã em ambos os intervalos ao mesmo tempo. 
+
+![Interseção de intervalos](./img/aula04-img05.svg)
+
+Assim, obtemos
+
+$$ [-2,2[\cap[0,3] = [0,2[$$
+
+Se quiséssemos calcular a união, bastaria marcar a região que está em qualquer um dos conjuntos
+
+![União de intervalos](./img/aula04-img06.svg)
+
+
+Assim, obtemos
+
+$$ [-2,2[\cup[0,3] = [-2,3]$$
