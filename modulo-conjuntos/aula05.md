@@ -1,6 +1,6 @@
 # O corpo ordenado dos reais
 
-Podemos chamar os reais de um _corpo ordenado_. Esse conjunto é um _corpo_ pois, juntamente com as operações de adição  $+$ e multiplicação $\cdot$ satisfaz as seguintes propriedades:
+Podemos chamar o conjunto dos números reais $\mathbb{R}$ de um _corpo ordenado_. Esse conjunto é um _corpo_ pois, juntamente com as operações de adição  $+$ e multiplicação $\cdot$ satisfaz as seguintes propriedades:
 
 
 **[A1]** a adição é associativa
@@ -43,3 +43,12 @@ $$ a\cdot a^{-1} = 1 $$
 $$ a\cdot (b+c) = a\cdot b + a\cdot c $$
  
 
+
+Ele é um corpo ordenado, pois juntamente com a relação de ordem $\le$, temos as seguintes propriedades
+
+**[OA]** A adição preserva a ordem: para quaisquer $a,b,c\in\mathbb{R}$ vale que 
+$$a\le b \quad \Rightarrow \quad a+c \le b +c$$
+
+**[OM]** A multiplicação preserva a ordem: para quaisquer $a,b\in\mathbb{R}$
+
+$$0\le a,b  \quad \Rightarrow \quad 0 \le a\cdot b$$
