@@ -9,28 +9,20 @@ Dados dois números $a$ e $b$ pertencentes a um conjunto numérico $\mathbb{B}$ 
 A notação de intervalo com extremos $a$ e $b$ representa o conjunto de todos os números que são maiores do que $a$ e menores do que $b$, podendo ou não incluir os extremos. 
 
 **Intervalo aberto** 
-$$
-]a,b[  =  \{x\in\mathbb{B} \mid a < x < b\}
-$$
+$$]a,b[  =  \{x\in\mathbb{B} \mid a < x < b\}$$
 Nesse caso, os extremos **não pertencem** ao intervalo.
 
 **Intervalo fechado** 
-$$
-[a,b]  =  \{x\in\mathbb{B} \mid a \le x \le b\}
-$$
+$$[a,b]  =  \{x\in\mathbb{B} \mid a \le x \le b\}$$
 Nesse caso, os extremos **pertencem** ao intervalo.
 
 Podemos também misturar a notação e criar os intervalos "mistos"
 
 **Intervalo fechado à esquerda** 
-$$
-[a,b[  =  \{x\in\mathbb{B} \mid a \le x < b\}
-$$
+$$[a,b[  =  \{x\in\mathbb{B} \mid a \le x < b\}$$
 
 **Intervalo fechado à direita** 
-$$
-]a,b]  =  \{x\in\mathbb{B} \mid a < x \le b\}
-$$
+$$]a,b]  =  \{x\in\mathbb{B} \mid a < x \le b\}$$
 
 ## Representação gráfica
 
@@ -57,9 +49,47 @@ Podemos representar um intervalo na reta numérica destacando seus extremos e se
 
 ## Exemplos
 
-**Exemplo 1**
+**Exemplos**
 
-O intervalo $[3,7]$ em $\mathbb{N}$ é o conjunto 
-$$
-[3,7] = \{x\in \mathbb{N} \mid 3\le x \le 7\} = \{3,4,5,6,7\}
-$$
+1. O intervalo $[3,7]$ em $\mathbb{N}$ é o conjunto 
+
+$$ [3,7] = \{x\in \mathbb{N} \mid 3\le x \le 7\} = \{3,4,5,6,7\} $$
+
+2. O intervalo $]-3,3[$ em $\mathbb{Z}$ é o conjunto 
+
+$$ ]-3,3[ = \{x\in \mathbb{Z} \mid -3 < x < 3\} = \{-2,-1,0,1,2\} $$
+
+3. O intervalo $]0,1]$ em $\mathbb{Q}$ contém todos os racionais maiores que zero e menores ou iguais a 1. Assim, $0$ não está no intervalo, mas $1$ está. 
+
+4. O intervalo $[0,1[$ em $\mathbb{R}$ contém o zero mas não contém o um.
+
+## Intervalos ilimitados
+
+São intervalos limitados em apenas um dos extremos. O extremo ilimitado é representado pelo símbolo do infinito $\infty$ e é sempre _aberto_ nesse extremo. 
+
+$$[a,\infty[ = \{x\in\mathbb{B}\mid x \ge a \}$$
+
+$$]-\infty,a] = \{x\in\mathbb{B}\mid x \le a \}$$
+
+## Operações com intervalos
+
+Para operar dois intervalos, é interessante desenhar ambos os intervalos em retas paralelas, respeitando a ordem dos extremos.
+
+**Exemplo**
+
+Para calcular a interseção dos intervalos $[-2,2[$ e $[0,3]$, desenhamos um em cima do outro e marcamos a região que estã em ambos os intervalos ao mesmo tempo. 
+
+![Interseção de intervalos](./img/aula04-img05.svg)
+
+Assim, obtemos
+
+$$ [-2,2[\cap[0,3] = [0,2[$$
+
+Se quiséssemos calcular a união, bastaria marcar a região que está em qualquer um dos conjuntos
+
+![União de intervalos](./img/aula04-img06.svg)
+
+
+Assim, obtemos
+
+$$ [-2,2[\cup[0,3] = [-2,3]$$

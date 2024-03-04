@@ -17,33 +17,33 @@ Nos naturais, estão bem definidas as operações de adição $+$ e multiplicaç
 Essas operações satisfazem as seguintes propriedades: para quaisquer $a,b,c\in\mathbb{N}$
 
 **[A1]** a adição é associativa
-$$
-(a+b) + c = a + (b+c)
-$$
+
+$$ (a+b) + c = a + (b+c) $$
+
 **[A2]** a adição é comutativa
-$$
-a+b = b+a
-$$
+
+$$ a+b = b+a $$
+
 **[A3]** existe o elemento neutro da adição
-$$
-a + 0 = a
-$$
+
+$$ a + 0 = a $$
+
 **[M1]** a multiplicação é associativa
-$$
-(a\cdot b)\cdot c = a\cdot (b\cdot c)
-$$
+
+$$ (a\cdot b)\cdot c = a\cdot (b\cdot c) $$
+
 **[M2]** a multiplicação é comutativa
-$$
-a\cdot b = b\cdot a
-$$
+
+$$ a\cdot b = b\cdot a $$
+
 **[M3]** existe o elemento neutro da multiplicação
-$$
-a\cdot 1 = a
-$$
+
+$$ a\cdot 1 = a $$
+
+
 **[D]** propriedade distributiva da multiplicação com relação a adição
-$$
-a\cdot (b+c) = a\cdot b + a\cdot c
-$$
+
+$$ a\cdot (b+c) = a\cdot b + a\cdot c $$
 
 
 Note que a operação de subtração $-$ não está bem definida em $\mathbb{N}$: não podemos subtrair 10 de 5 e obtermos um número natural. 
@@ -65,9 +65,8 @@ Nos números inteiros, as operações de adição, subtração e multiplicação
 Além de todas as propriedades [A1] até [A3], [M1] até [M3] e [D], a adição possui mais uma propriedade em $\mathbb{Z}$
 
 **[A4]** existência do oposto para a adição: para todo $a$ existe um $-a$ que satisfaz
-$$
-a + (-a) = 0
-$$
+
+$$ a + (-a) = 0 $$
 
 ### Divisibilidade
 
@@ -87,9 +86,8 @@ Nesse caso, utilizamos a notação $a\mid b$. Quando $a$ divide $b$, dizemos que
 - $2\mid 0$ pois $0 = 2\cdot 0$
 
 Quando $a$ divide $b$, o número $c$ é único e podemos definir 
-$$
-b\div a = c
-$$
+
+$$  b\div a = c $$
 
 Mas note que a divisão exata nem sempre é possível em $\mathbb{Z}$: não podemos dividir $15$ por $4$ por exemplo. 
 
@@ -107,31 +105,26 @@ Para definir $\mathbb{Q}$, vamos definir uma _fração_: é um par de números i
 com $a$ sendo o _numerador_ e $b$ sendo o _denominador_. 
 
 Duas frações são iguais se a multiplicação cruzada dos numeradores pelos denominadores for igual
-$$
-\frac{a}{b} = \frac{c}{d}\quad \Leftrightarrow \quad a\cdot d = b\cdot c
-$$
+
+$$ \frac{a}{b} = \frac{c}{d}\quad \Leftrightarrow \quad a\cdot d = b\cdot c $$
 
 Defininmos a adição de duas frações da seguinte forma
-$$
-\frac{a}{b} + \frac{c}{d} = \frac{a\cdot d + b\cdot c }{b\cdot d}
-$$
+
+$$ \frac{a}{b} + \frac{c}{d} = \frac{a\cdot d + b\cdot c }{b\cdot d} $$
 
 Definimos a multiplicação de duas frações da seguinte forma
-$$
-\frac{a}{b} \cdot  \frac{c}{d} = \frac{a\cdot c }{b\cdot d}
-$$
+
+$$ \frac{a}{b} \cdot  \frac{c}{d} = \frac{a\cdot c }{b\cdot d} $$
 
 As operações acima definidas satisfazem todas as propriedades [A1] até [A4], [M1] até [M3] e [D]. Além disso, temos mais uma propriedade 
 
 **[M4]** existência do inverso para a multiplicação: para toda fração $\frac{a}{b}$ existe uma fração $\frac{b}{a}$ que satisfaz
-$$
-\frac{a}{b}\cdot \frac{b}{a} = 1
-$$
+
+$$ \frac{a}{b}\cdot \frac{b}{a} = 1 $$
 
 Por causa da propriedade [M4], podemos definir a divisão em $\mathbb{Q}$ como
-$$
-\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot  \frac{d}{c} 
-$$
+
+$$ \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot  \frac{d}{c}  $$
 
 Note que para qualquer inteiro $a\in\mathbb{Z}$ a fração $\frac{a}{1}$ se comporta exatamente como $a$. Com isso, podemos dizer que $\mathbb{Z}\subseteq\mathbb{Q}$.
 
@@ -144,9 +137,8 @@ Quando fazemos a "divisão na chave", obtemos a representação decimal da fraç
 Dividindo $15$ por $4$, obtemos $3,\!75$. Assim, a representação decimal da fração $$\frac{15}{4} = 3,\!75$$ 
 
 Dividindo $25$ por $3$ obtemos $8,\!333..$. Note que o $3$ se repete indefinidamente depois da vírgula, e nesse caso temos uma _dízima periódica_. 
-$$
-\frac{25}{3} = 8,\!3333...
-$$
+
+$$ \frac{25}{3} = 8,\!3333\ldots $$
 
 Toda fração tem uma representação decimal que é exata ou uma dízima periódica.
 
@@ -162,7 +154,7 @@ Embora os racionais preencham as lacunas da reta, eles não preenchem ela comple
 
 O Teorema de Pitágoras garante que um quadrado de lado $1$ possui diagonal medindo $\sqrt{2}$. Um homem demonstrou que esse número não pode ser racional e diz a lenda que ele perdeu a vida por causa disto.
 
-Os reais são criados "completando as lacunas" dos racionais na reta. Deste modo, temos $\mathbb{Q} \subseteq \mathbb{R}$.
+Os reais são criados "completando as lacunas" dos racionais na reta, e são representados por $\mathbb{R}$. Deste modo, temos $\mathbb{Q} \subseteq \mathbb{R}$.
 
 
 ## Números complexos 
@@ -170,8 +162,22 @@ Os reais são criados "completando as lacunas" dos racionais na reta. Deste modo
 Pelas propriedades da multiplicação, sabemos que todo número elevado ao quadrado é positivo. Assim, não existe número real que elevado ao quadrado é negativo, e logo não faz sentido falar em raiz quadrada e um número negativo. 
 
 Os complexos foram criados para dar sentido a expressões como $\sqrt{-121}$. Nesse caso, juntamos a unidade imaginária $i = \sqrt{-1}$ ao conjunto dos reais, e podemos fazer a conta
-$$
-\sqrt{-121} = \sqrt{-1\cdot 121} = \sqrt{-1}\cdot\sqrt{121} = i\cdot 11
-$$
 
-## 
+$$ \sqrt{-121} = \sqrt{-1\cdot 121} = \sqrt{-1}\cdot\sqrt{121} = i\cdot 11 $$
+
+## Diagrama dos conjuntos numéricos
+
+O diagrama abaixo representa a relação de inclusão entre os conjuntos numéricos.
+
+![Diagrama dos conjuntos numéricos](./img/aula03-img03.svg)
+
+## Notações especiais
+
+- Quando adicionamos um $*$ na notação do conjunto, estamos tirando o zero dele.
+- Quando adicionamos um $+$ na notação do conjunto, estamos considerando apenas os números maiores ou iguais a zero. 
+- Quando adicionamos um $-$ na notação do conjunto, estamos considerando apenas os números menores ou iguais a zero.
+
+Assim, 
+- $\mathbb{N}^*$ é o conjunto dos naturais sem o zero. 
+- $\mathbb{Z}_+ = \{01,2,3,4,\ldots\}$ é o conjunto dos inteiros não negativos, que é igual a $\mathbb{N}$.
+- $\mathbb{Q}_-^*$ é o conjunto dos racionais negativos.
