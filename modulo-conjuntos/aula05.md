@@ -52,3 +52,17 @@ $$a\le b \quad \Rightarrow \quad a+c \le b +c$$
 **[OM]** A multiplicação preserva a ordem: para quaisquer $a,b\in\mathbb{R}$
 
 $$0\le a,b  \quad \Rightarrow \quad 0 \le a\cdot b$$
+
+## Módulo
+
+O _módulo_ de um número real pode ser interpretado como
+- a sua distândia até a origem
+- seu valor sem o sinal
+
+Ele é representado por duas barras verticais ao redor do número, $|a|$. 
+
+**Exemplos**
+
+- $|7| = 7$
+- $|-3| = 3$
+- $|0| = 0$
