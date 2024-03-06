@@ -58,3 +58,5 @@ cujo valor é 16.
 Na expressão $$3ab$$ a parte _numérica_ é o 3 e a parte _literal_ é o termo ab. Quando uma expressão aparece assim, com números e letras justapostos, subentende-se que existe uma multiplicação entre todos os termos. Assim, a expressão acima equivale a $$3\cdot a \cdot b$$
 
 Na expressão $$-4ab^2$$ o único termo sendo elevado ao quadrado é a variável $b$. Nesse caso, chamamos o 2 de _expoente_ de $b$. Note que a variável $a$ não tem nenhum _expoente_, e nesse caso, subentende-se que o expoente é 1.  Então, a expressão acima equivale a $$-4\cdot a^1 \cdot b^2$$
+
+![Elementos de uma expressão](./img/aula01-img01.svg)
