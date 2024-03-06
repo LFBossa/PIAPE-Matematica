@@ -1,6 +1,10 @@
 # O jogo da matemática
 
-Imagine o seguinte jogo de tabuleiro: 
+Como funciona uma teoria axiomática.
+
+## O jogo dos bichos
+
+Vou descrever um jogo de tabuleiro chamado "jogo dos bichos"
 - o tabuleiro é formado por 64 círculos, arranjados em uma grade 8 x 8;
 - os círculos tem cores alternadas entre vermelho e azul; 
 
@@ -29,3 +33,57 @@ Imagine o seguinte jogo de tabuleiro:
 - O jogador com as peças amarela inicia jogando;
 - O objetivo é capturar o leão do adversário;
 
+## O que importa são as regras
+
+Nesse ponto do texto, você já deve ter percebido que o jogo acima não é novo: é exatamente o jogo de xadrez, só que com peças, cores e tabuleiro diferente.
+
+Mas, fazendo os devidos paralelos, saber jogar xadrez significa que você sabe jogar esse novo jogo.
+
+Matemática enquanto _teoria axiomática_, é exatamente assim: o que importa são as regras do jogo. Os elementos, conjuntos e relações podem variar, mas as regras não.
+
+## Teorias axiomáticas
+
+Um sistema axiomático é uma formalização de uma teoria. Ele consiste de
+
+- _Conceitos primitivos_: são termos que não definimos, mas cujo entendimento é natural. 
+- _Axiomas_: são afirmações dogmaticamente verdadeiras, que escolhemos para compor nossa teoria. 
+
+Vamos a alguns exemplos de teorias axiomáticas.
+
+### Axiomas de Euclides
+
+Nos axiomas de Euclides para a geometria plana, os conceitos primitivos são
+
+- ponto
+- reta
+- plano
+- o conceito de incidência
+
+Os axiomas são
+
+1. Pode-se traçar uma (única) reta ligando quaisquer dois pontos.
+2. Pode-se continuar (de maneira única) qualquer reta finita continuamente em
+uma reta.
+3. Pode-se traçar um círculo com qualquer centro e qualquer raio.
+4. Todos os ângulos retos são iguais. 
+5. Por um ponto fora de uma reta pode-se traçar uma única reta paralela à reta dada.
+
+### Axiomas de Peano
+
+Os axiomas de Peano definem os números naturais. Neles, os conceitos primitivos são
+
+- número natural
+- zero
+- sucessor
+
+E os axiomas são
+
+1. 0 é um número natural.
+2. O sucessor de um natural também é um natural.
+3. 0 não é o sucessor de nenhum número natural.
+4. Se os sucessores de dois naturais são iguais, então eles próprios são iguais.
+5. Se um subconjunto dos naturais contém o 0 e também contém todos os sucessores de seus elementos, então S é o próprio conjunto dos naturais. 
+
+
+
+[Referencia](https://cesad.ufs.br/ORBI/public/uploadCatalago/15244316022012Fundamentos_de_Matematica_aula_5.pdf)
