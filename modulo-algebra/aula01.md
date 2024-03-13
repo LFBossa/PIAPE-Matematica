@@ -60,32 +60,3 @@ Na expressão $$3ab$$ a parte _numérica_ é o 3 e a parte _literal_ é o termo 
 Na expressão $$-4ab^2$$ o único termo sendo elevado ao quadrado é a variável $b$. Nesse caso, chamamos o 2 de _expoente_ de $b$. Note que a variável $a$ não tem nenhum _expoente_, e nesse caso, subentende-se que o expoente é 1.  Então, a expressão acima equivale a $$-4\cdot a^1 \cdot b^2$$
 
 ![Elementos de uma expressão](./img/aula01-img01.svg)
-
-## Operações com expressões algébricas
-
-### Adição e subtração
-
-Se as partes literais de duas expressões algébricas forem _idênticas_, podemos adicionar/subtrair suas partes numéricas:
-
-$$ 4ab^2c + 7ab^2c = 11ab^2c$$
-
-$$ -3xy + 4xy = 1xy $$
-
-Se as partes literais não forem indêntidas, não podemos fazer nada a não ser escrever uma expressão seguida da outra
-
-$$  4ab^2c + 7a^2bc $$
-
-$$ -3xy + 4yx = 1xy $$
-
-Note que, pela comutatividade, $xy = x\cdot y = y\cdot x = yx$.
-
-
-### Multiplicação
-
-A multiplicação pode ser feita sem nenhuma restrição: basta multiplicar a parte numérica e somar os expoentes das variáveis das partes literais.
-
-$$ 2ab^2\ \cdot \ 3a^2b = 6 a^3b^3$$
-
-$$ -1a^2b\ \cdot \ 4 ab^3c = -4 a^3b^4c $$ 
-
-Note que a variável $c$ não aparece na primeira expressão, mas aparece no resultado. 
