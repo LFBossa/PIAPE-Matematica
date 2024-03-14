@@ -84,6 +84,16 @@ E os axiomas são
 4. Se os sucessores de dois naturais são iguais, então eles próprios são iguais.
 5. Se um subconjunto dos naturais contém o 0 e também contém todos os sucessores de seus elementos, então S é o próprio conjunto dos naturais. 
 
+## Entender matemática
 
+Compreender matemática é integrar suas diferentes representações. Um objeto matemático pode ser descrito:
+
+- Em língua portuguesa
+- Através de símbolos
+- Através de representações gráficas
+
+Podemos dizer que a compreensão matemática se dá quando é possível traduzir uma forma de representação na outra
+
+![Representações](./img/aula00-img00.svg)
 
 [Referencia](https://cesad.ufs.br/ORBI/public/uploadCatalago/15244316022012Fundamentos_de_Matematica_aula_5.pdf)
