@@ -1,12 +1,23 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="330" height="330">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="400" height="400">
 <g font-size="20" fill="black">
-<text  x="80" y="30">Um conjunto A com</text>
-<text  x="80" y="50">os elementos a, b e c</text>
+  <!-- textual -->
+<text  x="120" y="30">Um conjunto A com</text>
+<text  x="120" y="50">os elementos a, b e c</text>
+<rect x="105" y="5" width="200" height="60"
+    fill="none" stroke="black" />
+    <!-- simbolos -->
 <text x="20" y="200">A = {a,b,c}</text>
+<rect x="10" y="180" width="120" height="30"
+    fill="none" stroke="black" />
+    <!-- grafico -->
+    <g transform="translate(70,0)">
 <ellipse stroke="black" fill="none" cx="250" cy="200" rx="50" ry="50" />
 <text text-anchor="middle" x="250" y="180">a</text>
 <text text-anchor="middle" x="265" y="217">b</text>
 <text text-anchor="middle" x="230" y="217">c</text>
+<rect x="190" y="140" width="120" height="120"
+    fill="none" stroke="black" />
+    </g>
 </g>
 
 <defs>
@@ -22,7 +33,7 @@
       <path d="M 0 0 L 10 5 L 0 10 z" />
     </marker>
   </defs>
-  <path d="M 40, 160 C 30 150, 30 80, 60 40"   
+  <!-- <path d="M 40, 160 C 30 150, 30 80, 60 40"   
     stroke="black" fill="none"
     marker-start="url(#arrow)"
     marker-end="url(#arrow)" />
@@ -35,6 +46,8 @@
     stroke="black" fill="none"
     marker-start="url(#arrow)"
     marker-end="url(#arrow)" />
-    
-
+     -->
+     <line x1="60" y1="160" x2="100" y2="80" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="black" stroke-dasharray="3 3" />
+     <line x1="140" y1="200" x2="250" y2="200" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="black" stroke-dasharray="3 3" />
+     <line x1="300" y1="80" x2="320" y2="130" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="black" stroke-dasharray="3 3" />
 </svg>
