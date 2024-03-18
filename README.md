@@ -5,7 +5,7 @@ Repositório contento o conteúdo trabalhado na tutoria PIAPE do campus Blumenau
 - [Módulo de Funções](./modulo-funcoes/readme.md)
 
 
-[Link para o Docsify-This](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/LFBossa/PIAPE-Matematica/main&homepage=README.md&sidebar=true&relativePath=true#/)
+[Link para o Docsify-This](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/LFBossa/PIAPE-Matematica/main&homepage=README.md&sidebar=true&relativePath=true&zoom-images=true#/)
 
 ## Referências
 1. IEZZI, G., MURAKAMI,C. **Coleção Fundamentos da Matemática Elementar.** Vols. 1-11; 9ª Ed. São Paulo: Atual, 2013.
