@@ -68,6 +68,10 @@ uma reta.
 4. Todos os ângulos retos são iguais. 
 5. Por um ponto fora de uma reta pode-se traçar uma única reta paralela à reta dada.
 
+
+O quinto axioma é chamado axioma das paralelas. Podemos modificar ele e obter [diferentes geometrias](https://pt.wikipedia.org/wiki/Geometria_n%C3%A3o_euclidiana).
+
+
 ### Axiomas de Peano
 
 Os axiomas de Peano definem os números naturais. Neles, os conceitos primitivos são
