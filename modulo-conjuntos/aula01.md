@@ -57,7 +57,7 @@ Quando estamos trabalhando em um problema, geralmente consideramos um _conjunto 
 
 ## Subconjuntos
 
-Dizemos que um conjunto $A$ é _subconjunto de $B$ se todo elemento de $A$ também pertence a $B$. Nesse caso, utilizamos a notação $A \subseteq B$.
+Dizemos que um conjunto $A$ é _subconjunto_ de $B$ se todo elemento de $A$ também pertence a $B$. Nesse caso, utilizamos a notação $A \subseteq B$.
 
 **Exemplo**
 - Seja $A = \{a,b,c\}$ e $B = \{a,b,c,d,e\}$. Note que todo elemento de $A$ também percente a $B$, logo $A \subseteq B$.
