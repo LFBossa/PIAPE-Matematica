@@ -108,7 +108,7 @@ Duas frações são iguais se a multiplicação cruzada dos numeradores pelos de
 
 $$ \frac{a}{b} = \frac{c}{d}\quad \Leftrightarrow \quad a\cdot d = b\cdot c $$
 
-Defininmos a adição de duas frações da seguinte forma
+Definimos a adição de duas frações da seguinte forma
 
 $$ \frac{a}{b} + \frac{c}{d} = \frac{a\cdot d + b\cdot c }{b\cdot d} $$
 
