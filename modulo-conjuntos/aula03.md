@@ -179,5 +179,5 @@ O diagrama abaixo representa a relação de inclusão entre os conjuntos numéri
 
 Assim, 
 - $\mathbb{N}^*$ é o conjunto dos naturais sem o zero. 
-- $\mathbb{Z}_+ = \{01,2,3,4,\ldots\}$ é o conjunto dos inteiros não negativos, que é igual a $\mathbb{N}$.
+- $\mathbb{Z}_+ = \{0,1,2,3,4,\ldots\}$ é o conjunto dos inteiros não negativos, que é igual a $\mathbb{N}$.
 - $\mathbb{Q}_-^*$ é o conjunto dos racionais negativos.
