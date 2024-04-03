@@ -67,6 +67,20 @@ Ele é representado por duas barras verticais ao redor do número, $|a|$.
 - $|-3| = 3$
 - $|0| = 0$
 
+## Propriedades do módulo
+
+1. $$|x|\ge 0$$
+1. $$|x| = 0 \text{ significa que } x = 0$$
+1. $$|x + y| \le |x| + |y|$$
+1. $$|x\cdot y| = |x|\cdot |y|$$
+
+## Distância entre reais
+
+Dados dois reais $x$ e $y$, podemos definir a distância entre eles como
+$$d(x,y) = |y-x|$$
+
+Essa ideia de tomar o módulo da diferença se generaliza: é assim que calculamos distâncias em geometria analítica, álgebra linear, análise.
+
 ## Intervalos e módulos
 
 Podemos representar um subconjunto dos reais com uma inequação de módulos. Essas inequações aparecerão frequentemente no estudo de limites.
@@ -117,3 +131,11 @@ Somando 2 em todos os termos, temos
 $$ x- 2 + 2 > 6 + 2  \text{ ou } x - 2 + 2 < -6 + 2$$
 $$ x > 8  \text{ ou } x < -4$$
 Assim, o intervalo solução é $]-\infty,-4[ \ \cup \ ]8,+\infty[$.
+
+## Extra: convertendo um intervalo em uma desigualdade modular
+
+Dado um intervalo $[a,b]$, podemos transformar ele em uma desigualdade modular.
+
+1. Calcule a _média_ $M = \frac{a+b}{2}$
+2. Calcule o _raio_ $R = \frac{|b - a|}{2}$.
+3. O intervalo $[a,b]$ equivale à desigualdade $$|x - M| \le R$$ 
