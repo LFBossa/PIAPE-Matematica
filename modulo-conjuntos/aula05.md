@@ -66,3 +66,54 @@ Ele é representado por duas barras verticais ao redor do número, $|a|$.
 - $|7| = 7$
 - $|-3| = 3$
 - $|0| = 0$
+
+## Intervalos e módulos
+
+Podemos representar um subconjunto dos reais com uma inequação de módulos. Essas inequações aparecerão frequentemente no estudo de limites.
+
+**Exemplo 1**
+
+Sendo $L$ um real positivo, temos inequações modulares da seguinte maneira
+
+$$|x|\le L$$
+
+Interpretando essa desigualdade, significa dizer que a distância de $x$ até a origem é no máximo $L$. Desse modo, $x$ tem que estar no intervalo $[-L,L]$.
+Outra maneira de escrever isso é indicar
+$$|x|\le L \Leftrightarrow -L \le x \le L$$
+
+**Exemplo 2**
+
+Sendo $M$ um real positivo, temos inequações modulares da seguinte maneira
+
+
+$$|x| \ge M$$
+
+Interpretando essa desigualdade, significa dizer que a distância de $x$ até a origem é no mínimo $M$.  Então $x$ tem que estar afastado da origem, podendo estar no intervalo $[M,+\infty[$ ou no intervalo $]-\infty,-M]$. 
+Outra maneira de escrever isso é indicar
+$$|x| \ge M \Leftrightarrow  x \ge M \text{ ou } x\le -M$$
+
+
+**Exemplo 3**
+
+Podemos incrementar o Exemplo 1. Considere $L=5$. A inequação abaixo 
+$$|x-4| < 5$$
+
+Pode ser reescrita como 
+$$ -5 < x-4 < 5$$
+Somando 4 em todos os termos, temos
+$$ -5 + 4 < x - 4 + 4 < 5 + 4$$
+$$ - 1 < x < 9$$
+Assim, o intervalo solução é $]-1,9[$.
+
+**Exemplo 4**
+
+Podemos incrementar o Exemplo 2. Considere $M=6$. A inequação abaixo 
+$$|x-2| \ge 6$$
+
+Pode ser reescrita como 
+$$ x- 2 > 6  \text{ ou } x - 2 < -6$$
+Somando 2 em todos os termos, temos
+
+$$ x- 2 + 2 > 6 + 2  \text{ ou } x - 2 + 2 < -6 + 2$$
+$$ x > 8  \text{ ou } x < -4$$
+Assim, o intervalo solução é $]-\infty,-4[ \ \cup \ ]8,+\infty[$.
