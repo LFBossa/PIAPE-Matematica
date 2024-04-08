@@ -1,28 +1,24 @@
-## Operações com expressões algébricas
+# Fatoração de expressões
 
-### Adição e subtração
+Lembrando que _fator_ é um dos elementos que compõe uma _multiplicação_:
+$$ 3\cdot 4 = 12 $$
+3 e 4 são chamados _fatores_ e 12 é o _produto_.
 
-Se as partes literais de duas expressões algébricas forem _idênticas_, podemos adicionar/subtrair suas partes numéricas:
+Portanto, _fatorar_ uma expressão, consiste em trasformar ela em um produto de _fatores_.
 
-$$ 4ab^2c + 7ab^2c = 11ab^2c$$
+## Produtos notáveis
 
-$$ -3xy + 4xy = 1xy $$
+São expressões que aparecem corriqueiramente na matemática, por isso, _notáveis_. 
 
-Se as partes literais não forem indêntidas, não podemos fazer nada a não ser escrever uma expressão seguida da outra
+### Quadrado da soma 
 
-$$  4ab^2c + 7a^2bc $$
+$$(a+b)^2 = a^2 + 2ab + b^2$$
 
-$$ -3xy + 4yx = 1xy $$
+### Quadrado da diferença
 
-Note que, pela comutatividade, $xy = x\cdot y = y\cdot x = yx$.
+$$(a-b)^2 = a^2 - 2ab + b^2$$
 
 
-### Multiplicação
+### Produto da soma e diferença
 
-A multiplicação pode ser feita sem nenhuma restrição: basta multiplicar a parte numérica e somar os expoentes das variáveis das partes literais.
-
-$$ 2ab^2\ \cdot \ 3a^2b = 6 a^3b^3$$
-
-$$ -1a^2b\ \cdot \ 4 ab^3c = -4 a^3b^4c $$ 
-
-Note que a variável $c$ não aparece na primeira expressão, mas aparece no resultado. 
+$$(a+b)(a-b) = a^2 - b^2$$
