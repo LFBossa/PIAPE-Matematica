@@ -22,3 +22,11 @@ $$(a-b)^2 = a^2 - 2ab + b^2$$
 ### Produto da soma e diferença
 
 $$(a+b)(a-b) = a^2 - b^2$$
+
+### Cubo da soma
+
+$$(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$$
+
+### Cubo da diferença
+
+$$(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$$
