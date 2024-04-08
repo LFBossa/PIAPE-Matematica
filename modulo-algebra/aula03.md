@@ -6,6 +6,13 @@ $$ 3\cdot 4 = 12 $$
 
 Portanto, _fatorar_ uma expressão, consiste em trasformar ela em um produto de _fatores_.
 
+## Glossário
+
+**Fatorar**: transformar uma expressão em fatores
+
+**Expandir/abrir a expressão**: calcular o produto dos fatores.
+
+
 ## Produtos notáveis
 
 São expressões que aparecem corriqueiramente na matemática, por isso, _notáveis_. 
