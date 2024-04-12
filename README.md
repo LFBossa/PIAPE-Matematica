@@ -2,6 +2,7 @@
 Repositório contento o conteúdo trabalhado na tutoria PIAPE do campus Blumenau da UFSC. 
 
 - [Módulo de Conjuntos](./modulo-conjuntos/readme.md)
+- [Módulo de Álgebra](./modulo-algebra/readme.md)
 - [Módulo de Funções](./modulo-funcoes/readme.md)
 
 
