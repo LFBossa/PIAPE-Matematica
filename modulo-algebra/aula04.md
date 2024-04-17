@@ -73,3 +73,12 @@ Se o denominador for da forma _número + raiz_, multiplicamos pelo seu **conjuga
 $$(a-b)(a+b) = a^2 - b^2$$
 
 $$\frac{4}{1 + \sqrt{2}} = \frac{4}{1 + \sqrt{2}}\cdot \frac{1 - \sqrt{2}}{1 - \sqrt{2}}$$
+
+## Resolvendo equações com raiz
+
+Note que temos que usar o módulo
+
+$$(x+1)^2 = 9$$
+$$\sqrt{(x+1)^2} = \sqrt{9}$$
+$$|x+1| = 3$$
+Assim, $x+1 = 3$ ou $x+1 = -3$.0 Resolvendo cada equação, temos $x= 2$ ou $x = -4$.
