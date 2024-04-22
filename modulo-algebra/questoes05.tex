@@ -1,0 +1,68 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo II - Malabarismos Algébricos}\\
+\textbf{Exercícios Aula 05}         
+\begin{multicols}{2}
+\paragraph*{1.} Calcule a soma dos seguintes polinômios:
+\begin{enumerate}[a)]
+\item $(2x^2 - 3x + 1) + (3x^2 + 2x - 1)$
+\item $(3x^3 - 2x^2 + 4x - 1) + (2x^3 + 3x^2 - 2x + 1)$
+\item $(x^4 - 2x^3 + 3x^2 - 4x + 5) + ( 3x^3 - 4x^2 + 5x - 6)$ 
+\end{enumerate}
+\paragraph*{2.} Calcule o produto dos seguintes polinômios:
+\begin{enumerate}[a)]
+\item $(2x - 3)(3x + 2)$
+\item $(3x - 2)(2x + 1)$
+\item $(x^2 - 2x + 1)(2x + 1)$
+\item $(x^3 - 2x^2 + 1)(x^3 - 1)$
+\end{enumerate}
+
+\paragraph*{3.} Calcule as divisões de polinômios:
+\begin{enumerate}[a)]
+\item $(2x^2 - 3x + 1) \div (x - 1)$
+\item $(3x^3 - 2x^2 + 4x - 1) \div (x - 1)$
+\item $(x^4  + 3x^2   + 5) \div (x^2 - 1)$
+\item $(x^4  + 2x^2   + 5x) \div (x^2 + 1)$
+\item $(3x^3-4x^2-x+2)\div(3x+2)$
+\end{enumerate}
+
+\paragraph*{4.} Nos items abaixo, são dados um polinômio e um par de números reais. Um desses números é uma raiz do polinômio. Utilize essa raiz para fatorar o polinômio.
+\begin{enumerate}[a)]
+\item $2x^2 + x - 3$; números: -1 e 1;
+\item $-x^2 + 4x - 3$; números: 3 e 4; 
+\item $x^3 + x^2 + 2x + 2$; números: -1 e 2;
+\item $x^3 + 2x^2 -4x + 8$; números: 2 e 4;
+\end{enumerate}
+
+\vspace*{5cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.} a) $5x^2 - x$; b) $5x^3 + x^2 + 2x$; c) $x^4 + x^3 - x^2 + x - 1$\\
+\textbf{2.} a) $6x^2 + x - 6$; b) $6x^2 - x - 2$; c) $2x^3 - 3x^2 + x$; d) $x^6 - 3x^5 + 1$ \\
+\textbf{3.} a) $2x - 1$ com resto 0; b) $3x^2 + x + 5$ com resto 4; c) $x^2 + 4$ com resto 9; d) $x^2  + 1$ com resto $5x-1$; e) $x^2-2x+1$ com resto 0.\\
+\textbf{4.} a) raiz 1 e fatoração $(x-1)(2x+3)$; b) raiz 3 e fatoração $(-x+3)(x-1)$; c) raiz -1 e fatoração $(x+1)(x^2+2)$ d) raiz 2 e fatoração $(x-2)(x^2+4x+4)$.
+}
+\end{document}
