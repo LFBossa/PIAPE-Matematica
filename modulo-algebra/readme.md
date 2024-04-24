@@ -5,3 +5,4 @@
 - [Fatorando expressões](./aula03.md)
 - [Raizes](./aula04.md)
 - [Polinômios](./aula05.md)
+- [Briot-Ruffini](./aula06.md)
