@@ -15,14 +15,14 @@ Se $p(x) = a_4x^4 + a_3x^3 + a_2x^2 + a_1x + a_0$, a tabela fica assim
 | $a$ |       |       |       |       |       |
 |     |       |       |       |       |       |
 
-```
-1. O passo inicial é descer o termo a_4 para a terceira linha. 
+
+1. O passo inicial é descer o termo $a_4$ para a terceira linha. 
 
 A partir de então, você repete os passos 2 e 3 até acabarem as colunas
 
 2. Pegue o número que está na terceira linha gerado no passo anterior. Multiplique esse número por $a$ e escreva o resultado dessa multiplicação na segunda linha, uma coluna à frente.
 3. Some o número obtido no passo anterior com o número da primeira linha que está acima dele. Escreva o resultado na terceira linha dessa mesma coluna.
-```
+
 
 ## Exemplo numérico 
 
