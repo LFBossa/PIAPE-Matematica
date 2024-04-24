@@ -99,3 +99,8 @@ Passo 3.
 |   |  3  |  4   |  10  |  19   |   42  |
 
 Assim, o resultado da divisão de $p(x) = 3x^4 -2x^3 + 2x^2 - x + 4$ por $x-2$ é $3x^3 + 4x^2 + 10x + 19$ com resto $42$.
+
+## Observações
+
+- Fique atento e complete os coeficientes zero.
+- Fique atendo ao sinal do número $a$
