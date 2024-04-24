@@ -1,0 +1,49 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo II - Malabarismos Algébricos}\\
+\textbf{Exercícios Aula 06}         
+\begin{multicols}{2}
+\paragraph*{1.} Utilize o algoritmo de Briot-Ruffini para efetuar as seguintes divisões:
+\begin{enumerate}[a)]
+\item $x^2 -5x-6$ dividido por $x-1$
+\item $x^2 -5x-6$ dividido por $x+1$
+\item $4x^2 -3x +7$ dividido por $x+2$
+\item $4x^3-2x+10$ dividido por $x-2$
+\item $x^4 -2x^3 -8x^2 +x -1$ dividido por $x-4$
+\item $x^5 - 5$ dividido por $x - 1$
+\item $x^5 - x^3$ dividido por $x - 1$
+\item $2 x^{4} - 12 x^{3} + 19 x^{2} - 6 x + 9$ dividido por $x - 3$
+\item $2 x^{5} + 4 x^{4} + x + 3$ dividido por $x + 2$
+\end{enumerate}
+\vspace*{8cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.} a) quociente $x-4$ resto $-10$; b) quociente $x-6$ resto $0$; 
+c) quociente $4x-11$ resto $29$;  d) quociente $4x^2 + 8x + 14$ resto $38$;
+e) quociente $x^3 + 2x^2 + 1$ resto $3$;
+f) quociente $x^4 + x^3 + x^2 + x + 1 $, resto -4; g) quociente $x^4 +x^3$ resto 0; h) quociente $2x^3 - 6x^2 + x -3$ resto 0; i) quociente $2x^4 + 1$ e resto 1;  
+}
+\end{document}
