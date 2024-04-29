@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo II - Malabarismos Algébricos}\\
+\textbf{Exercícios Aula 07}         
+\begin{multicols}{2}
+\paragraph*{1.} Complete os quadrados nas seguintes expressões
+\begin{enumerate}[a)]
+\item $x^2 + 8x + 10$ 
+\item $x^2 + 6x + 1$
+\item $x^2 + 12x + 5$
+\item $x^2 - 4x + 7$
+\item $x^2 - 10x + 2$
+\item $4x^2 + 8x - 3$
+\item $4x^2 - 4x + 5$
+\end{enumerate}
+
+\paragraph*{2.} Resolva as equações completando os quadrados
+\begin{enumerate}[a)]
+\item $x^2 + 8x + 10 = 3$
+\item $x^2 + 6x + 1 = 1$
+\item $x^2 + 12x + 5 = -6$
+\item $x^2 - 4x + 7 = 12$ %d 
+\item $x^2 - 10x + 2 = 27$ %e
+\item $4x^2 + 8x - 3 = 9$ %f
+\item $4x^2 - 4x + 5 = 13$ %g
+\vspace*{0cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.} a) $(x+4)^2 - 6$; b) $(x+3)^2 - 8$; c) $(x+6)^2 - 31$; d) $(x-2)^2 + 3$; e) $(x-5)^2 + 23$; f) $(2x+2)^2 - 7$; g) $(2x-1)^2 + 4$.
+\textbf{2.} a) $x' = -7, x''=-1$; b) $x' = -6, x''=-0$; c) $x' = -11, x''=-1$; d) $x' = -1, x''=5$; e) $x' = 3, x''=7$; f) $x' = -3, x''=1$; g) $x' = -1, x''=2$.
+}
+\end{document}
