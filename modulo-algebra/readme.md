@@ -6,3 +6,5 @@
 - [Raizes](./aula04.md)
 - [Polinômios](./aula05.md)
 - [Briot-Ruffini](./aula06.md)
+- [Completando Quadrados](./aula07.md)
+- [Frações Parciais](./aula08.md)
