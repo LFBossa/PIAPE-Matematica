@@ -1,0 +1,60 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo III - (In)equações}\\
+\textbf{Exercícios Aula 01}         
+\begin{multicols}{2}
+\paragraph*{1.} Resolva as equações abaixo para a variável indicada:
+
+\begin{enumerate}[a)] 
+    \item Resolva para $x$: $4x + 2 = 6$
+    \item Resolva para $y$:  $\frac{3}{5}y + 3 = 5$
+    \item Resolva para $z$:  $7z - 8a = 11$
+    \item Resolva para $a$:  $7z - 8a = 11$
+    \item Resolva para $x$: $\frac{4}{x} = 7$
+    \item Resolva para $x$: $\frac{4}{x} + 2 = 3$
+    \item Resolva para $x$: $2x + 3 = 4x -5$
+    \item Resolva para $x$: $2x + 3a = 4x -5$
+\end{enumerate}
+
+\paragraph*{2.} Resolva as equações abaixo para a variável indicada:
+\begin{enumerate}[a)]
+    \item Resolva para $x$: $x^2 - 4 = 0$
+    \item Resolva para $x$: $x^2 - a^2 = 0$
+    \item Resolva para $y$: $y^2 - 3y = 0$
+    \item Resolva para $z$: $z^2 - 4z + 4 = 0$
+    \item Resolva para $x$: $x^2 - 4b = 0$
+    \item Resolva para $x$: $x^2 - 5x + 6 = 0$
+    \item Resolva para $x$: $x^2 - ax = 0$
+\end{enumerate}
+\vspace*{0cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.}
+ a) $x =1$ b) $y = 10/3$ c) $z= (11+8a)/7$ d) $a = (7z-11)/8$ e) $x = 4/7$ f) $x = 4$ g) $x = 4$ h) $x = (3a+5)/2$ \\
+\textbf{2.}
+a) $x = \pm 2$ b) $x = \pm a$ c) $y = 0$ e $y = 3$ d) $z = 2$ e) $x = \pm 2\sqrt{b}$ f) $x = 2$ e $x = 3$ g) $x = 0$ e $x = a$
+}
+\end{document}
