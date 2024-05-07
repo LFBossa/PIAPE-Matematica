@@ -1,0 +1,46 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo III - (In)equações}\\
+\textbf{Exercícios Aula 02}         
+\begin{multicols}{2}
+\paragraph*{1.} Resolva as inequações abaixo
+\begin{enumerate}[a)]  
+    \item $2x + 6 \ge 4$
+    \item $3x - 5 \le 1$
+    \item $7x - 11 > 8x - 3$
+    \item $\dfrac{3x+2}{3} + 1 \le \dfrac{4x-1}{2}$
+    \item 
+\end{enumerate}
+
+\vspace*{0cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.}
+ a) $x =1$ b) $y = 10/3$ c) $z= (11+8a)/7$ d) $a = (7z-11)/8$ e) $x = 4/7$ f) $x = 4$ g) $x = 4$ h) $x = (3a+5)/2$ \\
+\textbf{2.}
+a) $x = \pm 2$ b) $x = \pm a$ c) $y = 0$ e $y = 3$ d) $z = 2$ e) $x = \pm 2\sqrt{b}$ f) $x = 2$ e $x = 3$ g) $x = 0$ e $x = a$
+}
+\end{document}
