@@ -1,13 +1,25 @@
 # Inequação Produto e Quociente
 
-# Inequação produto
+## Inequação produto
 
-Quando temos um produto 
+É uma inequação que pode ser quebrada como produto de termos mais simples 
 $$a(x)\cdot b(x)  >0$$
 
-Podemos fazer uma análise do sinal de $a(x)$ e $b(x)$. Quando ambos tiverem o mesmo sinal, o produto será positivo. Quando ambas tiverem sinais distintos, o produto será negativo. 
+## Inequação quociente
 
-**Exemplo**
+É uma inequação que pode ser quebrada como um quociente de termos mais simples
 
-$$(3x -6)*(-2x + 4) > 0$$
+$$\frac{a(x)}{b(x)} \le 0$$
+
+**Exemplos**
+
+$$(3x -6)\cdot(-2x + 4) > 0$$
+
+$$\dfrac{4x + 3}{2x - 7} \le 0$$
+
+## Tabela de sinais
+
+Quando temos um produto ou um quociente, podemos analisar o sinal do resultado através do sinal dos termos que o compõe.
+
+
 
