@@ -39,3 +39,23 @@ Resolvemos em pares:
 1. Resolvemos $a(x) < b(x) $ obtendo um conjunto solução $S_1$.
 2. Resolvemos $b(x)\le c(x)$ obtendo um conjunto solução $S_2$. 
 3. A responsta final é a interseção dos conjuntos $S_1\cap S_2$. 
+
+**Exemplo**
+
+$$x + 3 < 3x + 7 \le  x + 15$$
+ 
+
+Resolvendo a primeira desigualdade, 
+
+$$x + 3 < 3x + 7$$
+$$ x - 3x < 7 - 3 $$
+$$ -2x < 4 $$
+$$ x > -2$$
+
+Resolvendo a seguinda desigualdade, temos 
+$$3x + 7 \le  x + 15$$
+$$3x - x \le 15 - 7$$
+$$2x \le 8 $$
+$$x\le 4$$
+
+Assim, o conjunto solução é o intervalo $-2 < x \le 4$.
