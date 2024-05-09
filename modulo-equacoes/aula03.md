@@ -13,7 +13,7 @@ $$\frac{a(x)}{b(x)} \le 0$$
 
 **Exemplos**
 
-$$(3x -6)\cdot(-2x + 4) > 0$$
+$$(3x -6)\cdot(2x + 2) > 0$$
 
 $$\dfrac{4x + 3}{2x - 7} \le 0$$
 
@@ -21,5 +21,10 @@ $$\dfrac{4x + 3}{2x - 7} \le 0$$
 
 Quando temos um produto ou um quociente, podemos analisar o sinal do resultado através do sinal dos termos que o compõe.
 
+**Exemplo**
+
+Fazendo a tabela produto para os termos $3x-6$, $2x+2$.
+
+![Tabela Produto](./img/aula03-img01.svg)
 
 
