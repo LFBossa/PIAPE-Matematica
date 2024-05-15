@@ -1,0 +1,51 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo III - (In)equações}\\
+\textbf{Exercícios Aula 04}         
+\begin{multicols}{2}
+\paragraph*{1.} Resolva as inequações de segundo grau abaixo
+\begin{enumerate}[a)]    
+    \item $x^2 - x - 2 > 0$ 
+    \item $x^2 -7x + 12 \le 0$
+    \item $x^2 - 5x + 6 < 0$
+    \item $-x^2 + 6x  - 9  \ge 0$
+    \item $-2x^2 -3x + 2 \le 0$ 
+    \item $6x^2 + x - 15 \le 0$
+    \item $-2x^2 + 8 \ge 0$
+\end{enumerate}
+ \vspace*{6cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.}
+    a) $x < -1$ ou $x > 2$ ,
+    b) $3 \le x \le 4$,
+    c) $2 < x < 3$,
+    d) $x = 3$
+    e) $x\le -2$ ou $x\ge\frac{1}{2}$,
+    f) $ -\frac{5}{3}\le x \le \frac{3}{2}$
+    g) $-2 \le x \le 2$
+}
+\end{document}
