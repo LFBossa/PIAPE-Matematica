@@ -8,7 +8,9 @@ São equações onde a variável aparece dentro de uma raiz.
 ## Estratégias
 
 **Apenas 1 radical**: isolar as raízes de um lado e elevar ambos os lados à potência igual ao índice da raíz.
+
 **Dois radicais**: um radical de cada lado da igualdade.
+
 **Equações de segundo grau disfarçadas**: quando aparece $x$ e $\sqrt{x}$ na mesma equação. 
 
 ### Exemplos
