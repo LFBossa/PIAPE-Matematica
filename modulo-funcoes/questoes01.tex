@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo IV - Tudo é função}\\
+\textbf{Exercícios Aula 01}         
+\begin{multicols}{2}
+\paragraph*{1.}  Esse exercício é meramente teórico. Não é necessário fazer cálculos. Para cada par de conjuntos abaixo, tente escrever uma relação entre seus elementos que seja uma função. Se não for possível, justifique.
+
+\begin{enumerate}[a)]
+    \item A = conjunto de pessoas de Blumenau\\B = nomes de pessoas
+    \item A = conjunto de números de CPF\\B = conjunto de pessoas
+    \item A = conjunto de números de telefone\\B = conjunto de pessoas
+    \item A = conjunto de números de telefone\\B = conjunto de números de CPF
+\end{enumerate}
+
+\paragraph*{2.} Para cada uma das regras abaixo, determine o domínio, contradomínio e imagem da função.
+\begin{enumerate}[a)]
+    \item $B = \{2,4,6,8\}$, $A = \{1,2,3,4,5\}$
+    $$\begin{aligned}
+        f:B&\to A\\
+        x&\mapsto \frac{x}{2}
+    \end{aligned}$$
+
+    \item $A = \{1,2,3,4,5\}$, $B = \{1,2,3,\ldots, 10\}$
+    $$\begin{aligned}
+        f:A&\to B\\
+        x&\mapsto 2x
+    \end{aligned}$$
+    
+    \item $A = \{1, 2, 3, 4\}$, $B = \{1, 2, 3, \ldots, 20\}$
+    $$\begin{aligned}
+        f:A&\to B\\
+        x&\mapsto x^2
+    \end{aligned}$$
+\end{enumerate}
+
+\paragraph*{3.} Explique o porquê as relações abaixo não representam funções.
+
+\begin{enumerate}[a)]
+
+    \item $A = \mathbb{N}$, $B = \mathbb{N}$
+    $$\begin{aligned}
+        f:A&\to B\\ 
+         n&\mapsto n/2
+    \end{aligned}$$
+
+    \item $A = \{-4,-1,0,1,4\}$, $B = \{-2,-1,0,1,2\}$
+    $$\begin{aligned}
+        f:A&\to B\\ 
+            n&\mapsto \sqrt{n}
+    \end{aligned}$$
+\end{enumerate}
+
+\end{multicols}
+ 
+
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.} a) Cada pessoa de Blumenau tem um nome. Logo, é possível estabelecer uma relação entre os elementos de A e B que seja uma função. b) Se considerarmos todos os possíveis números de CPF, existem alguns que ainda não foram atribuídos a pessoas. c) Existem números de telefones comerciais, então nem todo número de telefone está associado a uma pessoa. d) Pelo mesmo motivo da letra c, nem todo número de telefone está associado a um CPF.
+\textbf{2.} a) Domínio = B, Contradomínio = A, Imagem = $\{1,2,3,4\}$. b) Domínio = A, Contradomínio = B, Imagem = $\{2,4,6,8,10\}$. c) Domínio = A, Contradomínio = B, Imagem = $\{1,4,9,16\}$.
+\textbf{3.} a) A relação não é uma função porque, por exemplo, o número 1 não tem imagem. b) A relação não é uma função porque, por exemplo, o número -4 não tem raiz quadrada.
+}
+\end{document}
