@@ -1,0 +1,77 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo IV - Tudo é função}\\
+\textbf{Exercícios Aula 02}         
+\begin{multicols}{2}
+\paragraph*{1.}  
+Qual é a notação das seguintes funções de $\mathbb{R}$ em $\mathbb{R}$?
+\begin{enumerate}[a)] 
+    \item $f$ associa cada número real ao seu oposto.
+    \item $g$ associa cada número real ao seu cubo.
+    \item h associa cada número real ao seu quadrado menos 1.
+    \item k associa cada número real ao número 2.
+\end{enumerate}
+
+Para as questões 2 e 3 a seguir, definimos as seguintes funções
+$$
+\begin{aligned} 
+f:\mathbb{R} &\to \mathbb{R} & g:\mathbb{R}_{+} & \to \mathbb{R} \\
+x &\mapsto 2x + 1 & x&\mapsto \sqrt{2x} + 2\\[1em]
+h: \mathbb{N} &\to \mathbb{Z} &   &  \\
+n &\mapsto 2n^2 - 5 &   &  \\
+\end{aligned}
+$$
+\paragraph*{2.} Calcule os valores pedidos:
+\begin{multicols*}{2}
+    \begin{enumerate}[a)]
+        \item $f(3)$ % 7
+        \item $g(2)$ % 4
+        \item $h(5)$ % 45
+        \item $f\left(\frac{1}{2}\right)$ % 2
+        \item $g\left(\frac{9}{2}\right)$ % 5
+        \item $h(0)$ % -5
+        \item $f(-1.7)$ % -2.4
+        \item $g(3.5)$ % \sqrt{7} + 2
+        \item $h(4)$ % 27
+        \item $f\left(\sqrt{2}\right)$ % 2\sqrt{2} + 1
+        \item $g\left(\sqrt{12}\right)$ % 2\sqrt[4]{3} + 2
+    \end{enumerate}
+    
+\end{multicols*}
+ 
+\paragraph*{3.} Explique porquê não podemos calcular: 
+    \begin{enumerate}[a)]
+        \item $g(-1)$
+        \item $h\left(\frac{1}{2}\right) $
+    \end{enumerate}
+\end{multicols}
+ 
+
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.} a) $f(x) = -x$; b) $g(x) = x^3$; c) $h(x) = x^2 - 1$; d) $k(x) = 2$.\\
+\textbf{2.} a) 7; b) $4$; c) 45; d) 2; e) $5$; f) -5; g) -2.4; h) $\sqrt{7} + 2$; i) 27; j) $2\sqrt{2} + 1$; k) $2\sqrt[4]{3} + 2$.\\
+\textbf{3.} a) $g(-1)$ não está definido pois $-1 \notin \mathbb{R}_{+}$; b) $h\left(\frac{1}{2}\right)$ não está definido pois $\frac{1}{2} \notin \mathbb{N}$.
+}
+\end{document}

@@ -27,15 +27,32 @@ $$
 **Exemplo 3**
 $$
 \begin{align*}
-g: \mathbb{R}^* & \to \mathbb{R}\\
+h: \mathbb{R}_{+} & \to \mathbb{R}\\
 x & \mapsto \sqrt{x}
 \end{align*}
 $$
 
 É a função que associa cada número à sua raíz quadrada. 
+ 
 
-# Gráfico de uma função
+## Nomenclatura e notação
 
-O gráfico de uma função é uma representação visual da relação entre os elementos do domínio e os elementos do contradomínio. Ele mostra como os valores de entrada se relacionam com os valores de saída da função.
+Podemos resumir
+$$
+\begin{align*}
+f: \mathbb{R} & \to \mathbb{R}\\
+x & \mapsto 2x
+\end{align*}
+$$
 
-Para cada $x$ no eixo das abscissas, associamos o valor de $f(x)$ no eixo das ordenadas. Assim, temos pares $(x,f(x))$ que podemos representar no plano cartesiano. O conjunto de todos esses pares assim formados gera o gráfico da função.
+escrevendo apenas $f(x) = 2x$, deixando subentendidos o domínio e contradomínio. 
+
+Sabendo a fórmula para $f$, quando escrevemos 
+$f(2)$, estamos representando o valor que $f$ assume quando aplicamos sua fórmula no valor 2. 
+
+$$
+f(2) = 2\cdot 2 = 4$$
+
+Chamamos os valores aos quais aplicamos uma função de "entradas" ou "argumentos", e os valores recebidos após fazer a conta como "saídas" ou "imagem".
+
+Na equação $f(2) = 4$, 2 é a entrada ou argumento e 4 é a saída ou imagem. 
