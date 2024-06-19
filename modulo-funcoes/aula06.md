@@ -9,6 +9,8 @@ Ao observar seu gráfico, percebemos que elas são simétricas em relação ao e
 Funções **ímpares** são aquelas em que $f(-x) = -f(x)$ para todos os valores no domínio.
 Ao observar seu gráfico, percebemos que elas são simétricas são simétricas em relação à origem: se rotacionarmos o gráfico em $180^o$ ao redor da origem, o gráfico se mantém inalterado.
 
+Uma função que não é par nem ímpar é chamada de **sem paridade**.
+
 ## Crescentes e decrescentes
 
 Funções **crescentes** são aquelas em que a medida que x aumenta, $f(x)$ também aumenta.
