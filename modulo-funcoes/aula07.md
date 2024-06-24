@@ -1,4 +1,15 @@
-# Funções injetivas, sobrejetivas e bijetivas
-Funções injetivas (ou injetoras) são aquelas em que elementos diferentes do domínio são mapeados em elementos diferentes do contradomínio, ou seja, não há repetição nos valores de saída.
-Funções sobrejetivas (ou sobrejetoras) são aquelas em que todos os elementos do contradomínio têm pelo menos um elemento correspondente no domínio.
-Funções bijetivas (ou bijetoras) são aquelas que são tanto injetivas quanto sobrejetivas.
+# Função inversa
+
+Quando uma função 
+$$f:A\to B$$
+ é bijetiva, isto é, é injetiva e sobrejetiva ao mesmo tempo, é garantido que para cada valor do contradomíno está associado um único valor do domínio.
+
+Nesse caso, é possível "inverter a seta" de maneira que tenhamos ainda uma função. Essa função é a chamada **função inversa** 
+$$f^{-1}: B \to A$$
+
+## Calculando a inversa
+
+Fazemos 
+$$y = f(x)$$
+trocamos $y$ por $x$ e $x$ por $y$ na expressão acima e resolvemos para $y$
+$$x = f(y)$$ 
