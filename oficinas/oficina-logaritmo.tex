@@ -1,0 +1,114 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=1cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts, amsthm}
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{pgfplots}
+\usepackage{tikz}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\newcommand{\novografico}[3]{
+\begin{tikzpicture}
+    \begin{axis}[
+        grid=both,
+        grid style={line width=.1pt, draw=gray!50, dashed},
+        major grid style={line width=.2pt,draw=gray!50, dashed},
+        axis lines=middle,
+        enlargelimits,
+        samples=75,
+        domain=#1,
+        width=5cm,
+        height=5cm,
+        xlabel=$x$,
+        ylabel={$#3$},
+        xlabel style={at={(current axis.right of origin)}, anchor=west},
+        ylabel style={at={(current axis.above origin)}, anchor=south},
+        unbounded coords=jump
+    ]
+    \addplot[blue, thick] {#2}; 
+    \end{axis}
+\end{tikzpicture}
+}
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Oficina III - Logaritmos}    
+
+\begin{multicols}{2} 
+ 
+\paragraph*{1.} Usando a tabela, calcule os seguintes Logaritmos decimais:
+\begin{enumerate}[a)]
+\item $\log(5)$
+\item  $\log(31)$
+\item $\log(80)$
+\item $\log(5,\!2)$
+\item $\log(31,\!4)$
+\item $\log(288)$
+\item $\log(3000)$
+\item $\log(2650)$
+\item $\log(0,\!006)$
+\item $\log(0,\!000741)$
+\item $\log(1,\!63\cdot 10^{5})$
+\item $\log(6,\!53\cdot 10^{-6})$
+\end{enumerate}
+
+\paragraph*{2.}  Usando interpolação, calcule os seguintes logaritmos decimais:
+\begin{enumerate}[a)]
+\item $\log(7552)$
+\item $\log(3,\!2525)$
+\item $\log(0,\!09366)$
+\end{enumerate}
+
+\paragraph*{3.} Utilize a propriedade dos logaritmos para efetuar as seguintes operações:
+
+\begin{enumerate}[a)]
+    \item $230\cdot 345$
+    \item $0,\!043\cdot 0,\!0054$
+    \item $456\cdot 0,\!339$
+    \item $78500\cdot 0,\!00062$
+    \item $1,65\cdot 10^{4}\cdot 2,3\cdot 10^{3}$
+    \item $853\div 225$
+    \item $0,\!00045\div 0,\!00015$
+    \item $50200\div 0,\!00025$
+    \item $7,4\cdot 10^{5}\div 2,2\cdot 10^{2}$
+    \item $235^7$
+    \item $0,\!0003^5$
+\end{enumerate}
+
+
+\paragraph*{4.} Calcule os seguintes logaritmos usando a mudança de base:
+
+\begin{enumerate}[a)]
+    \item $\log_{3}(5)$
+    \item $\log_{5}(3)$
+    \item $\log_{7}(2)$
+    \item $\log_{2}(7)$ 
+\end{enumerate}
+\end{multicols}
+
+
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.}  a) 0,6990; b) 1,4914; c) 1,9031; d) 0,7160; e) 1,4949; f) 2,4594; g) 3,4771; h) 3,4232; i) -2,2218; j) -3,1302; k) 5,2122; l) -5,1851\\
+\textbf{2.} a) 3,87802; 
+b) 0,512225;
+c) -1,02846;
+\\
+\textbf{3.} a) 79350; b) 0,0002322; c) 154,224; d) 48,7; e) $3,795\cdot 10^{7}$; f) 3,79; g) 3; h) 200800; i) 3,3636; j) 1,5$\cdot 10^{14}$; k) 2,187$\cdot 10^{-15}$\\
+\textbf{4.} a) 1,48; b) 0,676; c) 0,356; d) 2,81
+}
+\end{document}
