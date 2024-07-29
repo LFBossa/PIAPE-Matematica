@@ -1,6 +1,11 @@
 site_name: PIAPE Matemática
 theme:
   name: material
+  features:
+    - navigation.path 
+    - navigation.indexes
+not_in_nav: |
+  minicurso*
 plugins:
  - search
 extra_javascript:
