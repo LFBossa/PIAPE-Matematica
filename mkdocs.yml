@@ -1,13 +1,15 @@
-site_name: PIAPE Matemática
+site_name: PIAPE Matemática 
 theme:
   name: material
   features:
     - navigation.path 
     - navigation.indexes
 not_in_nav: |
-  minicurso*
+  minicurso* 
+  conjuntos*
 plugins:
  - search
+ - awesome-pages
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 markdown_extensions:
@@ -18,3 +20,6 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  
