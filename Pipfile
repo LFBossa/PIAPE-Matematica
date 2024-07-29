@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 mkdocs-material = "*"
 python-markdown-math = "*"
+mkdocs-awesome-pages-plugin = "*"
 
 [dev-packages]
 
