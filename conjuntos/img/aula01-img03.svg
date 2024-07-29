@@ -1,0 +1,14 @@
+<svg  version="1.1" xmlns="http://www.w3.org/2000/svg"  height="200" width="400">
+    <circle cx="100" cy="110" stroke="black" r="50" fill="#00BB22A0" />
+    <circle cx="50" cy="110" stroke="black" r="50" fill="#5FAFD4A0" />
+    <text x="30" y="80" font-size="20">u</text>
+    <text x="10" y="110" font-size="20">o</text>
+    <text x="30" y="140" font-size="20">i</text>
+    <text x="70" y="90" font-size="20">a</text>
+    <text x="70" y="130" font-size="20">e</text>
+    <text x="100" y="80" font-size="20">b</text>
+    <text x="120" y="110" font-size="20">c</text>
+    <text x="100" y="140" font-size="20">d</text>
+    <text x="10" y="50" font-size="32">A</text>
+    <text x="110" y="50" font-size="32">B</text>
+  </svg>

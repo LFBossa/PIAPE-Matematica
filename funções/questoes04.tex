@@ -1,0 +1,77 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts, amsthm}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo IV - Tudo é função}\\
+\textbf{Exercícios Aula 04}    
+
+\begin{multicols}{2}
+\paragraph*{1.} Considere as seguintes funções de $\mathbb{R}$ em $\mathbb{R}$:
+\begin{align*}
+f(x) &= x + \frac{2}{x}\\
+g(x) &= x^2 + 1\\
+h(x) &= \sqrt{2x}\\
+\end{align*} 
+Calcule as composições que são pedidas:
+\begin{enumerate}[a)] 
+    \item $f\circ g$
+    \item $f\circ h$
+    \item $g\circ f$
+    \item $h\circ g$
+    \item $f\circ f$
+    \item $g\circ g$
+    \item $h\circ f$
+\end{enumerate}
+
+\paragraph*{2.} Vamos fazer a `decomposição' das expressões abaixo: encontre $f$ e $g$ tais que $f\circ g$ seja igual as expressões abaixo.\\
+({\footnotesize Não vale usar a função $f(x)  = x$.})
+\begin{enumerate}[a)]  
+    \item $x^2 + 3$
+    \item $\sqrt{2x} + 1$
+    \item $x^2 + \frac{1}{x^2}$
+    \item $\frac{1}{x^2 + 1}$
+    \item $e^{2x + 1}$
+    \item $\cos(2x+2)$
+\end{enumerate}
+
+\vspace*{5cm}
+\end{multicols}
+
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.}   
+a) $f \circ g  = x^{2} + 1 + \frac{2}{x^{2} + 1}$;
+b) $f \circ h  = \sqrt{2x} + \frac{\sqrt{2}}{\sqrt{x}}$;
+c) $g \circ f  = x^2 + \frac{4}{x^2} + 5 $;
+d) $h \circ g  = \sqrt{2x^{2} + 2}$;
+e) $f \circ f  =x + \frac{2}{x} + \frac{2x}{x^2+2}$
+f) $g \circ g  = x^4 + 2x^2 + 2$
+g) $h \circ f  = \sqrt{2 x + \frac{4}{x}}$\\
+\textbf{2.} Essas são apenas algumas sugestões de decomposição, outras respostas são possíveis.\\
+a) $f(x) = x + 3$ e $g(x) = x^2$;
+b) $f(x) = \sqrt{x} + 1$ e $g(x) = 2x$;
+c) $f(x) = x + \frac{1}{x}$ e $g(x) = x^2$;
+d) $f(x) = \frac{1}{x}$ e $g(x) = x^2 + 1$;
+e) $f(x) = e^x$ e $g(x) = 2x + 1$;
+f) $f(x) = \cos(x)$ e $g(x) = 2x + 2$.
+}
+\end{document}

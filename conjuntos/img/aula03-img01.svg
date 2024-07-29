@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="50" width="300" style="background: white;">
+    <path d="M 20,30 L 280,30" fill="none" stroke="black" stroke-width="2"/>
+    <polygon points="280,25 280,35 290,30" fill="black"/>
+    <text text-anchor="middle" x="150" y="15" font-family="Verdana" font-size="16" fill="black">0</text>
+
+    <text text-anchor="middle" x="97" y="15" font-family="Verdana" font-size="16" fill="black">-1</text>
+    <text text-anchor="middle" x="47" y="15" font-family="Verdana" font-size="16" fill="black">-2</text>
+ 
+    <text text-anchor="middle" x="200" y="15" font-family="Verdana" font-size="16" fill="black">1</text>
+    <text text-anchor="middle" x="250" y="15" font-family="Verdana" font-size="16" fill="black">2</text>
+
+    <path d="M 150,25 L 150,35 M 200,25 L 200,35 M 250,25 L 250,35 M 100,25 L 100,35 M 50,25 L 50,35" fill="none" stroke="black" stroke-width="2"/>
+    <text text-anchor="middle" x="175" y="45" font-family="Verdana" font-size="16" fill="blue">u</text>
+    <path d="M 150,40 L 168,40 M 182,40 L 200,40 " fill="none" stroke="blue" stroke-width="1"/>
+
+ </svg>

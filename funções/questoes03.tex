@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts, amsthm}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo IV - Tudo é função}\\
+\textbf{Exercícios Aula 03}    
+
+\begin{multicols}{2}
+\paragraph*{1.} Considere as seguintes funções de $\mathbb{R}$ em $\mathbb{R}$:
+\begin{align*}
+f(x) &= -x + 2\\
+g(x) &= x^3 + 1\\
+h(x) &= x^2 - 4,\\
+\end{align*} 
+Calcule as operações entre funções:
+\begin{enumerate}[a)] 
+    \item $f + g$
+    \item $f \cdot h$
+    \item $3f$
+    \item $g^2$
+    \item $f/h$
+    \item $h + 2g$
+    \item $f- 2h$
+    \item $g/f$
+\end{enumerate}
+
+\paragraph*{2.} Calcule os domínios das seguintes funções:
+\begin{enumerate}[a)]
+    \item $a(x) = 2x + 3 + \dfrac{3}{x-4}$
+    \item $b(x) = x^2 + \dfrac{1}{x^2 - 9}$
+    \item $f(x) = \sqrt{x^2 - 1}$ 
+    \item $k(x) = \dfrac{1}{\sqrt{4 - x^2 }}$
+    \item $\ell(x) = \dfrac{1}{x - 5} + \sqrt{3x + 4}$
+\end{enumerate}
+
+\vspace*{5cm}
+\end{multicols}
+
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.}  a) $f + g = x^3 - x + 3$
+ b) $f \cdot h = -x^3  + 2x^2 + 4x - 8$ 
+ c) $3f = -3x + 6$ 
+ d) $g^2 = x^6 + 2x^3 + 1$ 
+ e) $f/h = -\frac{1}{x + 2}$ 
+ f) $h + 2g = 2x^3 + x^2 - 2$ 
+ g) $f - 2h = -2x^2 -x+ 10$ 
+ h) $g/f = \frac{x^3 + 1}{-x + 2}$\\
+\textbf{2.} a) $\mathbb{R} - \{4\}$ 
+ b) $\mathbb{R} - \{-3, 3\}$ 
+ c) $(-\infty, -1]\cup[1,+\infty)$ 
+ d) $(-2, 2)$ 
+ e) $\left(-\frac{4}{3},\infty\right) - \left\{ 5 \right\}$ 
+}
+\end{document}

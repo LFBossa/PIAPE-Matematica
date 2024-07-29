@@ -1,0 +1,51 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo III - (In)equações}\\
+\textbf{Exercícios Aula 06}         
+\begin{multicols}{2}
+\paragraph*{1.} Resolva as inequações irracionais:
+\begin{enumerate}[a)]     
+    \item $\sqrt{3x-2} < 2$ % 554a [2/3,2)
+    \item $\sqrt{4-3x} \le x$ %555a [1,4/3]
+    \item $\sqrt{2x+9} < x-3 $ %555c x > 8
+    \item $\sqrt{2x^2 - x - 6} \le x$ % 555f [2,3]
+    \item $\sqrt{2x+3} > 5$ % 558a x > 11
+    \item $\sqrt{3x-2} > x$ % 559a 1 < x < 2
+    \item $\sqrt{6x^2 + x -1} > 2x +1$ % 559d x < -1/2 ou x > 2
+\end{enumerate}
+ 
+ \vspace*{6cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.}
+    a)  $\left[\frac{2}{3},2\right[$ \
+    b)  $\left[1,\frac{4}{3}\right[$ \
+    c)  $\left]8,\infty\right[$ \ 
+    d)  $\left[2,3\right]$ \ 
+    e)  $\left]11,\infty\right[$  \
+    f)  $\left]1,2\right[$ \ 
+    g)  $\left]-\infty,-\frac{1}{2}\right[\cup\left]2,\infty\right[$
+\end{document}

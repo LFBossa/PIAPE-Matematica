@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo II - Malabarismos Algébricos}\\
+\textbf{Exercícios Aula 04}         
+\begin{multicols}{2}
+\paragraph{1.} Simplifique os radicais:
+\begin{enumerate}[a)]
+    \item $\sqrt{28}$ 
+    \item $\sqrt{18}$
+    \item $\sqrt[3]{108}$
+    \item $\sqrt[4]{144}$
+    \item $\sqrt{16\beta^2}$
+    \item $\sqrt[3]{54\omega^6\lambda^4}$
+    \item $\displaystyle\sqrt{\frac{4}{9}b^3}$ 
+\end{enumerate} 
+
+\paragraph*{2.} Racionalize os denominadores:
+\begin{enumerate}[a)]
+    \item $\displaystyle\frac{4}{\sqrt{3}}$
+    \item $\displaystyle\frac{\sqrt[5]{6}}{\sqrt{5}}$
+    \item $\displaystyle\frac{-3}{2+\sqrt{7}}$
+    \item $\displaystyle\frac{1+\sqrt{2}}{3-\sqrt{3}}$
+    \item $\displaystyle\frac{1-\sqrt{2}}{4+\sqrt{5}}$
+    \item $\displaystyle\frac{\sqrt[3]{8}}{3-\sqrt{8}}$
+\end{enumerate}
+ 
+\paragraph*{3.} Transforme para o mesmo índice do radical, utilizando expoentes fracionários:
+\begin{enumerate}[a)]
+    \item $\sqrt[3]{2}$ e $\sqrt{7}$
+    \item $\sqrt[4]{{3^3}}$ e $\sqrt{5}$
+    \item $\sqrt[5]{6^3}$ e $\sqrt[3]{4}$
+\end{enumerate}
+
+\paragraph*{4.} Simplifique as expressões:
+\begin{enumerate}[a)]
+    \item $\sqrt{7}\cdot\sqrt{14}$
+    \item $\sqrt[3]{24}\cdot\sqrt[3]{18}$
+    \item $\sqrt{12}\cdot\sqrt[3]{3}$
+    \item $\displaystyle\frac{1}{\sqrt{2}}\cdot \frac{1}{\sqrt{8}}$
+\end{enumerate}
+
+\paragraph*{5.} Resolva as equações, utilizando a propriedade do módulo:
+\begin{enumerate}[a)]
+    \item $x^2 = 16$
+    \item $x^2 = 144$
+    \item $(x+1)^2 = 16$
+    \item $(x-2)^2 = 144$
+    \item $(x+3)^2 = 25$
+\end{enumerate}
+\vspace*{3cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.} a) $2\sqrt{7}$ b) $3\sqrt{2}$ c) $3\sqrt[3]{4}$ d) $2\sqrt[4]{9}$ e) $4\beta$ f) $3\omega^2\lambda\sqrt[3]{2\lambda}$ g) $\frac{2}{3}b\sqrt{b}$ \\[1ex]
+% a) $4\sqrt{3}/3$ b) $\sqrt[5]{6}\sqrt{5}/5$ c) $-3(2-\sqrt{7})/3$ d) $(1+\sqrt{2})(3+\sqrt{3})/6$ e) $(1-\sqrt{2})(4-\sqrt{5})/11$ f) $\sqrt[3]{8}(3+\sqrt{8})/7$ \\
+\textbf{2.}  a) $\dfrac{4\sqrt{3}}{3}$ b) $\dfrac{\sqrt[5]{6}\sqrt{5}}{5}$ c) $\dfrac{-3(2-\sqrt{7})}{3}$ d) $\dfrac{(1+\sqrt{2})(3+\sqrt{3})}{6}$ e) $\dfrac{(1-\sqrt{2})(4-\sqrt{5})}{11}$ f) $\dfrac{\sqrt[3]{8}(3+\sqrt{8})}{1}$ \\[1ex]
+\textbf{3.} a) $\sqrt[6]{2^2}$ e $\sqrt[6]{7^3}$ b) $\sqrt[4]{3^3}$ e $\sqrt[4]{5^2}$ c) $\sqrt[15]{6^9}$ e $\sqrt[15]{4^5}$ \\
+\textbf{4.} a) $7\sqrt{2}$ b) $6\sqrt[3]{2}$  c) $2\sqrt[6]{3^5}$  d) $\frac{1}{4}$  \\
+\textbf{5.} a) $x = \pm 4$ b) $x = \pm 12$ c) $x = 3$ e $x = -5$ d) $x = 14$ e $x=-10$ e) $x = 2$ e $x = -8$
+}
+\end{document}

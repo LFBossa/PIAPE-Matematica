@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo II - Malabarismos Algébricos}\\
+\textbf{Exercícios Aula 08}         
+\begin{multicols}{2}
+\paragraph*{1.} Expanda as frações racionais como soma de frações parciais:
+\begin{enumerate}[a)] 
+    \item $\dfrac{2 x + 3}{x^{2} - 6 x + 8}$
+    \item $\dfrac{4 x - 2}{x^{2} - 1}$
+    \item $\dfrac{7 x - 3}{x^{2} + x - 2}$
+    \item $\dfrac{5 - x}{x^{2} - 4 x + 4}$
+    \item $\dfrac{3 x + 4}{x^{2} - 6 x + 9}$
+    \item $\dfrac{x}{x^{2} - 2 x}$
+    \item $\dfrac{4}{x^{2} - 3 x + 2}$
+    \item $\dfrac{2}{x^{2} - 2 x + 1}$
+    \item $\dfrac{4 x - 7}{x^{2} + 9}$
+    \item $\dfrac{x - 3}{x^2+2x+2}$
+\end{enumerate}
+
+\paragraph*{2.} Escreva a forma final das frações parciais dos exemplos abaixo. Não é necessário calcular os coeficientes.
+
+\begin{enumerate}[a)]
+    \item $\dfrac{A(x)}{x^2(x-2)(x-3)}$
+    \item $\dfrac{B(x)}{(x-1)(x^2+1)}$
+    \item $\dfrac{C(x)}{(x-2)^2(x-3)^2}$
+    \item $\dfrac{D(x)}{x(x-2)(x^2+4)}$
+    \item $\dfrac{E(x)}{(x-3)(x^2+2x+2)}$
+\end{enumerate}
+ 
+\vspace*{3cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.}
+a) $- \frac{7/2}{ x - 2} + \frac{11/2}{x - 4}$
+b) $\frac{3}{x + 1} + \frac{1}{x - 1}$
+c) $\frac{17/3}{x + 2} + \frac{4/3}{x - 1}$
+d) $- \frac{1}{x - 2} + \frac{3}{\left(x - 2\right)^{2}}$
+e) $\frac{3}{x - 3} + \frac{13}{\left(x - 3\right)^{2}}$
+f) $\frac{1}{x - 2}$
+g) $- \frac{4}{x - 1} + \frac{4}{x - 2}$
+h) $\frac{2}{\left(x - 1\right)^{2}}$
+i) $\frac{4 x - 7}{x^{2} + 9}$
+j) $\frac{x - 3}{x^2+2x+2}$\\[2ex]
+\textbf{2.}
+a) $ \frac{A_1}{x} + \frac{A_2}{x^2} + \frac{A_3}{x-2} + \frac{A_4}{x-3}$
+b) $ \frac{B_1}{x-1} + \frac{B_2x+B_3}{x^2+1}$
+c) $  \frac{C_1}{x-2} + \frac{C_2}{(x-2)^2} + \frac{C_3}{x-3} + \frac{C_4}{(x-3)^2}$
+d) $ \frac{D_1}{x} + \frac{D_2}{x-2} + \frac{D_3x+D_4}{x^2+4}$
+e) $ \frac{E_1}{x-3} + \frac{E_2x+E_3}{x^2+2x+2}$
+ }
+\end{document}

@@ -1,0 +1,57 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Módulo III - (In)equações}\\
+\textbf{Exercícios Aula 05}         
+\begin{multicols}{2}
+\paragraph*{1.} Resolva as equações irracionais:
+\begin{enumerate}[a)]     
+    \item $\sqrt{3x-2} = 4$ % 6
+    \item $\sqrt{x^2-5x+13} = 3$ % 1, 4
+    \item $\sqrt{5x+10} = 17 - 4x $ %3
+    \item $x + \sqrt{25 - x^2} = 7$ % 3, 4
+    \item $\sqrt{x^2 + x -1} = 2 - x$ % 1
+    \item $x - 5\sqrt{x} + 6  = 0$ % 4, 9
+    \item $\sqrt{x} + 1 = \sqrt{2x+1}$ % 0, 4
+    \item $x -\sqrt{x} - 12 = 0$ % 16
+    \item $\sqrt[3]{2x+5} = -3$ % -16
+    \item $\sqrt[3]{x^2 - x - 4} = 2$ % 4, -3
+\end{enumerate}
+ 
+ \vspace*{2cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.}
+    a)  $x = 6$ 
+    b)  $x = 1$ ou $x = 4$
+    c)  $x = 3$
+    d)  $x = 3$ ou $x = 4$ 
+    e)  $x = 1$ 
+    f)  $x = 4$ ou $x = 9$ 
+    g)  $x = 0$ ou $x = 4$
+    h)  $x = 16$  
+    i)  $x = -16$
+    j)  $x = 4$ ou $x = -3$\\
+\end{document}
