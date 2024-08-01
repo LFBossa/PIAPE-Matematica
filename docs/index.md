@@ -3,16 +3,26 @@
 
 Esse site contém os materiais trabalhados no PIAPE Matemática do campus Blumenau. 
 
-Desenvolvido por Bossa.
+Desenvolvido por [L. F. Bossa](http://lattes.cnpq.br/8752951792540460).
 
-## Atividades
+[Tenha o calendário de atividades no seu celular :fontawesome-solid-mobile-screen:](https://calendar.google.com/calendar/ical/c_0cfd85872448206736dda30d068093a19a6996afa23f946d6c467f1e770b1067%40group.calendar.google.com/public/basic.ics){ .md-button }
 
-Os **módulos** são atividades contínuas, duas vezes na semana, com duração entre 3 e 4 semanas. Acontecem sempre segundas e quartas, das 12h30 até as 13h30, na sala A107.
+[Veja o calendário de atividades no navegador :fontawesome-solid-laptop:](https://calendar.google.com/calendar/u/0/embed?src=c_0cfd85872448206736dda30d068093a19a6996afa23f946d6c467f1e770b1067@group.calendar.google.com&ctz=America/Sao_Paulo){ .md-button }
 
-Para receber certificado, é necessário ter pelo menos 75% de frequência no módulo. 
+## Atividades :writing_hand:
+
+Os **módulos** são atividades contínuas, 2 vezes na semana, com duração entre 3 e 4 semanas. Acontecem sempre segundas e quartas, das 12h30 até as 13h30, na sala A107.
 
 
-As **oficinas** e **minicursos** são atividades pontuais, basta vir no dia para ganhar certificado.
+As **oficinas** e **minicursos** são atividades pontuais, com duração entre 2 e 3 horas. 
+
+
+## Certificado :material-certificate-outline:
+
+!!! warning ""
+    Para obter certificado em qualquer tipo de atividade, é necessário estar inscrito no sistema [Inscrições UFSC](https://inscricoes.ufsc.br/)
+- Para obter certificado dos **módulos**, basta estar inscrito no módulo e ter pelo menos 75% de frequência;
+- Para obter certificado dos **minicursos** ou **oficinas**, basta estar inscrito na atividade e comparecer no dia de sua realização;
 
 
 
