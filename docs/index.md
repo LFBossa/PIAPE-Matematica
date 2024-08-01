@@ -114,3 +114,23 @@ Vamos ver que tudo em matemática é função.
 ## Cronograma dos minicursos e oficinas
 
 ## Plantões de dúvidas
+
+Eu fico disponível para tirar qualquer dúvida de matemática de nível universitário, sejam de 
+
+- Pré-cálculo
+- Geometria Analítica
+- Álgebra Linear
+- Geometria Euclidiana
+- Cálculo I
+- Cálculo II
+- Cálculo III
+- Cálculo IV
+- Equações Diferenciais
+- Análise Matemática
+
+na sala A107 nos seguintes horários
+
+| Segundas      | Terças        | Quintas       | 
+| :--------:    | :------:      | :-------:     |
+|               | 12h30 - 13h30 | 12h30 - 13h30 |
+| 17h30 - 18h30 | 17h30 - 18h30 | 17h30 - 18h30 |
