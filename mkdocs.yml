@@ -37,4 +37,7 @@ markdown_extensions:
   - md_in_html
   - def_list
   - tables
-  
+extra:
+  analytics:
+    provider: google
+    property: G-5762BCN6VV
