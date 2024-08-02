@@ -41,3 +41,11 @@ extra:
   analytics:
     provider: google
     property: G-5762BCN6VV
+reveal:
+  path: reveal.js/dist
+  transition: convex
+  theme:
+    name: dracula.css
+    path: theme
+  plugin:
+    path: reveal.js/plugin
