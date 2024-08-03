@@ -36,3 +36,10 @@ A solução geral é a união das soluções dos subcasos 1 e 2.
 **Exemplo**: $\sqrt{2x-1} > x - 2$
 
 $S_1 = [1/2,2)$ e $S_2=[2,5)$
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula06-slides.md)
+ - [Exercícios :writing_hand:](./questoes06.pdf)
+</div>

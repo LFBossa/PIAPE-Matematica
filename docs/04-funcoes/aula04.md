@@ -37,3 +37,11 @@ Uma habilidade importante para se desenvolver é a habilidade de ver uma express
 Por exemplo, 
 $$\sqrt{2x + 1} + 3$$
 pode ser decomposto como a composição de $f(x)=2x+1$ com $g(x)=\sqrt{x} + 3$
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula04-slides.md)
+ - [Exercícios :writing_hand:](./questoes04.pdf)
+</div>

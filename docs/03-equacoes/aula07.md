@@ -32,3 +32,11 @@ $$|2x-3| + |x-2| = 4$$
 
 
 
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula07-slides.md)
+ - [Exercícios :writing_hand:](./questoes07.pdf)
+</div>

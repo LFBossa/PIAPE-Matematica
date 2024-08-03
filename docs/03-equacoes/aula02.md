@@ -59,3 +59,10 @@ $$2x \le 8 $$
 $$x\le 4$$
 
 Assim, o conjunto solução é o intervalo $-2 < x \le 4$.
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula02-slides.md)
+ - [Exercícios :writing_hand:](./questoes02.pdf)
+</div>

@@ -28,3 +28,11 @@ Fazendo a tabela produto para os termos $3x-6$, $2x+2$.
 ![Tabela Produto](./img/aula03-img01.svg)
 
 
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula03-slides.md)
+ - [Exercícios :writing_hand:](./questoes03.pdf)
+</div>

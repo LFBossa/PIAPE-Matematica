@@ -13,3 +13,10 @@ Fazemos
 $$y = f(x)$$
 trocamos $y$ por $x$ e $x$ por $y$ na expressão acima e resolvemos para $y$
 $$x = f(y)$$ 
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula07-slides.md)
+ - [Exercícios :writing_hand:](./questoes07.pdf)
+</div>

@@ -34,3 +34,11 @@ $$4x -3 +3 = 13 + 3$$
 $$4x = 16$$
 
 Agora, para isolar o $x$ completamente, precisamos nos livrar do fator 4. Podemos dividir ambos os lados da equação por $4$ (ou de modo equivalente, multiplicamos ambos os lados por $\frac{1}{4}$). 
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula01-slides.md)
+ - [Exercícios :writing_hand:](./questoes01.pdf)
+</div>

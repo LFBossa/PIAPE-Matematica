@@ -40,3 +40,11 @@ $$\cos(a+b) = \cos(a)\cos(b) - \text{sen}(a)\text{sen}(b)$$
 $$\text{sen}(a+b) = \text{sen}(a)\cos(b) + \text{sen}(b)\cos(a)$$
 
 $$\text{tg}(a+b) = \frac{\text{tg}(a) + \text{tg}(b)}{1-\text{tg}(a)\text{tg}(b)} $$
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula08-slides.md)
+ - [Exercícios :writing_hand:](./questoes08.pdf)
+</div>

@@ -56,3 +56,11 @@ Alguns polinômios possuem fórmulas para encontrar suas raízes através dos se
 ## Relações de Girard
 
 Relacionam as raízes de um polinômio com seus coeficientes. 
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula05-slides.md)
+ - [Exercícios :writing_hand:](./questoes05.pdf)
+</div>

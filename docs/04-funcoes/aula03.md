@@ -56,3 +56,11 @@ Qual o domínio das funções definidas pelas expressões abaixo:
 
 
 
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula03-slides.md)
+ - [Exercícios :writing_hand:](./questoes03.pdf)
+</div>

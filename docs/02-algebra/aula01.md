@@ -75,3 +75,10 @@ E usando a propriedade de potência de potência, temos o caso geral
 
 
 $$a^{\frac{m}{n}} = \sqrt[n]{a^m}$$
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula01-slides.md)
+ - [Exercícios :writing_hand:](./questoes01.pdf)
+</div>

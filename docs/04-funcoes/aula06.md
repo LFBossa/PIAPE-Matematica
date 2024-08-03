@@ -40,3 +40,11 @@ Uma função **bijetora** é uma função que é ao mesmo tempo injetora e sobre
 Em geral, podemos *forçar* que uma função seja bijetora:
 - Se ela não for injetora, diminuímos o domínio
 - Se ela não for sobrejetora, diminuímos o contradomínio
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula06-slides.md)
+ - [Exercícios :writing_hand:](./questoes06.pdf)
+</div>

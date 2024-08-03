@@ -8,3 +8,11 @@
 - Função racional
 - Função trigonométrica
 
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula05-slides.md)
+ - [Exercícios :writing_hand:](./questoes05.pdf)
+</div>

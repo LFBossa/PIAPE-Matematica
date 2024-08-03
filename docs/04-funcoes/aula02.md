@@ -56,3 +56,10 @@ f(2) = 2\cdot 2 = 4$$
 Chamamos os valores aos quais aplicamos uma função de "entradas" ou "argumentos", e os valores recebidos após fazer a conta como "saídas" ou "imagem".
 
 Na equação $f(2) = 4$, 2 é a entrada ou argumento e 4 é a saída ou imagem. 
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula02-slides.md)
+ - [Exercícios :writing_hand:](./questoes02.pdf)
+</div>

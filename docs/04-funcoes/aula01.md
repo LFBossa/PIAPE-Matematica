@@ -51,3 +51,10 @@ A imagem de uma função é o conjunto de todos os elementos do contradomínio q
 
  - No Exemplo 1, a imagem da função é o conjunto de todos os apartamentos em que mora alguém. 
  - No Exemplo 2, a imagem da função é o conjunto de todos os veículos emplacados (ou seja, veículos zero km não estão na imagem da função)
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula01-slides.md)
+ - [Exercícios :writing_hand:](./questoes01.pdf)
+</div>

@@ -64,3 +64,10 @@ $$\frac{P(x)}{(x-2)(x-1)^2(x^2+1)} = \frac{A}{x-2} + \frac{B}{x-1} + \frac{C}{(x
 
 
 [Referência](https://lemas.furg.br/images/parte1.pdf)
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula08-slides.md)
+ - [Exercícios :writing_hand:](./questoes08.pdf)
+</div>

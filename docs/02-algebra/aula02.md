@@ -89,3 +89,10 @@ $$ 2ab^2\ \cdot \ 3a^2b = 6 a^3b^3$$
 $$ -1a^2b\ \cdot \ 4 ab^3c = -4 a^3b^4c $$ 
 
 Note que a variável $c$ não aparece na primeira expressão, mas aparece no resultado. 
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula02-slides.md)
+ - [Exercícios :writing_hand:](./questoes02.pdf)
+</div>

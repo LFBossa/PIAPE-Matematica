@@ -47,3 +47,10 @@ $$(x+2)^2 = 4^2$$
 $$|x+2| = 4$$
 
 Assim, $x+2 = 4$ ou $x+2 = -4$, de modo que $x=2$ ou $x=-6$.
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula07-slides.md)
+ - [Exercícios :writing_hand:](./questoes07.pdf)
+</div>

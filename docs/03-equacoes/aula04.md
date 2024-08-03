@@ -21,3 +21,10 @@ Assim, para resolver uma desigualdade do segundo grau, basta:
 1. $ x^2 - x -6  < 0$
 2. $ -x^2 + 4x - 4 \ge 0$
 3. $ x^2 + x + 1 < 0 $
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula04-slides.md)
+ - [Exercícios :writing_hand:](./questoes04.pdf)
+</div>

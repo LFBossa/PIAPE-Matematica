@@ -104,3 +104,10 @@ Assim, o resultado da divisão de $p(x) = 3x^4 -2x^3 + 2x^2 - x + 4$ por $x-2$ �
 
 - Fique atento e complete os coeficientes zero.
 - Fique atendo ao sinal do número $a$
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula06-slides.md)
+ - [Exercícios :writing_hand:](./questoes06.pdf)
+</div>

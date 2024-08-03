@@ -23,3 +23,11 @@ São equações onde a variável aparece dentro de uma raiz.
 6. $\sqrt[3]{2x+3} = -2$
  
 
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula05-slides.md)
+ - [Exercícios :writing_hand:](./questoes05.pdf)
+</div>

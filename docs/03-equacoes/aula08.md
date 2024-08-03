@@ -18,3 +18,10 @@ Aqui, vamos utilizar a técnica de "fatiar a reta real" e separar em casos.
 - $|3x + 2| \ge 2x - 1$
 - $|x^2 - 4x| - 3x + 6 \le 0$
 - $|x^2 - 4| < 3x$
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula08-slides.md)
+ - [Exercícios :writing_hand:](./questoes08.pdf)
+</div>
