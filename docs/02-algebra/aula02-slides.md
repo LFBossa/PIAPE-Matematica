@@ -1,5 +1,7 @@
 ---
 template: reveal.html
+search:
+  exclude: true
 ---
 # Expressões algébricas e seus elementos
 

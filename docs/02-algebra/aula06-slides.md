@@ -1,5 +1,7 @@
 ---
 template: reveal.html
+search:
+  exclude: true
 ---
 # O algoritmo de Briot-Ruffini
 
