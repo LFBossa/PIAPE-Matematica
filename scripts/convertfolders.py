@@ -57,6 +57,8 @@ def create_slides(file: Path):
         with open(slidesfile, 'w') as f:
             header = "---\n"
             header += "template: reveal.html\n"
+            header += "search:\n"
+            header += "  exclude: true\n"
             header += "---\n"
             f.write( header )
             f.write( content )
