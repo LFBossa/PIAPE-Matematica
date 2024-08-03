@@ -1,6 +1,3 @@
---- 
-template: slides.html
----
 # Glossário de Matemática
 
 ## Lista de símbolos
