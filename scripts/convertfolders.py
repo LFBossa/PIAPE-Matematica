@@ -66,5 +66,3 @@ if __name__ == '__main__':
     for file in iterate_over_folders():
         add_slides_questions_links(file)
         create_slides(file)
-        break
-            
