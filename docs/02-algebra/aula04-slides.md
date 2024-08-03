@@ -1,3 +1,6 @@
+---
+template: reveal.html
+---
 # Raízes numéricas
 
 Definição de raíz n-ésima
