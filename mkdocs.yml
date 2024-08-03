@@ -39,6 +39,7 @@ markdown_extensions:
   - md_in_html
   - def_list
   - tables
+  - footnotes
 extra:
   analytics:
     provider: google
