@@ -8,9 +8,19 @@ Portanto, _fatorar_ uma expressão, consiste em trasformar ela em um produto de 
 
 ## Glossário
 
-**Fatorar**: transformar uma expressão em fatores
+**Fatorar**
+: transformar uma expressão em fatores
 
-**Expandir/abrir a expressão**: calcular o produto dos fatores.
+**Expandir/abrir a expressão**
+: calcular o produto dos fatores
+
+```mermaid
+flowchart LR
+    A(["$$(a+b)^2$$"]);
+    B(["$$a^2+2ab + b^2$$"])
+    A ---->|Expandir| B;
+    B ---->|Fatorar| A;
+```
 
 
 ## Produtos notáveis
