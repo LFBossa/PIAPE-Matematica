@@ -7,9 +7,9 @@ theme:
   custom_dir: overrides
 not_in_nav: |
   minicurso* 
-  conjuntos*
   extras*
   *-slides.md
+  __*.md
 plugins:
  - search:
       lang: pt
