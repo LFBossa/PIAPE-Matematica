@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="None">
+  <link rel="canonical" href="None">
+
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/dracula.css"
+        id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown
+             data-separator="^\<slide/\>$"
+             data-separator-vertical="^\<subslide/\>$"
+             data-notes="^Note:">
+      <script type="text/template">
+        # Função inversa
+
+Quando uma função 
+$$f:A\to B$$
+ é bijetiva, isto é, é injetiva e sobrejetiva ao mesmo tempo, é garantido que para cada valor do contradomíno está associado um único valor do domínio.
+
+Nesse caso, é possível "inverter a seta" de maneira que tenhamos ainda uma função. Essa função é a chamada **função inversa** 
+$$f^{-1}: B \to A$$
+
+## Calculando a inversa
+
+Fazemos 
+$$y = f(x)$$
+trocamos $y$ por $x$ e $x$ por $y$ na expressão acima e resolvemos para $y$
+$$x = f(y)$$ 
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula07-slides.md)
+ - [Exercícios :writing_hand:](./questoes07.pdf)
+</div>
+
+      </script>
+    </section>
+  </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/math/math.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    hash: true,
+
+    transition: 'convex', // default/cube/page/concave/zoom/linear/fade/none
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+  });
+</script>
+
+</body>
+</html>

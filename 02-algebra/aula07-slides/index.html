@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="None">
+  <link rel="canonical" href="None">
+
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/dracula.css"
+        id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown
+             data-separator="^\<slide/\>$"
+             data-separator-vertical="^\<subslide/\>$"
+             data-notes="^Note:">
+      <script type="text/template">
+        # Completando quadrados
+
+Um trinômio quadrado perfeito tem origem em uma expressão 
+
+$$(a+b)^2 = a^2 + 2ab + b^2$$
+
+Assim, a expressão 
+
+$$x^2 +6x + 9$$ 
+
+pode ser fatorada como $(x+3)^2$.
+
+Se a expressão fosse ligeiramente diferente, digamos
+
+$$x^2 + 6x + 4$$
+
+a mesma fatoração não seria possível. Entretando, temos um artifício matemático para contornar tais situações.
+
+## Intuição geométrica
+
+Ignorando o coeficiente sem $x$, temos sempre uma expressão da forma 
+
+$$x^2 + ax$$
+
+Que pode ser interpretada como a soma de áreas de um quadrado de lado $x$ e de um retângulo de lados $a$ e $x$. 
+
+
+
+## Resolvendo equação de segundo grau
+
+Como poderíamos resolver a equação 
+
+$$x^2 + 4x - 12 = 0$$
+
+geometricamente?
+
+Primeiro, passamos o 12 pro outro lado. 
+
+$$x^2 + 4x =  12 $$
+
+Interpretamos o lado esquerdo como uma soma de áreas: um quadrado mais um retângulo. Acrescentamos o pedaço que falta e obtemos 
+
+$$x^2 + 4x + 4 = 16 $$
+
+$$(x+2)^2 = 4^2$$
+
+$$|x+2| = 4$$
+
+Assim, $x+2 = 4$ ou $x+2 = -4$, de modo que $x=2$ ou $x=-6$.
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula07-slides.md)
+ - [Exercícios :writing_hand:](./questoes07.pdf)
+</div>
+
+      </script>
+    </section>
+  </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/math/math.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    hash: true,
+
+    transition: 'convex', // default/cube/page/concave/zoom/linear/fade/none
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+  });
+</script>
+
+</body>
+</html>

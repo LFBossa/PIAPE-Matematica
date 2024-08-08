@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="None">
+  <link rel="canonical" href="None">
+
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/dracula.css"
+        id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown
+             data-separator="^\<slide/\>$"
+             data-separator-vertical="^\<subslide/\>$"
+             data-notes="^Note:">
+      <script type="text/template">
+        # Inequações
+
+É uma expressão matemática envolvendo os sinais de $<, \le, >$ ou $\ge$.
+
+A solução de uma inequação é sempre um intervalo numérico. 
+
+## Regras para manipulação
+
+1. É possível adicionar um mesmo termo em ambos os lados da inequação sem alterar o sinal da inequação.
+
+$$4x + 3 \le  x +5 $$
+$$4x + 3 -3 \le  x +5 -3$$
+$$4x  \le  x + 2  $$
+
+
+
+2. É possível multiplicar a inequação por um número _positivo_ sem alterar o sinal da inequação. 
+
+$$3x > 21 $$
+$$\frac{1}{3}\cdot 3x > \frac{1}{3}\cdot 21 $$
+$$ x > 7 $$
+
+
+3. É possível multiplicar a inequação por um número _negativo_, alterando o sinal da inequação. 
+
+$$ -\frac{x}{2} \ge \sqrt{5}$$
+$$(-2)\cdot\left(-\frac{x}{2}\right) \le -2\sqrt{5}$$
+$$ x \le -2\sqrt{5}$$
+
+
+## Inequações simultâneas
+
+Ocorrem quando precisamos resolver duas inequações ao mesmo tempo. 
+
+$$ a(x) < b(x) \le c(x)$$
+
+Resolvemos em pares:
+
+1. Resolvemos $a(x) < b(x) $ obtendo um conjunto solução $S_1$.
+2. Resolvemos $b(x)\le c(x)$ obtendo um conjunto solução $S_2$. 
+3. A responsta final é a interseção dos conjuntos $S_1\cap S_2$. 
+
+**Exemplo**
+
+$$x + 3 < 3x + 7 \le  x + 15$$
+ 
+
+Resolvendo a primeira desigualdade, 
+
+$$x + 3 < 3x + 7$$
+$$ x - 3x < 7 - 3 $$
+$$ -2x < 4 $$
+$$ x > -2$$
+
+Resolvendo a seguinda desigualdade, temos 
+$$3x + 7 \le  x + 15$$
+$$3x - x \le 15 - 7$$
+$$2x \le 8 $$
+$$x\le 4$$
+
+Assim, o conjunto solução é o intervalo $-2 < x \le 4$.
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula02-slides.md)
+ - [Exercícios :writing_hand:](./questoes02.pdf)
+</div>
+
+      </script>
+    </section>
+  </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/math/math.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    hash: true,
+
+    transition: 'convex', // default/cube/page/concave/zoom/linear/fade/none
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+  });
+</script>
+
+</body>
+</html>

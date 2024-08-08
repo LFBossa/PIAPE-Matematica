@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="None">
+  <link rel="canonical" href="None">
+
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/dracula.css"
+        id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown
+             data-separator="^\<slide/\>$"
+             data-separator-vertical="^\<subslide/\>$"
+             data-notes="^Note:">
+      <script type="text/template">
+        # Inequações de segundo grau
+
+São um caso particular de inequação-produto que pode ser resolvido de maneira mais prática.
+
+$$ax^2+bx+c < 0$$
+
+Basta lembrar que o gráfico de uma equação do segundo grau é uma parábola. 
+
+![Gráfico da parábola](./img/aula04-img01.png)
+
+O gráfico é voltado para cima ou para baixo, a depender do sinal do termo $a$, e corta o eixo $x$ em até dois pontos distintos (as raízes do polinômio).
+
+Assim, para resolver uma desigualdade do segundo grau, basta:
+
+1. Encontrar suas raízes (seja por Bhaskara, soma e produto);
+2. Prestar atenção ao sinal de $a$;
+3. Fazer o diagrama do sinal;
+
+## Exemplos
+
+1. $ x^2 - x -6  < 0$
+2. $ -x^2 + 4x - 4 \ge 0$
+3. $ x^2 + x + 1 < 0 $
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula04-slides.md)
+ - [Exercícios :writing_hand:](./questoes04.pdf)
+</div>
+
+      </script>
+    </section>
+  </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/math/math.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    hash: true,
+
+    transition: 'convex', // default/cube/page/concave/zoom/linear/fade/none
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+  });
+</script>
+
+</body>
+</html>

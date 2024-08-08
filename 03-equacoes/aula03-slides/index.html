@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="None">
+  <link rel="canonical" href="None">
+
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/dracula.css"
+        id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown
+             data-separator="^\<slide/\>$"
+             data-separator-vertical="^\<subslide/\>$"
+             data-notes="^Note:">
+      <script type="text/template">
+        # Inequação Produto e Quociente
+
+## Inequação produto
+
+É uma inequação que pode ser quebrada como produto de termos mais simples 
+$$a(x)\cdot b(x)  >0$$
+
+## Inequação quociente
+
+É uma inequação que pode ser quebrada como um quociente de termos mais simples
+
+$$\frac{a(x)}{b(x)} \le 0$$
+
+**Exemplos**
+
+$$(3x -6)\cdot(2x + 2) > 0$$
+
+$$\dfrac{4x + 3}{2x - 7} \le 0$$
+
+## Tabela de sinais
+
+Quando temos um produto ou um quociente, podemos analisar o sinal do resultado através do sinal dos termos que o compõe.
+
+**Exemplo**
+
+Fazendo a tabela produto para os termos $3x-6$, $2x+2$.
+
+![Tabela Produto](./img/aula03-img01.svg)
+
+
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula03-slides.md)
+ - [Exercícios :writing_hand:](./questoes03.pdf)
+</div>
+
+      </script>
+    </section>
+  </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/math/math.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    hash: true,
+
+    transition: 'convex', // default/cube/page/concave/zoom/linear/fade/none
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+  });
+</script>
+
+</body>
+</html>
