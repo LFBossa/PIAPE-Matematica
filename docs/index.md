@@ -37,7 +37,7 @@ As **oficinas** e **minicursos** são atividades pontuais, com duração entre 2
 
 Fundamentos da matemática que dão base para todo o resto: lógica, conjuntos, intervalos, números.
 
-> [Link para se inscrever no Módulo I :fontawesome-solid-link:](https://nupe.blumenau.ufsc.br/piape-pedagogico-e-educacional/piape-calendario-atividades/) 
+> [Link para se inscrever no Módulo I :fontawesome-solid-link:](https://inscricoes.ufsc.br/piapeblumatematicam1242)
 
 
 ??? abstract "Cronograma Módulo I"
@@ -56,8 +56,8 @@ Fundamentos da matemática que dão base para todo o resto: lógica, conjuntos, 
 
 Não sei quem colocou letras na matemática, mas vamos aprender a jogar elas de um lado para o outro sem deixar cair.
 
-> [Link para se inscrever no Módulo II :fontawesome-solid-link:](https://nupe.blumenau.ufsc.br/piape-pedagogico-e-educacional/piape-calendario-atividades/) 
-
+<!-- > [Link para se inscrever no Módulo II :fontawesome-solid-link:](https://nupe.blumenau.ufsc.br/piape-pedagogico-e-educacional/piape-calendario-atividades/) 
+-->
 ??? abstract "Cronograma Módulo II"
 
     | Aula  | Assunto                                      | Data   |
@@ -74,8 +74,9 @@ Não sei quem colocou letras na matemática, mas vamos aprender a jogar elas de 
 ### Módulo III: (in)equações
 
 Vamos aprender a resolver equações e inequações dos mais variados tipos. 
-
+<!--
 > [Link para se inscrever no Módulo III :fontawesome-solid-link:](https://nupe.blumenau.ufsc.br/piape-pedagogico-e-educacional/piape-calendario-atividades/) 
+-->
 
 ??? abstract "Cronograma Módulo III"
 
@@ -93,8 +94,9 @@ Vamos aprender a resolver equações e inequações dos mais variados tipos.
 ### Módulo IV: Tudo é Função
 
 Vamos ver que tudo em matemática é função.
-
+<!--
 > [Link para se inscrever no Módulo IV :fontawesome-solid-link:](https://nupe.blumenau.ufsc.br/piape-pedagogico-e-educacional/piape-calendario-atividades/) 
+-->
 
 ??? abstract "Cronograma Módulo IV"
 
@@ -120,6 +122,7 @@ Aprendendo a utilizar softwares para cálculos matemáticos: Geogebra, Graspable
 - :fontawesome-regular-calendar-check: Data: 14/09/24
 - :fontawesome-solid-clock: Horário: 9h - 12h
 - :fontawesome-solid-door-open: Local: VV001 - Laboratório do Vasto Verde
+- [Link para inscrição :fontawesome-solid-link:](http://inscricoes.ufsc.br/piapeblumatematicao1242) 
 
 ### O básico da Geometria Analítica
 
