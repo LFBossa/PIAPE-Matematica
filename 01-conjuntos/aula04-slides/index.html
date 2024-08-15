@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="None">
+  <link rel="canonical" href="None">
+
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/dracula.css"
+        id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown
+             data-separator="^\n---\n$"
+             data-separator-vertical="^\n--\n$"
+             data-notes="^Note:">
+      <script type="text/template">
+        # Intervalos
+
+Intervalos representam um subconjunto de números que estão em sequência
+
+## Notação de intervalo
+
+Dados dois números $a$ e $b$ pertencentes a um conjunto numérico $\mathbb{B}$ qualquer, com $a$ < $b$. Aqui, $\mathbb{B}$ pode estar representando $\mathbb{N}, \mathbb{Z}, \mathbb{Q}$ ou $\mathbb{R}$.
+
+A notação de intervalo com extremos $a$ e $b$ representa o conjunto de todos os números que são maiores do que $a$ e menores do que $b$, podendo ou não incluir os extremos. 
+
+**Intervalo aberto** 
+$$]a,b[  =  \{x\in\mathbb{B} \mid a < x < b\}$$
+Nesse caso, os extremos **não pertencem** ao intervalo.
+
+**Intervalo fechado** 
+$$[a,b]  =  \{x\in\mathbb{B} \mid a \le x \le b\}$$
+Nesse caso, os extremos **pertencem** ao intervalo.
+
+Podemos também misturar a notação e criar os intervalos "mistos"
+
+**Intervalo fechado à esquerda** 
+$$[a,b[  =  \{x\in\mathbb{B} \mid a \le x < b\}$$
+
+**Intervalo fechado à direita** 
+$$]a,b]  =  \{x\in\mathbb{B} \mid a < x \le b\}$$
+
+## Representação gráfica
+
+Podemos representar um intervalo na reta numérica destacando seus extremos e seu interior. Marcamos os extremos como bolinhas, e se o extremo pertencer ao intervalo, pintamos o interior dessa bolinha. Se o extremo não pertencer, deixamos vazio. 
+
+**Intervalo aberto**
+
+![Intervalo aberto](./img/aula04-img01.svg)
+
+
+**Intervalo fechado**
+
+![Intervalo aberto](./img/aula04-img02.svg)
+
+
+**Intervalo fechado à esquerda**
+
+![Intervalo aberto](./img/aula04-img03.svg)
+
+
+**Intervalo fechado à direita**
+
+![Intervalo aberto](./img/aula04-img04.svg)
+
+## Exemplos
+
+**Exemplos**
+
+1. O intervalo $[3,7]$ em $\mathbb{N}$ é o conjunto 
+
+$$ [3,7] = \{x\in \mathbb{N} \mid 3\le x \le 7\} = \{3,4,5,6,7\} $$
+
+2. O intervalo $]-3,3[$ em $\mathbb{Z}$ é o conjunto 
+
+$$ ]-3,3[ = \{x\in \mathbb{Z} \mid -3 < x < 3\} = \{-2,-1,0,1,2\} $$
+
+3. O intervalo $]0,1]$ em $\mathbb{Q}$ contém todos os racionais maiores que zero e menores ou iguais a 1. Assim, $0$ não está no intervalo, mas $1$ está. 
+
+4. O intervalo $[0,1[$ em $\mathbb{R}$ contém o zero mas não contém o um.
+
+## Intervalos ilimitados
+
+São intervalos limitados em apenas um dos extremos. O extremo ilimitado é representado pelo símbolo do infinito $\infty$ e é sempre _aberto_ nesse extremo. 
+
+$$[a,\infty[ = \{x\in\mathbb{B}\mid x \ge a \}$$
+
+$$]-\infty,a] = \{x\in\mathbb{B}\mid x \le a \}$$
+
+## Operações com intervalos
+
+Para operar dois intervalos, é interessante desenhar ambos os intervalos em retas paralelas, respeitando a ordem dos extremos.
+
+**Exemplo**
+
+Para calcular a interseção dos intervalos $[-2,2[$ e $[0,3]$, desenhamos um em cima do outro e marcamos a região que estã em ambos os intervalos ao mesmo tempo. 
+
+![Interseção de intervalos](./img/aula04-img05.svg)
+
+Assim, obtemos
+
+$$ [-2,2[\cap[0,3] = [0,2[$$
+
+Se quiséssemos calcular a união, bastaria marcar a região que está em qualquer um dos conjuntos
+
+![União de intervalos](./img/aula04-img06.svg)
+
+
+Assim, obtemos
+
+$$ [-2,2[\cup[0,3] = [-2,3]$$
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula04-slides.md)
+ - [Exercícios :writing_hand:](./questoes04.pdf)
+</div>
+
+      </script>
+    </section>
+  </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/math/math.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    hash: true,
+
+    transition: 'convex', // default/cube/page/concave/zoom/linear/fade/none
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+  });
+</script>
+
+</body>
+</html>

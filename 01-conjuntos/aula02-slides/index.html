@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="None">
+  <link rel="canonical" href="None">
+
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/dracula.css"
+        id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown
+             data-separator="^\n---\n$"
+             data-separator-vertical="^\n--\n$"
+             data-notes="^Note:">
+      <script type="text/template">
+        # Operações com conjuntos
+
+Dados dois conjuntos, podemos criar novos conjuntos a partir deles. 
+
+## União
+
+Podemos reunir todos os elementos de um conjunto pela união. Utilizamos o símbolo $\cup$.
+
+$$A\cup B = \{ \text{elementos que pertencem a } A \textbf{ ou }\text{ pertencem a }B\}$$
+
+Podemos a representação utilizando diagramas de Venn é a seguinte:
+
+![Diagrama da união](./img/aula02-img01.svg)
+
+
+## Interseção
+
+Podemos considerar apenas os elementos que estão nos dois conjuntos ao mesmo tempo. Utilizamos o símbolo $\cap$.
+
+$$A\cap B = \{ \text{elementos que pertencem a } A \textbf{ e } \text{também pertencem a }B \}$$
+
+Podemos visualizar da seguinte forma:
+
+![Diagrama da interseção](./img/aula02-img02.svg)
+
+## Diferença
+
+
+Podemos considerar apenas os elementos que estão nos dois conjuntos ao mesmo tempo. Utilizamos o símbolo $\setminus$.
+
+$$A\setminus B = \{ \text{elementos que pertencem a } A  \textbf{ e não } \text{pertencem a } B \}$$
+
+Podemos visualizar da seguinte forma:
+
+![Diagrama da diferença](./img/aula02-img03.svg)
+
+## Número de elementos
+
+Quando temos um conjunto $A$, representamos o número de elementos dele por $|A|$.
+
+Temos uma fórmula que relaciona o número de elementos de dois conjuntos com o o número de elementos de sua união.
+
+$$|A\cup B| = |A| + |B| - |A\cap B| $$
+
+
+## Produto cartesiano
+
+Dados dois elementos $a$ e $b$ de um conjunto universo, podemos criar um novo objeto matemático chamado _par ordenado_, denotado por $(a,b)$. Num par ordenado, a ordem importa: o par $(a,b)$ é diferente do par $(b,a)$. 
+
+Dados os conjuntos $A$ e $B$, o produto cartesiano desses conjuntos é o conjunto de _todos_ os pares ordenados que podemos criar escolhendo um elemento de $A$ para ser o primeiro elemento do par e escolhendo um elemento de $B$ para ser o segundo elemento do par. Utilizamos o símbolo $\times$.
+
+$$A\times B = \{(a,b) \text{ com } a\in A \text{ e com } b\in B \}$$
+
+A melhor maneira de representar um produto cartesiano é como uma grade.
+
+![Produto cartesiano](./img/aula02-img04.svg)
+
+O número de elementos de um produto cartesiano é dado por 
+$$
+|A\times B|= |A|\cdot |B|
+$$
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula02-slides.md)
+ - [Exercícios :writing_hand:](./questoes02.pdf)
+</div>
+
+      </script>
+    </section>
+  </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/math/math.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    hash: true,
+
+    transition: 'convex', // default/cube/page/concave/zoom/linear/fade/none
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+  });
+</script>
+
+</body>
+</html>
