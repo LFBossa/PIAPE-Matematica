@@ -1,3 +1,8 @@
+---
+template: reveal.html
+search:
+  exclude: true
+---
 # Intervalos
 
 Intervalos representam um subconjunto de números que estão em sequência

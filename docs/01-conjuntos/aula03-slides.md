@@ -1,3 +1,8 @@
+---
+template: reveal.html
+search:
+  exclude: true
+---
 # Conjuntos Numéricos
 
 ## Números naturais

@@ -245,3 +245,11 @@ $$\forall x, M(x)$$
 > Todo x é mortal 
 
 
+
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula00-slides.md)
+ - [Exercícios :writing_hand:](./questoes00.pdf)
+</div>

@@ -1,3 +1,8 @@
+---
+template: reveal.html
+search:
+  exclude: true
+---
 # Elementos, Conjuntos e pertinência
 
 Em Matemátemática, utilizamos _sistemas axiomáticos_. Nesses sistemas, temos algumas _noções elementares_, que são coisas que não definimos e _axiomas_, que são as regras que escolhemos como válidas dentro desse sistema. 

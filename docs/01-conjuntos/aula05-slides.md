@@ -1,3 +1,8 @@
+---
+template: reveal.html
+search:
+  exclude: true
+---
 # O corpo ordenado dos reais
 
 Podemos chamar o conjunto dos números reais $\mathbb{R}$ de um _corpo ordenado_. Esse conjunto é um _corpo_ pois, juntamente com as operações de adição  $+$ e multiplicação $\cdot$ satisfaz as seguintes propriedades:

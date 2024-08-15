@@ -1,3 +1,8 @@
+---
+template: reveal.html
+search:
+  exclude: true
+---
 # Operações com conjuntos
 
 Dados dois conjuntos, podemos criar novos conjuntos a partir deles. 
