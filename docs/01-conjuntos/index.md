@@ -1,7 +1,8 @@
-# Objetos Matemáticos e Onde Habitam
+# Matemática Básica: Eu já deveria saber isso?
 
+[Link para se inscrever no Módulo I :fontawesome-solid-link:](https://inscricoes.ufsc.br/piapeblumatematicam1242)
 
-- [O jogo da matemática](./aula00.md)
+- [Lógica básica](./aula00.md)
 - [Elementos, conjuntos e pertinência](./aula01.md)
 - [Operações com conjuntos](./aula02.md)
 - [Conjuntos Numéricos](./aula03.md)
