@@ -5,9 +5,11 @@ Esse site contém os materiais trabalhados no PIAPE Matemática do campus Blumen
 
 Desenvolvido por [L. F. Bossa](http://lattes.cnpq.br/8752951792540460).
 
-[Tenha o calendário de atividades no seu celular :fontawesome-solid-mobile-screen:](https://calendar.google.com/calendar/ical/c_0cfd85872448206736dda30d068093a19a6996afa23f946d6c467f1e770b1067%40group.calendar.google.com/public/basic.ics){ .md-button }
+[:fontawesome-solid-mobile-screen: Tenha o calendário de atividades no seu celular](https://calendar.google.com/calendar/ical/c_0cfd85872448206736dda30d068093a19a6996afa23f946d6c467f1e770b1067%40group.calendar.google.com/public/basic.ics){ .md-button }
 
-[Veja o calendário de atividades no navegador :fontawesome-solid-laptop:](https://calendar.google.com/calendar/u/0/embed?src=c_0cfd85872448206736dda30d068093a19a6996afa23f946d6c467f1e770b1067@group.calendar.google.com&ctz=America/Sao_Paulo){ .md-button }
+[:fontawesome-solid-laptop: Veja o calendário de atividades no navegador](https://calendar.google.com/calendar/u/0/embed?src=c_0cfd85872448206736dda30d068093a19a6996afa23f946d6c467f1e770b1067@group.calendar.google.com&ctz=America/Sao_Paulo){ .md-button }
+
+[:simple-moodle: Acesse o Moodle Grupos do PIAPE Matemática](https://grupos.moodle.ufsc.br/course/view.php?id=4106){ .md-button }
 
 ## Atividades :writing_hand:
 
