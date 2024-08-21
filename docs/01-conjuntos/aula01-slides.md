@@ -57,6 +57,8 @@ Podemos definir um conjunto de duas maneiras:
 - Enumerando seus elementos
 - Descrevendo uma propriedade que seus elementos possuem
 
+Em ambos os casos, utilizamos as chaves $\\{\\}$ para delimitar um conjunto.
+
 --
 
 **Exemplo**
