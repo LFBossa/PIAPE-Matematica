@@ -1,4 +1,4 @@
-# PIAPE Matemática 24.1
+# PIAPE Matemática 24.2
  
 
 Esse site contém os materiais trabalhados no PIAPE Matemática do campus Blumenau. 
