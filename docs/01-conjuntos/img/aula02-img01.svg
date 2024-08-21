@@ -5,7 +5,7 @@
     </g>
     <text x="2" y="22" font-family="Verdana" font-size="20" fill="black">A</text>
     <text x="125" y="22" font-family="Verdana" font-size="20" fill="black">B</text>
-    <g fill="red" stroke="black" stroke-width="1" transform="translate(160 0)">
+    <g fill="red" stroke="red" stroke-width="1" transform="translate(160 0)">
         <circle cx="60" cy="50" r="48"  />
         <polygon points="100,0 50,50 100,100 150,50"  />
     </g>
