@@ -5,9 +5,56 @@ search:
 ---
 # Lógica aplicada à Matemática
 
+---
+
+![Tabuleiro](/01-conjuntos/img/aula00-tabuleiro.jpg)
+
+--
+
+![Damas](/01-conjuntos/img/aula00-damas.jpg)
+
+--
+
+![Xadrez](/01-conjuntos/img/aula00-xadrez.jpg)
 
 ---
 
+Matemática é como um jogo: você estabelece um conjunto de regras e joga conforme elas. 
+
+Mudando-se as regras, você tem um novo jogo - ou uma nova Matemática.
+
+--
+
+## Geometria Euclidiana
+
+> **Axioma das Paralelas**: dados um ponto e uma reta que não passa nesse ponto, `existe uma única` reta paralela à reta dada que passa pelo ponto dado.
+
+
+--
+
+## Geometrias Não-Euclidianas
+
+Se modificarmos o _Axioma das Paralelas_, damos origens a outros tipos de geometrias.
+
+--
+
+## Geometria Esférica
+
+> **Axioma das Paralelas**: dados um ponto e uma reta que não passa nesse ponto, `não existe` reta paralela à reta dada que passa pelo ponto dado.
+
+--
+
+
+## Geometria Hiperbólica
+
+> **Axioma das Paralelas**: dados um ponto e uma reta que não passa nesse ponto, `existem infinitas` retas paralelas à reta dada que passa pelo ponto dado.
+
+--
+
+![Geometrias](/01-conjuntos/img/aula00-geometrias.jpeg)
+
+
+---
 
 ## Conceitos iniciais
 
