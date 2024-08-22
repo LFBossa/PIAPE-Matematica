@@ -1,4 +1,4 @@
-# Elementos, Conjuntos e pertinência
+# Conjuntos e operações
 
 Em Matemátemática, utilizamos _sistemas axiomáticos_. Nesses sistemas, temos algumas _noções elementares_, que são coisas que não definimos e _axiomas_, que são as regras que escolhemos como válidas dentro desse sistema. 
 
@@ -38,7 +38,6 @@ Podemos definir um conjunto de duas maneiras:
 
 Em ambos os casos, utilizamos as chaves $\\{\\}$ para delimitar um conjunto.
 
-
 **Exemplo**
 
 - O conjunto das vogais podemos enumerar como $$V=\{a,e,i,o,u\}$$
@@ -71,7 +70,6 @@ Dizemos que um conjunto $A$ é _subconjunto_ de $B$ se todo elemento de $A$ tamb
 - Se $A = \{a,e,i,o,u\}$ e $B = \{a,b,c,d,e\}$, note que nem todo elemento de $A$ pertence a $B$. Nesse caso, $A$ **não é** um sonjunto de $B$, e denotamos esse fato escrevendo $$A\not\subseteq B$$
 - Seja $P = \{ n \text{ é um número par} \}$ e $C = \{ n \text{ é um número múltiplo de 5} \}$. Nesse caso, $5\in C$, porém $5\not\in P$. Assim, $C$ não pode ser um subconjunto de $P$, e denotamos por $C\not\subseteq P$.
 
-
 ## Diagramas de Venn
 
 Podemos representar conjuntos de maneira visual. Para isso, utilizamos diagramas de Venn. 
@@ -88,10 +86,50 @@ Agora temos uma maneira visual de entender que $A\subseteq B$.
 
 Se quisermos representar o conjunto $A = \{a,e,i,o,u\}$ juntamente com o conjunto $B = \{a,b,c,d,e\}$, podemos representar todos os elementos e depois circular os que pertencem a $A$ e os que pertencem a $B$.
 
-
 ![Diagrama A não contido em B](./img/aula01-img03.svg)
 
----
+## Operações com conjuntos
+
+Dados dois ou mais conjuntos, podemos criar novos conjuntos a partir deles.
+
+### União
+
+Podemos reunir todos os elementos de um conjunto pela união. Utilizamos o símbolo $\cup$.
+
+> $A\cup B$ = { elementos que pertencem a $A$ ou pertencem a $B$ }
+
+Podemos a representação utilizando diagramas de Venn é a seguinte:
+
+![União](./img/aula02-img01.svg)
+
+### Interseção
+
+Podemos considerar apenas os elementos que estão nos dois conjuntos ao mesmo tempo. Utilizamos o símbolo $\cap$.
+
+> $A\cap B $= { elementos que pertencem a $A$ e também pertencem a $B$ }
+
+Podemos visualizar da seguinte forma
+
+![Interseção](./img/aula02-img02.svg)
+
+### Diferença
+
+Podemos considerar apenas os elementos que estão nos dois conjuntos ao mesmo tempo. Utilizamos o símbolo $\setminus$.
+
+> $A\setminus B$ = { elementos que pertencem a $A$   e não pertencem a $B$ }
+
+Podemos visualizar da seguinte forma
+
+![Diferença](./img/aula02-img03.svg) 
+ 
+
+## Número de elementos
+
+Quando temos um conjunto $A$, representamos o número de elementos dele por $|A|$.
+
+Temos uma fórmula que relaciona o número de elementos de dois conjuntos com o o número de elementos de sua união.
+
+$$|A\cup B| = |A| + |B| - |A\cap B| $$
 
 <div class="grid cards" markdown>
  - [Slides :material-presentation-play:](./aula01-slides.md)

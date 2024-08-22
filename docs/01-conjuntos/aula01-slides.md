@@ -160,5 +160,67 @@ Se quisermos representar o conjunto $A = \\{a,e,i,o,u\\}$ juntamente com o conju
 
 ---
 
+# Operações com conjuntos
+
+---
+
+Dados dois ou mais conjuntos, podemos criar novos conjuntos a partir deles.
+
+---
+
+## União
+
+Podemos reunir todos os elementos de um conjunto pela união. Utilizamos o símbolo $\cup$.
+
+> $A\cup B$ = { elementos que pertencem a $A$ ou pertencem a $B$ }
+
+--
+
+Podemos a representação utilizando diagramas de Venn é a seguinte:
+
+<img src="/01-conjuntos/img/aula02-img01.svg" width="600" />
+
+---
+
+
+## Interseção
+
+Podemos considerar apenas os elementos que estão nos dois conjuntos ao mesmo tempo. Utilizamos o símbolo $\cap$.
+
+> $A\cap B $= { elementos que pertencem a $A$ e também pertencem a $B$ }
+
+--
+
+Podemos visualizar da seguinte forma
+
+<img src="/01-conjuntos/img/aula02-img02.svg" width="600" />
+
+---
+
+## Diferença
+
+
+Podemos considerar apenas os elementos que estão nos dois conjuntos ao mesmo tempo. Utilizamos o símbolo $\setminus$.
+
+> $A\setminus B$ = { elementos que pertencem a $A$   e não pertencem a $B$ }
+
+--
+
+Podemos visualizar da seguinte forma
+
+<img src="/01-conjuntos/img/aula02-img03.svg" width="600" />
+ 
+
+---
+
+## Número de elementos
+
+Quando temos um conjunto $A$, representamos o número de elementos dele por $|A|$.
+
+Temos uma fórmula que relaciona o número de elementos de dois conjuntos com o o número de elementos de sua união.
+
+$$|A\cup B| = |A| + |B| - |A\cap B| $$
+
+---
 
 [Voltar ao conteúdo](/01-conjuntos/aula01) 
