@@ -5,36 +5,41 @@
 \begin{document} 
 \section*{Piape Matemática} 
  
-\subsection*{Módulo I}\label{muxf3dulo-i}
+\subsection*{Módulo I}
  
-\subsection*{Exercícios Aula 03}\label{exercuxedcios-aula-03}
+\subsection*{Exercícios Aula 03}
 
 \paragraph{1.} Para os exercício que segue, considere os seguintes conjuntos:
-\[ A = \{1,2,3,4,8\}\] \[ B =  \{2,4,6\}\] \[ C = \{1,3,5\}\]
+\begin{align*}
+A &= \{1,2,3,4,8\}\\
+B &=  \{2,4,6\}\\
+C &= \{1,3,5\}
+\end{align*}
+%\[ A = \{1,2,3,4,8\}\] \[ B =  \{2,4,6\}\] \[ C = \{1,3,5\}\]
 Calcule o que se pede. Represente o resultado em notação de diagramas de Venn.
-\begin{enumerate}[a)]
-\item
-  \(A\cup B\)
-\item
-  \(B\cup C\)
-\item
-  \(A\cup B \cup C\)
-\item
-  \(A\cap B\)
-\item
-  \(B\cap C\)
-\item
-  \(A\setminus B\)
-\item
-  \(B\setminus A\)
-\item
-  \(A\setminus C\)
-\item
-  \(C\setminus A\)
-\end{enumerate}
+
+\medskip
+
+\begin{minipage}[t]{0.45\columnwidth}
+  \begin{enumerate}[a)]
+    \item \(A\cup B\)
+    \item \(B\cup C\)
+    \item \(A\cup B \cup C\)
+    \item \(A\cap B\)
+    \item \(B\cap C\)
+  \end{enumerate}
+\end{minipage}\begin{minipage}[t]{0.45\columnwidth}
+  \begin{enumerate}[a)]
+    \setcounter{enumi}{5}
+    \item \(A\setminus B\)
+    \item \(B\setminus A\)
+    \item \(A\setminus C\)
+    \item \(C\cap A\)
+  \end{enumerate}
+\end{minipage} 
 
 \paragraph{2.} Calcule os tamanhos dos conjuntos
-\begin{enumerate}
+\begin{enumerate}[a)]
   \item \(|A\cup B|\)
   \item \(|A\cap B|\)
   \item \(|B\cup C|\)
@@ -52,6 +57,8 @@ Verifique que em todos os casos, vale a relação
 
 \paragraph{5.} Luciana está em um supermercado representando uma marca de café e, a cada cliente que aborda, ela oferece uma amostra grátis de três tipos de café (X, Y e Z). Após a degustação, o cliente responde a uma enquete a respeito dos tipos de café que gostou. Após coletar as respostas de 400 clientes, ela concluiu que:
 \begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\itemindent}{1pt}
   \item 184 clientes gostaram do tipo X;
   \item 188 clientes gostaram do tipo Y;
   \item 220 clientes gostaram do tipo Z;
@@ -65,10 +72,22 @@ Considerando as informações, qual o número de clientes que gostaram dos três
 |A\cup B\cup C| = |A| + |B| + |C| \\ - |A\cap B| - |B\cap C| - |C\cap A| \\ + |A\cap B \cap C|
 \end{multline*} 
 
-\paragraph{Questões teóricas}
 
-\begin{enumerate}[A.] 
+\paragraph{6.} Essa é uma questão mais teórica: 
+\begin{enumerate}[a)] 
 \item Qual relação de inclusão entre os conjuntos \(A\), \(B\) e \(A\cup B\)?
 \item Qual relação de inclusão entre os conjuntos \(A\), \(B\) e \(A\cap B\)?
 \end{enumerate}
+
+
+\vfill
+
+{\footnotesize
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.} a) \(A\cup B = \{1,2,3,4,6,8\}\); b) \(B\cup C = \{1,2,3,4,5,6\}\); c) \(A\cup B \cup C = \{1,2,3,4,5,6,8\}\); d) \(A\cap B = \{2,4\}\); e) \(B\cap C = \emptyset\); f) \(A\setminus B = \{1,3,8\}\); g) \(B\setminus A = \{6\}\); h) \(A\setminus C = \{2,4,8\}\); i) \(C\cap A = \{1,3\}\)\\
+\textbf{2.} a) \(|A\cup B| = 6\); b) \(|A\cap B| = 2\); c) \(|B\cup C| = 6\); d) \(|B\cap C| = 0\)\\
+\textbf{3.} 30 pessoas; \textbf{4.} 10 alunos; \textbf{5.} 36 clientes\\
+\textbf{6.} a) \(A\subseteq A\cup B\) e também $B\subseteq A\cup B$; b) \(A\cap B\subseteq A\) e também \(A\cap B\subseteq B\)
+}
+
 \end{document}
