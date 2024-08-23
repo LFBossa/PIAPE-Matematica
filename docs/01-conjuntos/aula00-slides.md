@@ -345,7 +345,6 @@ $$ p_1, p_2, \ldots, p_n \models q$$
 
 --
 
-
 _Exemplo 1_
 
  - $p_1 $ = "se choveu hoje então a rua está molhada"
@@ -353,6 +352,27 @@ _Exemplo 1_
 - $q $ = "não choveu hoje"
 
 O argumento acima é válido.
+
+--
+
+- $c$: Choveu hoje
+- $m$: A rua está molhada
+
+Assim, podemos reescrever o argumento acima como
+
+- $p_1 = c \rightarrow m$
+- $p_2 = \sim m$
+- $q = \sim c$
+
+--
+
+
+|  $c \rightarrow m$  |  $\sim m$  |  $\sim c$  |
+| ------------------- | ---------- | ---------- |
+|          V          |      F     |      F     |
+|          F          |      V     |      F     |
+|          V          |      F     |      V     |
+|        **V**        |    **V**   |    **V**   |
 
 
 --
