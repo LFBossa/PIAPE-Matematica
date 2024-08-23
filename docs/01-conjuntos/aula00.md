@@ -37,7 +37,7 @@ _Exemplos_
 **Proposições atômicas**
 : São proposições que não podem ser divididas em proposições menores.
 
-# Cálculos das proposições
+## Cálculos das proposições
 
 Para simplificar, utilizamos letras para representar proposições atômicas, geralmente \(p\), \(q\), \(r\) e \(s\)
 
@@ -157,7 +157,7 @@ _Exemplo_
 
 > A bicondicional \(p\leftrightarrow q\) é verdadeira quando ambos os valores-verdade de \(p\) e \(q\) são iguais. Caso contrário, o valor da bicondicional é falso.
 
-# Contradição e Tautologia
+## Contradição e Tautologia
 
 > Uma **contradição** é uma proposição composta que possui o valor-verdade sempre falso, independente do valor-verdade das proposições atômicas que o constituem.
 
@@ -169,7 +169,7 @@ $$p \wedge \sim p$$
 _Exemplo_
 $$ p \vee \sim p$$
 
-# Validade de argumentos
+## Validade de argumentos
 
 Um _argumento_ é composto de uma lista de proposiçoes \(p_1, p_2, \ldots, p_n\) que serão chamadas de _premissas_, e uma proposiçao _q_ chamada de _conclusão_. 
 
@@ -184,7 +184,23 @@ _Exemplo 1_
 - \(p_2 \) = "a rua não está molhada"
 - \(q \) = "não choveu hoje"
 
-O argumento acima é válido.
+O argumento acima é válido. Concluímos isso quebrando as premissas em proposições atômicas
+
+- $c$: Choveu hoje
+- $m$: A rua está molhada
+
+Assim, podemos reescrever o argumento acima como
+
+- $p_1 = c \rightarrow m$
+- $p_2 = \sim m$
+- $q = \sim c$
+
+| \(c\) | \(m\) | \(c \rightarrow m\) | \(\sim m\) | \(\sim c\) |
+|:-----:|:-----:|:-------------------:|:----------:|:----------:|
+|   V   |   V   |          V          |      F     |      F     |
+|   V   |   F   |          F          |      V     |      F     |
+|   F   |   V   |          V          |      F     |      V     |
+|   F   |   F   |        **V**        |    **V**   |    **V**   |
 
 
 _Exemplo 2_
@@ -193,11 +209,23 @@ _Exemplo 2_
 - \(p_3\) = "não choveu hoje"
 - \(q_2\) = "a rua não está molhada"
 
-O argumento acima é inválido.
+O argumento acima é inválido. Usando a mesma notação de $c$ e $m$ para as proposições atômicas, temos
+
+- $p_1 = c \rightarrow m$
+- $p_3 = \sim c$
+- $q_2 = \sim m$
+
+
+| \(c\) | \(m\) | \(c \rightarrow m\) | \(\sim c\) | \(\sim m\) |
+|:-----:|:-----:|:-------------------:|:----------:|:----------:|
+|   V   |   V   |          V          |      F     |      F     |
+|   V   |   F   |          F          |      F     |      V     |
+|   F   |   V   |        **V**        |    **V**   |     `F`    |
+|   F   |   F   |        **V**        |    **V**   |    **V**   |
 
 
 
-# Lógica de predicados
+## Lógica de predicados
 
 Nem toda lógica pode ser descrita usando proposições. As vezes, queremos fazer afirmações sobre elementos de conjuntos. Um _predicado_ denota uma relação entre objetos de um determinado contexto de discurso. Esse contexto de discurso é um conjunto no qual os objetos existem. 
 
