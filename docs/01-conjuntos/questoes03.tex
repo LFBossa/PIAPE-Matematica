@@ -2,6 +2,7 @@
 \usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
 \usepackage{amsmath, amssymb, amsfonts}
 \usepackage{enumerate}
+\usepackage{tikz}
 \begin{document} 
 \section*{Piape Matemática} 
  
@@ -30,13 +31,63 @@
   \item (\hspace{7mm}) $\mathbb{N} \subseteq \mathbb{Z}$
 \end{enumerate}
 
+\paragraph*{3.} Dados os números abaixo, inclua eles no diagrama de Venn-Euler dos conjuntos numéricos:
+\begin{minipage}{0.48\columnwidth}
+  \begin{enumerate}[a)]
+    \item $-3$
+    \item $0$
+    \item $1,\!89$
+    \item $\frac{1}{2}$
+    \item $\sqrt{2}$
+  \end{enumerate}  
+\end{minipage}
+\begin{minipage}{0.48\columnwidth}
+  \begin{enumerate}[a)]
+    \setcounter{enumi}{5}
+    \item $\pi$
+    \item $\sqrt[3]{9}$
+    \item $\frac{20}{4}$
+    \item $\sqrt{-3}$
+    \item $-\frac{5}{4}$
+  \end{enumerate} 
+\end{minipage}
+
+{\centering 
+\begin{tikzpicture}
+  \draw (-4,-4) rectangle (4,4);
+  \draw (0,0) circle (0.8);
+  \draw (0,0) circle (1.6);
+  \draw (0,0) circle (2.4);
+  \draw (-3.1,-3.1) rectangle (3.1,3.1);
+  \node at (0,0) {$\mathbb{N}$};
+  \node at (0.8,0.8) {$\mathbb{Z}$};
+  \node at (1.5,1.5) {$\mathbb{Q}$};
+  \node at (2.2,2.2) {$\mathbb{R}$};
+  \node at (3.5,3.5) {$\mathbb{C}$};
+\end{tikzpicture}
+}
 
 \vfill
 % REMOVER OPERAÇÕES COM FRAÇÕES
 
-{\footnotesize
+{\footnotesize\color{darkgray}
 \paragraph*{Gabarito} \hspace*{\fill}\\
 \textbf{1.} a) Verdadeira; b) Falsa; c) Verdadeira; d) Falsa; e) Verdadeira; f) Falsa; g) Verdadeira; h) Verdadeira\\ 
 \textbf{2.} a) f); b) e); c) b); d) c); e) d)\\
+\textbf{3.}
+\begin{flushright}
+  \begin{tikzpicture}[scale=0.5,every node/.style={scale=0.5}]
+    \draw (-4,-4) rectangle (4,4);
+    \draw (0,0) circle (0.8);
+    \draw (0,0) circle (1.6);
+    \draw (0,0) circle (2.4);
+    \draw (-3.1,-3.1) rectangle (3.1,3.1);
+    \node at (0,0) {$\mathbb{N}$};
+    \node at (0.8,0.8) {$\mathbb{Z}$};
+    \node at (1.5,1.5) {$\mathbb{Q}$};
+    \node at (2.2,2.2) {$\mathbb{R}$};
+    \node at (3.5,3.5) {$\mathbb{C}$};
+  \end{tikzpicture}
+\end{flushright}
 }
 \end{document}
