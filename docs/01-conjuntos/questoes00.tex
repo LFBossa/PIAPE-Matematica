@@ -1,0 +1,101 @@
+\documentclass[a4paper,twocolumn,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{tikz}
+\begin{document} 
+\section*{Piape Matemática} 
+ 
+\subsection*{Módulo I}
+\subsection*{Exercícios Aula 01}
+ 
+\paragraph*{1.} Sejam as proposições $p$: ``O dia está chuvoso'' e $q$: ``O dia está frio''. Escreva as proposições compostas que representam as seguintes situações:
+\begin{enumerate}[a)]
+\item O dia está chuvoso e frio.
+\item O dia não está chuvoso e está frio.
+\item O dia está chuvoso ou frio.
+\item O dia não está chuvoso nem frio.
+\item O dia está chuvoso, mas não está frio.
+\item O dia está frio, mas não está chuvoso.
+\item Se o dia está chuvoso, então está frio.
+\end{enumerate}
+  
+\paragraph*{2.} Calcule a tabela-verdade das seguintes proposições compostas:
+\begin{enumerate}[a)]
+\item $(p \land q) \to r$
+\item $p \land (q\to r)$
+\item $\neg p\lor q$
+\end{enumerate}
+
+\newpage
+
+\paragraph*{3.} Sabendo que $p\to q$ é verdadeira, e que $q\to p$ é falsa, determine o valor lógico de $p$ e $q$.
+
+\paragraph*{4.} Sabendo que $p\to q$ é verdadeira, e que $p\land q$ é falsa, determine o valor lógico de $p$ e $q$.
+
+\vspace*{\fill}
+
+{\footnotesize \color{darkgray}
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.} a) $p\land q$; b) $\neg p\land q$; c) $p\lor q$; d) $\neg p\land \neg q$; e) $p\land \neg q$; f) $q \land \neg p$; g) $p\to q$.\\
+
+\begin{minipage}{0.49\columnwidth}
+  \textbf{2.} a)
+  
+  \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    $p$ & $q$ & $r$ & $p \land q$ & (a) \\
+    \hline
+    V & V & V & V & V \\
+    V & V & F & V & F \\
+    V & F & V & F & V \\
+    V & F & F & F & V \\
+    F & V & V & F & V \\
+    F & V & F & F & V \\
+    F & F & V & F & V \\
+    F & F & F & F & V \\
+    \hline
+    \end{tabular}
+\end{minipage}\begin{minipage}{0.49\columnwidth}
+  \textbf{2.} b)
+
+ \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    $p$ & $q$ & $r$ & $q \to r$ & (b) \\
+    \hline
+    V & V & V & V & V \\
+    V & V & F & F & F \\
+    V & F & V & V & V \\
+    V & F & F & V & V \\
+    F & V & V & V & F \\
+    F & V & F & F & F \\
+    F & F & V & V & F \\
+    F & F & F & V & F \\
+    \hline
+    \end{tabular}
+  \end{minipage}
+
+  \begin{minipage}{0.49\columnwidth}
+    \textbf{2.} c)
+    
+    \begin{tabular}{|c|c|c|c|}
+      \hline
+      $p$ & $q$ & $\neg p$ & $\neg p \lor q$ \\
+      \hline
+      V & V & F & V \\
+      V & F & F & F \\
+      F & V & V & V \\
+      F & F & V & V \\
+      \hline
+      \end{tabular}
+    
+  \end{minipage}\begin{minipage}{0.49\columnwidth}
+
+  \textbf{3.} $p$ é verdadeira e $q$ é falsa.\\
+  \textbf{4.} $p$ é falsa e $q$ é verdadeira.
+\end{minipage}
+}
+
+
+\end{document}
