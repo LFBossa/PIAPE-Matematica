@@ -173,6 +173,6 @@ Assim,
 ---
 
 <div class="grid cards" markdown>
- - [Slides :material-presentation-play:](./aula03-slides.md)
- - [Exercícios :writing_hand:](./questoes03.pdf)
+ - [Slides :material-presentation-play:](./aula02-slides.md)
+ - [Exercícios :writing_hand:](./questoes02.pdf)
 </div>
