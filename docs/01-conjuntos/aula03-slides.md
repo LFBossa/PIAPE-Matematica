@@ -143,12 +143,21 @@ $$  b\div a = c $$
 
 Mas note que a divisão exata nem sempre é possível em $\mathbb{Z}$: não podemos dividir $15$ por $4$ por exemplo. 
 
+---
+
+## Divisão Euclidiana
+
+Uma maneira de contornar isso é através da _divisão euclidiana_: dados $a$, $b$ inteiros, sempre podemos encontrar inteiros $q$ e $r$ com 
+
+$$b = a\cdot q + r \qquad 0\le r < a$$
+
+_q_ é o quociente e _r_ é o resto da divisão
 
 ---
 
 ## Números racionais
 
-Os números racionais foram criados para fazer a operação de divisão ser possível para quaisquer inteiros. Nos racionais, faz sentido dividir $15$ por $4$. Denotamos esse conjunto por $\mathbb{Q}$
+Os números racionais foram criados para fazer a operação de divisão ser possível para quaisquer inteiros. Denotamos esse conjunto por $\mathbb{Q}$
 
 --
 
