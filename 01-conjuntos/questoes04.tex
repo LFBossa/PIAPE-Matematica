@@ -2,6 +2,7 @@
 \usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
 \usepackage{amsmath, amssymb, amsfonts}
 \usepackage{enumerate}
+\usepackage{xcolor}
 \begin{document} 
 \section*{Piape Matemática} 
  
@@ -10,8 +11,8 @@
 
 \paragraph{1.} Passe da notação de conjunto para notação de intervalo:
 \begin{enumerate}[a)]
-\item $\{x \in \mathbb{R} \mid -2 < x \leq 4\}$
-\item $\left\{x \in \mathbb{R} \mid \frac{3}{4} \leq x < 7\right\}$
+\item $\{x \in \mathbb{Z} \mid -2 < x \leq 4\}$
+\item $\left\{x \in \mathbb{Q} \mid \frac{3}{4} \leq x < 7\right\}$
 \item $\left\{x \in \mathbb{R} \mid 1-\sqrt{2} < x < 1+\sqrt{2}\right\}$
 \item $\left\{x \in \mathbb{R} \mid x < \sqrt{5}\right\}$
 \item $\left\{x \in \mathbb{R} \mid x \geq -\sqrt{2}\right\}$
@@ -19,11 +20,13 @@
 
 \paragraph*{2. } Passe da notação de intervalo para notação de conjunto 
 \begin{enumerate}[a)]
-  \item $\left[-\frac{3}{5},\frac{2}{3}\right]$
-  \item $\left]-4,3\right]$
-  \item $\left[\sqrt{7},+\infty\right[$
-  \item $\left]-\infty, \sqrt{5}-1\right[$
+  \item $\left[-\frac{3}{5},\frac{2}{3}\right]$ em $\mathbb{Q}$
+  \item $\left]-4,3\right]$ em $\mathbb{Z}$
+  \item $\left[\sqrt{7},+\infty\right[$ em $\mathbb{R}$
+  \item $\left]-\infty, \sqrt{5}-1\right[$ em $\mathbb{R}$
 \end{enumerate} 
+
+\newpage
 
 \paragraph*{3. } Calcule as operações entre intervalos:
 \begin{enumerate}[a)]
@@ -34,12 +37,20 @@
 \item $\left[-\frac{3}{5},\frac{2}{3}\right] \cup [-2.3,0.75]$
 \item $\left[-\frac{3}{5},\frac{2}{3}\right] \cap (-2.3,0.75)$
 \item $(-\infty, \sqrt{3}] \cup [-1, 5)$
-\item $\left(-\frac{8}{3},3\right)\cap (-4,\infty)$
+\item $\left(-\frac{8}{3},3\right)\cap (2,\infty)$
 \item $(-\infty, 0) \cap (0, \infty)$
 \item $(-\infty, 0) \cup (0, \infty)$
 \item $(-\infty, 0] \setminus [-4, \infty)$
 \item $(-1, 3] \setminus  [-2, \sqrt{5}]$
 \end{enumerate}
 
- 
+
+ \vfill
+{\footnotesize\color{darkgray}
+  \paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.} a) $(-2,4[$, b) $\left[\frac{3}{4},7\right[$, c) $\left(1-\sqrt{2},1+\sqrt{2}\right)$, d) $\left]-\infty,\sqrt{5}\right)$, e) $\left[-\sqrt{2},\infty\right)$\\
+\textbf{2.} a) $\left\{x \in \mathbb{Q} \mid -\frac{3}{5} \leq x \leq \frac{2}{3}\right\}$, b) $\left\{x \in \mathbb{Z} \mid -4 < x \leq 3\right\}$, c) $\left\{x \in \mathbb{R} \mid x \geq \sqrt{7}\right\}$, d) $\left\{x \in \mathbb{R} \mid x < \sqrt{5}-1\right\}$\\
+\textbf{3.} a) $[1,4)$, b) $(2,3]$, c) $(-2,3]$, d) $[-1,\sqrt[]{5}]$, e) $\left[-2.3,0.75\right]$, f) $\left[-\frac{3}{5},\frac{2}{3}\right]$, g) $(-\infty,5)$, h) $(2,3)$, i) $\emptyset$, j) $\mathbb{R}^*$, k) $(-\infty,-4)$, l) $(\sqrt{5},3]$
+}
+
 \end{document}

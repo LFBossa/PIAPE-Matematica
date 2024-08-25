@@ -2,92 +2,92 @@
 \usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
 \usepackage{amsmath, amssymb, amsfonts}
 \usepackage{enumerate}
+\usepackage{tikz}
 \begin{document} 
 \section*{Piape Matemática} 
  
 \subsection*{Módulo I}
- 
-\subsection*{Exercícios Aula 03}
+\subsection*{Exercícios Aula 04}
 
-\paragraph{1.} Para os exercício que segue, considere os seguintes conjuntos:
-\begin{align*}
-P &= \{1,2,3,4,8\}\\
-Q &=  \{2,4,6\}\\
-R &= \{1,3,5\}
-\end{align*}
-%\[ P = \{1,2,3,4,8\}\] \[ Q =  \{2,4,6\}\] \[ R = \{1,3,5\}\]
-Calcule o que se pede. Represente o resultado em notação de diagramas de Venn.
+\paragraph{1.} Classifique as afirmações em verdadeiras ou falsas:
+\begin{enumerate}[a)]
+\item Todo número natural também é inteiro. 
+\item Todo número inteiro também é natural.  
+\item Existem números inteiros que não são naturais.
+\item Todo número racional é inteiro. 
+\item Todo número inteiro é racional.
+\item $\sqrt{2}$ é um número racional.
+\item $\sqrt{2} \notin \mathbb{Q}$.
+\item $\sqrt{2} \in \mathbb{R\backslash Q}$.
+\end{enumerate}
 
-\medskip
 
-\begin{minipage}[t]{0.45\columnwidth}
+\paragraph*{2. } As afirmações da questão 1 podem ser traduzidas em símbolos matemáticos. Associe os símbolos abaixo com as afirmações correspondentes:
+\begin{enumerate}[a)]
+  \item (\hspace{7mm}) $\sqrt{2} \in \mathbb{Q}$ 
+  \item (\hspace{7mm}) $\mathbb{Z} \subseteq \mathbb{Q}$
+  \item (\hspace{7mm}) $\mathbb{Q} \subseteq \mathbb{Z}$
+  \item (\hspace{7mm}) $\mathbb{Z} \subseteq \mathbb{N}$
+  \item (\hspace{7mm}) $\mathbb{N} \subseteq \mathbb{Z}$
+\end{enumerate}
+
+\paragraph*{3.} Dados os números abaixo, inclua eles no diagrama de Venn-Euler dos conjuntos numéricos:
+\begin{minipage}{0.48\columnwidth}
   \begin{enumerate}[a)]
-    \item \(P\cup Q\)
-    \item \(Q\cup R\)
-    \item \(P\cup Q \cup R\)
-    \item \(P\cap Q\)
-    \item \(Q\cap R\)
-  \end{enumerate}
-\end{minipage}\begin{minipage}[t]{0.45\columnwidth}
+    \item $-3$
+    \item $0$
+    \item $1,\!89$
+    \item $\frac{1}{2}$
+    \item $\sqrt{2}$
+  \end{enumerate}  
+\end{minipage}
+\begin{minipage}{0.48\columnwidth}
   \begin{enumerate}[a)]
     \setcounter{enumi}{5}
-    \item \(P\setminus Q\)
-    \item \(Q\setminus P\)
-    \item \(P\setminus R\)
-    \item \(R\cap P\)
-  \end{enumerate}
-\end{minipage} 
+    \item $\pi$
+    \item $\sqrt[3]{9}$
+    \item $\frac{20}{4}$
+    \item $\sqrt{-3}$
+    \item $-\frac{5}{4}$
+  \end{enumerate} 
+\end{minipage}
 
-\paragraph{2.} Calcule os tamanhos dos conjuntos
-\begin{enumerate}[a)]
-  \item \(|P\cup Q|\)
-  \item \(|P\cap Q|\)
-  \item \(|Q\cup R|\)
-  \item \(|Q\cap R|\)
-\end{enumerate}
-
-Verifique que em todos os casos, vale a relação
-\[|X\cup Y| = |X| + |Y| - |X\cap Y|\]
-
-
-\paragraph{3.} Em uma turma, as pessoas ou praticam natação ou praticam vôlei. Sabe-se que 20 pessoas praticam natação, 15 praticam vôlei e 5 praticam ambos. Quantas pessoas há na turma?
-
-
-\paragraph{4.} Uma turma possui 60 alunos. Destes, 40 praticam natação, 30 praticam vôlei e 20 praticam ambos. Quantos alunos não praticam nenhuma das duas atividades?
-
-\paragraph{5.} Luciana está em um supermercado representando uma marca de café e, a cada cliente que aborda, ela oferece uma amostra grátis de três tipos de café (X, Y e Z). Após a degustação, o cliente responde a uma enquete a respeito dos tipos de café que gostou. Após coletar as respostas de 400 clientes, ela concluiu que:
-\begin{itemize}
-  \setlength{\itemsep}{1pt}
-  \setlength{\itemindent}{1pt}
-  \item 184 clientes gostaram do tipo X;
-  \item 188 clientes gostaram do tipo Y;
-  \item 220 clientes gostaram do tipo Z;
-  \item 76 clientes gostaram dos tipos X e Y;
-  \item 84 clientes gostaram dos tipos X e Z;
-  \item 120 clientes gostaram dos tipos Y e Z; e,
-  \item 52 clientes não gostaram de nenhum dos tipos X, Y e Z.
-\end{itemize}
-Considerando as informações, qual o número de clientes que gostaram dos três tipos de café? Utilize a fórmula 
-\begin{multline*}
-|P\cup Q\cup R| = |P| + |Q| + |R| \\ - |P\cap Q| - |Q\cap R| - |R\cap P| \\ + |P\cap Q \cap R|
-\end{multline*} 
-
-
-\paragraph{6.} Essa é uma questão mais teórica: 
-\begin{enumerate}[a)] 
-\item Qual relação de inclusão entre os conjuntos \(P\), \(Q\) e \(P\cup Q\)?
-\item Qual relação de inclusão entre os conjuntos \(P\), \(Q\) e \(P\cap Q\)?
-\end{enumerate}
-
-
-\vfill
-
-{\footnotesize
-\paragraph*{Gabarito} \hspace*{\fill}\\
-\textbf{1.} a) \(P\cup Q = \{1,2,3,4,6,8\}\); b) \(Q\cup R = \{1,2,3,4,5,6\}\); c) \(P\cup Q \cup R = \{1,2,3,4,5,6,8\}\); d) \(P\cap Q = \{2,4\}\); e) \(Q\cap R = \emptyset\); f) \(P\setminus Q = \{1,3,8\}\); g) \(Q\setminus P = \{6\}\); h) \(P\setminus R = \{2,4,8\}\); i) \(R\cap P = \{1,3\}\)\\
-\textbf{2.} a) \(|P\cup Q| = 6\); b) \(|P\cap Q| = 2\); c) \(|Q\cup R| = 6\); d) \(|Q\cap R| = 0\)\\
-\textbf{3.} 30 pessoas; \textbf{4.} 10 alunos; \textbf{5.} 36 clientes\\
-\textbf{6.} a) \(P\subseteq P\cup Q\) e também $Q\subseteq P\cup Q$; b) \(P\cap Q\subseteq P\) e também \(P\cap Q\subseteq Q\)
+{\centering 
+\begin{tikzpicture}
+  \draw (-4,-4) rectangle (4,4);
+  \draw (0,0) circle (0.8);
+  \draw (0,0) circle (1.6);
+  \draw (0,0) circle (2.4);
+  \draw (-3.1,-3.1) rectangle (3.1,3.1);
+  \node at (0,0) {$\mathbb{N}$};
+  \node at (0.8,0.8) {$\mathbb{Z}$};
+  \node at (1.5,1.5) {$\mathbb{Q}$};
+  \node at (2.2,2.2) {$\mathbb{R}$};
+  \node at (3.5,3.5) {$\mathbb{C}$};
+\end{tikzpicture}
 }
 
+\vfill
+% REMOVER OPERAÇÕES COM FRAÇÕES
+
+{\footnotesize\color{darkgray}
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.} a) Verdadeira; b) Falsa; c) Verdadeira; d) Falsa; e) Verdadeira; f) Falsa; g) Verdadeira; h) Verdadeira\\ 
+\textbf{2.} a) f); b) e); c) b); d) c); e) d)\\
+\textbf{3.}
+\begin{flushright}
+  \begin{tikzpicture}[scale=0.5,every node/.style={scale=0.5}]
+    \draw (-4,-4) rectangle (4,4);
+    \draw (0,0) circle (0.8);
+    \draw (0,0) circle (1.6);
+    \draw (0,0) circle (2.4);
+    \draw (-3.1,-3.1) rectangle (3.1,3.1);
+    \node at (0,0) {$\mathbb{N}$};
+    \node at (0.8,0.8) {$\mathbb{Z}$};
+    \node at (1.5,1.5) {$\mathbb{Q}$};
+    \node at (2.2,2.2) {$\mathbb{R}$};
+    \node at (3.5,3.5) {$\mathbb{C}$};
+  \end{tikzpicture}
+\end{flushright}
+}
 \end{document}
