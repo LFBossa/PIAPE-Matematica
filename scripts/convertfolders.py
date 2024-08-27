@@ -5,7 +5,7 @@ PROJECT_HOME = Path(__file__).parent.parent
 
 DOCS_FOLDER = PROJECT_HOME / 'docs'
 
-CREATE_SLIDES_FOLDERS = ['02-algebra', '03-equacoes', '04-funcoes']
+CREATE_SLIDES_FOLDERS = ['01-conjuntos']
 
 def iterate_over_folders():
     for directory in CREATE_SLIDES_FOLDERS:
@@ -66,5 +66,5 @@ def create_slides(file: Path):
 
 if __name__ == '__main__':
     for file in iterate_over_folders():
-        add_slides_questions_links(file)
         create_slides(file)
+        add_slides_questions_links(file)
