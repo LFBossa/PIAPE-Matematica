@@ -75,3 +75,10 @@ Mas matemáticos não gostam de radicais no denominador. Então precisamos encon
 Nesse caso, basta multiplicar numerador e denominador por $\sqrt{2}$ e utilizar o fato de que $\sqrt{2}^2 = 2$
 
 $$\frac{3}{\sqrt{2}} = \frac{3\cdot \sqrt{2}}{\sqrt{2}\cdot\sqrt{2}} = \frac{3\sqrt{2}}{2}$$
+
+---
+
+<div class="grid cards" markdown>
+ - [Slides :material-presentation-play:](./aula03-slides.md)
+ - [Exercícios :writing_hand:](./questoes03.pdf)
+</div>
