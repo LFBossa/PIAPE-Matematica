@@ -137,14 +137,40 @@ $$5,75 = \frac{23}{4}$$
 
 No caso de uma dízima periódica, precisamos de um truque para nos livrarmos do período que repete.
 
+Exemplo
+$$ 0,4444\ldots$$
 
+--
+
+Chamando $x = 0,444\ldots$, podemos usar uma propriedade dos "números com vírgula":
+
+- Multiplicar por 10 desloca a vírgula para a direita
+
+Então $$10x = 4,444\ldots$$
+
+--
+
+Assim, fazendo $10x - x$ obtemos
+
+|    |    |    |
+|---:| --- | ---|
+| $10x$ | =  | 4,444|
+|  $1x$ | =  | 0,444|
+|  $9x$ | =  | 4 |
+
+Ou seja, $x = \frac{4}{9}$
 
 ---
 
 ## Racionalização
 
 Por definição, uma expressão do tipo $$\frac{3}{\sqrt{2}}$$ _não é_ uma fração. Mas podemos trabalhar com ela como se fosse. 
-Mas matemáticos não gostam de radicais no denominador. Então precisamos encontrar uma fração equivalente que não tenha um radical no denominador. 
+
+--
+
+Matemáticos não gostam de radicais no denominador. Então precisamos encontrar uma fração equivalente que não tenha um radical no denominador. 
+
+--
 
 Nesse caso, basta multiplicar numerador e denominador por $\sqrt{2}$ e utilizar o fato de que $\sqrt{2}^2 = 2$
 
