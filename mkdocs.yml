@@ -1,4 +1,5 @@
 site_name: PIAPE Matemática 
+site_url: https://lfbossa.github.io/PIAPE-Matematica/
 theme:
   name: material
   features:
@@ -45,10 +46,10 @@ extra:
     provider: google
     property: G-5762BCN6VV
 reveal:
-  path: /reveal.js/dist
+  path: reveal.js/dist
   transition: convex
   theme:
     name: dracula.css
     path: theme
   plugin:
-    path: /reveal.js/plugin
+    path: reveal.js/plugin
