@@ -7,15 +7,15 @@ search:
 
 ---
 
-![Tabuleiro](/01-conjuntos/img/aula00-tabuleiro.jpg)
+![Tabuleiro](./01-conjuntos/img/aula00-tabuleiro.jpg)
 
 --
 
-![Damas](/01-conjuntos/img/aula00-damas.jpg)
+![Damas](./01-conjuntos/img/aula00-damas.jpg)
 
 --
 
-![Xadrez](/01-conjuntos/img/aula00-xadrez.jpg)
+![Xadrez](./01-conjuntos/img/aula00-xadrez.jpg)
 
 ---
 
@@ -51,7 +51,7 @@ Se modificarmos o _Axioma das Paralelas_, damos origens a outros tipos de geomet
 
 --
 
-![Geometrias](/01-conjuntos/img/aula00-geometrias.jpeg)
+![Geometrias](./01-conjuntos/img/aula00-geometrias.jpeg)
 
 
 ---
@@ -390,4 +390,4 @@ O argumento acima é inválido.
 ---
 
 
-[Voltar ao conteúdo](/01-conjuntos/aula00) 
+[Voltar ao conteúdo](./01-conjuntos/aula00) 
