@@ -38,20 +38,20 @@ As **oficinas** e **minicursos** são atividades pontuais, com duração entre 2
 ### Módulo I: Eu já deveria saber isso?
 
 Fundamentos da matemática que dão base para todo o resto: lógica, conjuntos, intervalos, números.
-
+<!--
 > [Link para se inscrever no Módulo I :fontawesome-solid-link:](https://inscricoes.ufsc.br/piapeblumatematicam1242)
-
+-->
 
 ??? abstract "Cronograma Módulo I"
 
-    | Aula | Assunto                                      | Data   |
+    | Aula | Assunto                                        | Data   |
     |--------|----------------------------------------------|--------|
-    | 1      | Lógica básica aplicada a matemática           | 04/09  |
-    | 2      | Elementos, conjuntos, pertinência            | 09/09  |
+    | 1      | Lógica básica aplicada a matemática          | 04/09  |
+    | 2      | Conjuntos e operações                        | 09/09  |
     | 3      | Conjuntos numéricos                          | 11/09  |
-    | 4      | Intervalos                                   | 16/09  |
-    | 5      | Números reais                                | 18/09  |
-    | 6      | Frações                                      | 23/09  |
+    | 4      | Frações                                      | 16/09  |
+    | 5      | Intervalos                                   | 18/09  |
+    | 6      | Números reais                                | 23/09  |
 
 
 ### Módulo II: Malabarismos algébricos
@@ -171,3 +171,5 @@ na sala A107 nos seguintes horários
 | :--------:    | :------:      | :-------:     |
 |               | 12h30 - 13h30 | 12h30 - 13h30 |
 | 17h30 - 18h30 | 17h30 - 18h30 | 17h30 - 18h30 |
+
+Para um conjunto detalhado de datas, veja o [Cronograma de Plantões de Dúvidas](https://docs.google.com/spreadsheets/d/1fOB-lBKupHONJbljWhVBt9CPQdrx7YAGkTmrKGrk2Hs/edit?gid=2011318317#gid=2011318317)
