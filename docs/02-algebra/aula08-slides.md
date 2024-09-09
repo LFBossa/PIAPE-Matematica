@@ -47,13 +47,22 @@ $$2x+4 = A(x-3) + B(x-2)$$
 
 Escolhendo uns valores "espertos" de $x$, obtemos os valores de $A$ e $B$. Fazendo $x=2$ temos
 
-$$2\cdot 2 + 4 = A(2-3) + B(2-2) \Rightarrow 8 = -A$$
+$$
+\begin{align*}
+2\cdot 2 + 4 &= A(2-3) + B(2-2) \\\\
+8 &= -A
+\end{align*}$$
 
 --
 
 Fazendo $x=3$ temos
 
-$$2\cdot 3 + 4 = A(3-3) + B(3-2) \Rightarrow 10 = B$$
+$$
+\begin{align*}
+2\cdot 3 + 4 &= A(3-3) + B(3-2) \\\\
+10 &= B
+\end{align*}$$
+
 
 --
 
@@ -82,21 +91,26 @@ $$\frac{P(x)}{Q(x)} = \frac{Ax + B}{x^2 + pq + q}$$
 
 No caso de $Q(x)$ ter grau maior do que 2, aplicamos as regras acima para cada fator que aparecer no denominador. 
 
-Vamos supor que $Q(x)$ seja fatorado em $(x-2)(x-1)^2(x^2+1)$
+Vamos supor que $Q(x)$ seja fatorado em $$(x-2)(x-1)^2(x^2+1)$$
 
 ---
 
-Para o fator $x-2$ aplicamos o Caso 1, para o fator $(x-1)^2$ aplicamos o Caso 2 e para $x^1+1$ aplicamos o Caso 3, obtendo
+Para o fator $x-2$ aplicamos o Caso 1, para o fator $(x-1)^2$ aplicamos o Caso 2 e para $x^2+1$ aplicamos o Caso 3, obtendo
 
-$$\frac{P(x)}{(x-2)(x-1)^2(x^2+1)} = \frac{A}{x-2} + \frac{B}{x-1} + \frac{C}{(x-1)^2} + \frac{Dx+E}{x^2+1}$$
+--
+
+$$
+\begin{gather*}
+\frac{P(x)}{(x-2)(x-1)^2(x^2+1)} = \\\\[2ex]
+= \frac{A}{x-2} + \frac{B}{x-1} + \frac{C}{(x-1)^2} + \frac{Dx+E}{x^2+1}
+\end{gather*}
+$$
 
 
 
-[Referência](https://lemas.furg.br/images/parte1.pdf)
+<!-- [Referência](https://lemas.furg.br/images/parte1.pdf) -->
 
 ---
 
-<div class="grid cards" markdown>
- - [Slides :material-presentation-play:](./aula08-slides.md)
- - [Exercícios :writing_hand:](./questoes08.pdf)
-</div>
+[Voltar ao conteúdo](./02-algebra/aula08)
+
