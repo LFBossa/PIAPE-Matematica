@@ -36,6 +36,38 @@ $$4x = 16$$
 Agora, para isolar o $x$ completamente, precisamos nos livrar do fator 4. Podemos dividir ambos os lados da equação por $4$ (ou de modo equivalente, multiplicamos ambos os lados por $\frac{1}{4}$). 
 
 
+## Equações de segundo grau
+
+Resolvemos utilizando a fórmula de Bashkara.
+
+A equação $$ax^2 + bx + c = 0$$ tem soluções dadas por
+$$\begin{align*}
+x = \frac{-b\pm \sqrt{\Delta}}{2a} \qquad \Delta = b^2 - 4ac
+\end{align*}$$
+
+
+Conforme o sinal de $\Delta$, podemos ter
+
+| Caso | Soluções |
+| ---- | --------: |
+| $\Delta > 0$ | 2 soluções em $\mathbb{R}$ |
+| $\Delta = 0$ | 1 solução em $\mathbb{R}$ |
+| $\Delta < 0$ | 2 soluções em $\mathbb{C}$ |
+
+
+
+### Soma e produto
+
+Outra maneira de solucionar uma equação do segundo grau é através da soma e produto das raízes, dada pelas Relações de Girard.
+
+
+Se equação $$x^2 + px + q = 0$$ tem raízes $x'$ e $x''$, então 
+
+$$\begin{align*}
+x' + x''  &= -p & (\text{a soma é }-b)\\\\
+x'\cdot x'' &= q & (\text{o produto é }c)
+\end{align*}$$
+
 ---
 
 <div class="grid cards" markdown>
