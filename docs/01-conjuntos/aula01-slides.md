@@ -138,7 +138,7 @@ Podemos representar o conjunto $A = \\{a,b,c,d,e\\}$ listando seus elementos e a
 
 --
 
-<img src="/01-conjuntos/img/aula01-img01.svg" height="600vh"/>
+<img src="./01-conjuntos/img/aula01-img01.svg" height="600vh"/>
 
 ---
 
@@ -146,7 +146,7 @@ Se quisermos representar o conjunto $A = \\{a,b,c\\}$ juntamente com o conjunto 
 
 --
 
-![Diagrama A contido em B](/01-conjuntos/img/aula01-img02.svg )
+![Diagrama A contido em B](./01-conjuntos/img/aula01-img02.svg )
 
 Agora temos uma maneira visual de entender que $A\subseteq B$.
 
@@ -156,7 +156,7 @@ Se quisermos representar o conjunto $A = \\{a,e,i,o,u\\}$ juntamente com o conju
 
 --
 
-<img src="/01-conjuntos/img/aula01-img03.svg" height="600vh"/>
+<img src="./01-conjuntos/img/aula01-img03.svg" height="600vh"/>
 
 ---
 
@@ -178,7 +178,7 @@ Podemos reunir todos os elementos de um conjunto pela união. Utilizamos o símb
 
 Podemos a representação utilizando diagramas de Venn é a seguinte:
 
-<img src="/01-conjuntos/img/aula02-img01.svg" width="600" />
+<img src="./01-conjuntos/img/aula02-img01.svg" width="600" />
 
 ---
 
@@ -193,7 +193,7 @@ Podemos considerar apenas os elementos que estão nos dois conjuntos ao mesmo te
 
 Podemos visualizar da seguinte forma
 
-<img src="/01-conjuntos/img/aula02-img02.svg" width="600" />
+<img src="./01-conjuntos/img/aula02-img02.svg" width="600" />
 
 ---
 
@@ -208,7 +208,7 @@ Podemos considerar apenas os elementos que estão nos dois conjuntos ao mesmo te
 
 Podemos visualizar da seguinte forma
 
-<img src="/01-conjuntos/img/aula02-img03.svg" width="600" />
+<img src="./01-conjuntos/img/aula02-img03.svg" width="600" />
  
 
 ---
