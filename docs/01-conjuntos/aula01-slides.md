@@ -223,4 +223,4 @@ $$|A\cup B| = |A| + |B| - |A\cap B| $$
 
 ---
 
-[Voltar ao conteúdo](/01-conjuntos/aula01) 
+[Voltar ao conteúdo](./01-conjuntos/aula01) 

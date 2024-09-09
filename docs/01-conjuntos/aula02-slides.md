@@ -110,7 +110,7 @@ Numa reta horizontal, fixamos o $0$ como origem. Dada uma unidade de medida $u$,
 
 --
 
-<img src="/01-conjuntos/img/aula03-img01.svg" width="600"/>
+<img src="./01-conjuntos/img/aula03-img01.svg" width="600"/>
 
 ---
 
@@ -208,7 +208,7 @@ Note que para qualquer inteiro $a\in\mathbb{Z}$ a fração $\frac{a}{1}$ se comp
 
 Os racionais preenchem mais a reta do que os inteiros, completando algumas lacunas entre os inteiros.
 
-<img src="01-conjuntos/img/aula03-img02.svg" width="600"/>
+<img src="./01-conjuntos/img/aula03-img02.svg" width="600"/>
 
 ---
 
@@ -263,3 +263,6 @@ Assim,
 - $\mathbb{Z}_+ = \\{0,1,2,3,4,\ldots\\}$ é o conjunto dos inteiros não negativos, que é igual a $\mathbb{N}$.
 - $\mathbb{Q}_-^*$ é o conjunto dos racionais negativos.
  
+---
+
+[Voltar ao conteúdo](./01-conjuntos/aula02) 

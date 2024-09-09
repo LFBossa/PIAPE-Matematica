@@ -175,3 +175,8 @@ Matemáticos não gostam de radicais no denominador. Então precisamos encontrar
 Nesse caso, basta multiplicar numerador e denominador por $\sqrt{2}$ e utilizar o fato de que $\sqrt{2}^2 = 2$
 
 $$\frac{3}{\sqrt{2}} = \frac{3\cdot \sqrt{2}}{\sqrt{2}\cdot\sqrt{2}} = \frac{3\sqrt{2}}{2}$$
+
+---
+
+
+[Voltar ao conteúdo](./01-conjuntos/aula03) 

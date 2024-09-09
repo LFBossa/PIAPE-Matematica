@@ -65,7 +65,7 @@ Podemos representar um intervalo na reta numérica destacando seus extremos e se
 
 $]a,b[$ ou $(a,b)$
 
-<img title="Intervalo aberto"  width="600" src="/01-conjuntos/img/aula04-img01.svg"/>
+<img title="Intervalo aberto"  width="600" src="./01-conjuntos/img/aula04-img01.svg"/>
 
 --
 
@@ -73,7 +73,7 @@ $]a,b[$ ou $(a,b)$
 
 $[a,b]$
 
-<img title="Intervalo fechado" width="600" src="/01-conjuntos/img/aula04-img02.svg"/>
+<img title="Intervalo fechado" width="600" src="./01-conjuntos/img/aula04-img02.svg"/>
 
 --
 
@@ -81,7 +81,7 @@ $[a,b]$
 
 $[a,b[$ ou $[a,b)$
 
-<img title="Intervalo aberto" width="600" src="/01-conjuntos/./img/aula04-img03.svg"/>
+<img title="Intervalo aberto" width="600" src="./01-conjuntos/./img/aula04-img03.svg"/>
 
 --
 
@@ -89,7 +89,7 @@ $[a,b[$ ou $[a,b)$
 
 $]a,b]$ ou $(a,b]$
 
-<img title="Intervalo aberto" width="600" src="/01-conjuntos/./img/aula04-img04.svg"/>
+<img title="Intervalo aberto" width="600" src="./01-conjuntos/./img/aula04-img04.svg"/>
 
 ---
 
@@ -127,7 +127,7 @@ São intervalos limitados em apenas um dos extremos. O extremo ilimitado é repr
 
 $$[a,\infty[ = [a,\infty)= \\{x\in\mathbb{B}\mid x \ge a \\}$$
 
-<img title="Intervalo ilimitado à direita" width="600" src="/01-conjuntos/img/aula04-img0a.svg"/>
+<img title="Intervalo ilimitado à direita" width="600" src="./01-conjuntos/img/aula04-img0a.svg"/>
 
 --
 
@@ -135,7 +135,7 @@ $$[a,\infty[ = [a,\infty)= \\{x\in\mathbb{B}\mid x \ge a \\}$$
 
 $$]-\infty,a] = (-\infty,a] = \\{x\in\mathbb{B}\mid x \le a \\}$$
 
-<img title="Intervalo ilimitado à esquerda" width="600" src="/01-conjuntos/img/aula04-img0b.svg"/>
+<img title="Intervalo ilimitado à esquerda" width="600" src="./01-conjuntos/img/aula04-img0b.svg"/>
 
 ---
 
@@ -149,7 +149,7 @@ Para calcular a interseção dos intervalos $[-2,2[$ e $[0,3]$, desenhamos um em
 
 --
 
-<img title="Interseção de intervalos" width="600" src="/01-conjuntos/./img/aula04-img05.svg"/>
+<img title="Interseção de intervalos" width="600" src="./01-conjuntos/./img/aula04-img05.svg"/>
 
 Assim, obtemos
 
@@ -159,9 +159,13 @@ $$ [-2,2[\cap[0,3] = [0,2[$$
 
 Se quiséssemos calcular a união, bastaria marcar a região que está em qualquer um dos conjuntos
 
-<img title="União de intervalos" width="600" src="/01-conjuntos/./img/aula04-img06.svg"/>
+<img title="União de intervalos" width="600" src="./01-conjuntos/./img/aula04-img06.svg"/>
 
 
 Assim, obtemos
 
 $$ [-2,2[\cup[0,3] = [-2,3]$$
+
+---
+
+[Voltar ao conteúdo](./01-conjuntos/aula04) 
