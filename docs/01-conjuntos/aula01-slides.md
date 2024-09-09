@@ -3,7 +3,7 @@ template: reveal.html
 search:
   exclude: true
 ---
-# Elementos, Conjuntos e pertinência
+# Conjuntos e operações
 
 ---
 
