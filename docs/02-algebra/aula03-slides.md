@@ -77,3 +77,6 @@ $$(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$$
 $$(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$$
  
 
+---
+
+[Voltar ao conteúdo](./02-algebra/aula03)
