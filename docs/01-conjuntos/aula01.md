@@ -106,7 +106,7 @@ Podemos a representação utilizando diagramas de Venn é a seguinte:
 
 Podemos considerar apenas os elementos que estão nos dois conjuntos ao mesmo tempo. Utilizamos o símbolo $\cap$.
 
-> $A\cap B $= { elementos que pertencem a $A$ e também pertencem a $B$ }
+> $A\cap B$= { elementos que pertencem a $A$ e também pertencem a $B$ }
 
 Podemos visualizar da seguinte forma
 
