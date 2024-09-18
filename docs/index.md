@@ -11,6 +11,9 @@ Desenvolvido por [L. F. Bossa](http://lattes.cnpq.br/8752951792540460).
 
 [:simple-moodle: Acesse o Moodle Grupos do PIAPE Matemática](https://grupos.moodle.ufsc.br/course/view.php?id=4106){ .md-button }
 
+[:material-web: Acesse o calendário de atividades na página do NUPE](https://nupe.blumenau.ufsc.br/piape-pedagogico-e-educacional/piape-calendario-atividades/){ .md-button }
+
+
 ## Atividades :writing_hand:
 
 Os **módulos** são atividades contínuas, 2 vezes na semana, com duração entre 3 e 4 semanas. Acontecem sempre segundas e quartas, das 12h30 até as 13h30, na sala A107.
