@@ -39,6 +39,14 @@ $$x^2 + ax$$
 
 Que pode ser interpretada como a soma de áreas de um quadrado de lado $x$ e de um retângulo de lados $a$ e $x$. 
 
+--
+
+![Interpretação com áreas](./02-algebra/img/aula07-img01.svg)
+
+--
+
+![Cortando na metade](./02-algebra/img/aula07-img02.svg)
+
 ---
 
 ## Resolvendo equação de segundo grau
