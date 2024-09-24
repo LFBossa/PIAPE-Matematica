@@ -3,7 +3,10 @@ template: reveal.html
 search:
   exclude: true
 ---
-# Expressões algébricas e seus elementos
+# Expressões algébricas 
+
+e seus elementos
+
 ---
 
 Expressões algébricas nada mais são do que as "continhas com letras".
@@ -108,13 +111,13 @@ $$ -3xy + 4xy = 1xy $$
 
 --
 
-Se as partes literais não forem indêntidas, não podemos fazer nada a não ser escrever uma expressão seguida da outra
+Se as partes literais não forem indênticas, não podemos fazer nada a não ser escrever uma expressão seguida da outra
 
 $$  4ab^2c + 7a^2bc $$
 
 $$ -3xy + 4yx = 1xy $$
 
-Note que, pela comutatividade, $xy = x\cdot y = y\cdot x = yx$.
+<!-- Note que, pela comutatividade, $xy = x\cdot y = y\cdot x = yx$. -->
 
 ---
 
