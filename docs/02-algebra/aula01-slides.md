@@ -105,6 +105,21 @@ E usando a propriedade de potência de potência, temos o caso geral
 
 $$a^{\frac{m}{n}} = \sqrt[n]{a^m}$$
 
+
+---
+
+## Outras propriedades
+
+Todas as propriedades acima foram deduzidas para uma potência de uma base só. 
+
+Podemos utilizar a propriedade comutativa da multiplicação para obter a seguinte propriedade envolvendo potências de multiplicações.
+
+--
+
+### Potência de um produto
+
+$$(a\cdot b)^n = a^n\cdot b^n$$
+
 ---
 
 [Voltar ao conteúdo](./02-algebra/aula01)
