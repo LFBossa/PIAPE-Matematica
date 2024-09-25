@@ -47,6 +47,14 @@ Que pode ser interpretada como a soma de áreas de um quadrado de lado $x$ e de 
 
 ![Cortando na metade](./02-algebra/img/aula07-img02.svg)
 
+--
+
+![Ajustando a metade](./02-algebra/img/aula07-img03.svg)
+
+--
+
+![Quem falta](./02-algebra/img/aula07-img04.svg)
+
 ---
 
 ## Resolvendo equação de segundo grau

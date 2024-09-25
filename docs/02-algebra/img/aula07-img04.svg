@@ -7,12 +7,13 @@
     <rect x="280" y="50" width="64" height="200" fill="green" stroke="black" stroke-width="1"/>
      
     <text x="270" y="150" font-family="Verdana" font-size="20" fill="black" text-anchor="middle">x</text>
-    <text x="330" y="40" font-family="Verdana" font-size="20" fill="black" text-anchor="middle">a/2</text>
+    <text x="320" y="40" font-family="Verdana" font-size="20" fill="black" text-anchor="middle">a/2</text>
 
     <rect x="50" y="280" width="200" height="64" fill="green" stroke="black" stroke-width="1"/>
     <text x="35" y="320" font-family="Verdana" font-size="20" fill="black" text-anchor="middle">a/2</text>
 
-    <!-- <path d="M 380 30 L 380 280" stroke="black" stroke-dasharray="3" stroke-width="1" fill="none"/> -->
+    <rect x="280" y="280" width="64" height="64" fill="none" stroke-dasharray="4" stroke="darkgreen" stroke-width="1"/>
 
+    <text x="312" y="320" font-family="Verdana" font-size="32" fill="darkgreen" text-anchor="middle">?</text>
     
  </svg>
