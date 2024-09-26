@@ -133,4 +133,47 @@ Note que a variável $c$ não aparece na primeira expressão, mas aparece no res
 
 ---
 
+### Distributividade
+
+Usamos a propriedade distributiva para trabalhar em casos mais complexos.
+
+$$a\cdot(b+c) = a\cdot b + a\cdot c$$
+
+![Distributividade 1](./02-algebra/img/aula02-img01.svg)
+
+--
+
+### Tabela de distributividade
+
+Para multiplicações com muitos termos, pode ser útil utilizar uma tabela
+
+$$(3b - 1)(2+3b-2a)$$
+
+- primeiro fator nas linhas
+- segundo fator nas colunas
+- multiplica linha por coluna
+
+--
+
+|$\cdot$ | $2$ | $3b$ | $-2a$ |
+| ------ | ---- | ----- | ---- | 
+| $3b$   |      |       |      |
+| $-1 $  |      |       |      | 
+
+--
+
+|$\cdot$ | $2$  | $3b$  | $-2a$  |
+| ------ | ---- | ----- | ----   | 
+| $3b$   | $6b$ |$9b^2$ | $-6ab$ |
+| $-1 $  | $-2$ | $-3b$ |  $2a$  | 
+
+Daí basta somar os termos com mesma parte literal para obter
+
+--
+
+$$(3b - 1)(2+3b-2a) = 9b^2 - 6ab + 2a + 3b - 2 $$
+
+
+---
+
 [Voltar ao conteúdo](./02-algebra/aula02)
