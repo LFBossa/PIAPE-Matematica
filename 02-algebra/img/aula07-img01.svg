@@ -1,0 +1,12 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="background: white;" width="500" height="300">
+    
+<rect x="50" y="50" width="200" height="200" fill="blue" stroke="black" stroke-width="1"/>
+<text x="150" y="150" font-family="Verdana" font-size="20" fill="white" text-anchor="middle">x²</text>
+<text x="40" y="150" font-family="Verdana" font-size="20" fill="black" text-anchor="middle">x</text>
+<text x="150" y="40" font-family="Verdana" font-size="20" fill="black" text-anchor="middle">x</text>
+<rect x="300" y="50" width="128" height="200" fill="green" stroke="black" stroke-width="1"/>
+<text x="364" y="150" font-family="Verdana" font-size="20" fill="white" text-anchor="middle">ax</text>
+<text x="290" y="150" font-family="Verdana" font-size="20" fill="black" text-anchor="middle">x</text>
+<text x="360" y="40" font-family="Verdana" font-size="20" fill="black" text-anchor="middle">a</text>
+
+</svg>

@@ -23,7 +23,10 @@
              data-separator-vertical="^\n--\n$"
              data-notes="^Note:">
       <script type="text/template">
-        # Expressões algébricas e seus elementos
+        # Expressões algébricas 
+
+e seus elementos
+
 ---
 
 Expressões algébricas nada mais são do que as "continhas com letras".
@@ -128,13 +131,13 @@ $$ -3xy + 4xy = 1xy $$
 
 --
 
-Se as partes literais não forem indêntidas, não podemos fazer nada a não ser escrever uma expressão seguida da outra
+Se as partes literais não forem indênticas, não podemos fazer nada a não ser escrever uma expressão seguida da outra
 
 $$  4ab^2c + 7a^2bc $$
 
 $$ -3xy + 4yx = 1xy $$
 
-Note que, pela comutatividade, $xy = x\cdot y = y\cdot x = yx$.
+<!-- Note que, pela comutatividade, $xy = x\cdot y = y\cdot x = yx$. -->
 
 ---
 
@@ -147,6 +150,49 @@ $$ 2ab^2\ \cdot \ 3a^2b = 6 a^3b^3$$
 $$ -1a^2b\ \cdot \ 4 ab^3c = -4 a^3b^4c $$ 
 
 Note que a variável $c$ não aparece na primeira expressão, mas aparece no resultado. 
+
+---
+
+### Distributividade
+
+Usamos a propriedade distributiva para trabalhar em casos mais complexos.
+
+$$a\cdot(b+c) = a\cdot b + a\cdot c$$
+
+![Distributividade 1](./02-algebra/img/aula02-img01.svg)
+
+--
+
+### Tabela de distributividade
+
+Para multiplicações com muitos termos, pode ser útil utilizar uma tabela
+
+$$(3b - 1)(2+3b-2a)$$
+
+- primeiro fator nas linhas
+- segundo fator nas colunas
+- multiplica linha por coluna
+
+--
+
+|$\cdot$ | $2$ | $3b$ | $-2a$ |
+| ------ | ---- | ----- | ---- | 
+| $3b$   |      |       |      |
+| $-1 $  |      |       |      | 
+
+--
+
+|$\cdot$ | $2$  | $3b$  | $-2a$  |
+| ------ | ---- | ----- | ----   | 
+| $3b$   | $6b$ |$9b^2$ | $-6ab$ |
+| $-1 $  | $-2$ | $-3b$ |  $2a$  | 
+
+Daí basta somar os termos com mesma parte literal para obter
+
+--
+
+$$(3b - 1)(2+3b-2a) = 9b^2 - 6ab + 2a + 3b - 2 $$
+
 
 ---
 
