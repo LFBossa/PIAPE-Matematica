@@ -26,6 +26,22 @@ Que pode ser interpretada como a soma de áreas de um quadrado de lado $x$ e de 
 
 
 
+
+![Interpretação com áreas](./img/aula07-img01.svg)
+
+
+
+![Cortando na metade](./img/aula07-img02.svg)
+
+
+
+![Ajustando a metade](./img/aula07-img03.svg)
+
+
+
+![Quem falta](./img/aula07-img04.svg)
+
+
 ## Resolvendo equação de segundo grau
 
 Como poderíamos resolver a equação 
