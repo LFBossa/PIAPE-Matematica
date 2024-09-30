@@ -3,7 +3,7 @@ template: reveal.html
 search:
   exclude: true
 ---
-# Raízes numéricas
+# Raízes
 
 ---
 

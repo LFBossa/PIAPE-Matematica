@@ -1,4 +1,4 @@
-# Raízes numéricas
+# Raízes
 
 Definição de raíz n-ésima
 
