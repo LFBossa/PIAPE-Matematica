@@ -11,7 +11,7 @@ Portanto, _fatorar_ uma expressão, consiste em trasformar ela em um produto de 
 **Fatorar**
 : transformar uma expressão em fatores
 
-**Expandir/abrir a expressão**
+**Expandir**
 : calcular o produto dos fatores
 
 ```mermaid
@@ -47,6 +47,10 @@ $$(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$$
 ### Cubo da diferença
 
 $$(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$$
+
+### Diferença de cubos
+
+$$a^3 - b^3 = (a-b)(a^2+ab +b^2)$$
 
 ---
 
