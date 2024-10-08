@@ -58,6 +58,22 @@ Alguns polinômios possuem fórmulas para encontrar suas raízes através dos se
 Relacionam as raízes de um polinômio com seus coeficientes. 
 
 
+Sendo
+$$p(x) = x^3 + ax^2 + bx + c$$
+podemos supor que $p$ tenha raízes $r_1, r_2, r_3$, de modo que 
+$$p(x) = (x-r_1)(x-r_2)(x-r_3)$$
+
+
+Deselvolvendo a segunda fórmula, obtemos as igualdades
+
+$$\begin{align*}
+a &= -(r_1 + r_2 + r_3) & \text{-soma das raízes}\\
+b &= r_1r_2 + r_2r_3 + r_3r_1 & \text{soma dos produtos 2 a 2} \\
+c &= -r_1r_2r_3 & \text{-produto das raízes}
+\end{align*}
+$$
+
+
 ---
 
 <div class="grid cards" markdown>
