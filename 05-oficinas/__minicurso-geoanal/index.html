@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="https://lfbossa.github.io/PIAPE-Matematica/">
+  <link rel="canonical" href="https://lfbossa.github.io/PIAPE-Matematica/">
+
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/dracula.css"
+        id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown
+             data-separator="^\n---\n$"
+             data-separator-vertical="^\n--\n$"
+             data-notes="^Note:">
+      <script type="text/template">
+        # O Básico da Geometria Analítica
+
+---
+
+## Sistemas de coordenadas
+
+--
+
+![](https://nopontosc.com.br/wp-content/uploads/2023/09/retorno-para-casa-numero-de-veiculos-trafegando-na-br-101-deve-superar-expectativa.jpg)
+
+--
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGR0gSgCfXwaz8191eIBQx5E89A-aX9eiSZA&s)
+
+--
+
+![](https://portalmakingof.com.br/wp-content/uploads/2023/08/BR-101-nova.jpg)
+
+---
+
+Um **sistema de coordenadas** mais é do que um sistema no qual temos uma _origem_ e uma _numeração_ para nos localizarmos nesse sistema.
+
+---
+
+De quantas coordenadas precisamos?
+
+---
+
+![Xadrez](https://www.scalibu.com/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/2/0/2050000.jpg)
+
+---
+
+## O plano cartesiano
+
+--
+
+![Plano cartesiano](https://blog.professorferretto.com.br/wp-content/uploads/2018/07/T1-plano-cartesiano.png)
+
+--
+
+Os pontos são representados por um par de coordenadas $(x,y)$
+
+- Eixo $x$: eixo das _abscissas_
+- Eixo $y$: eixo das _ordenadas_
+
+---
+
+## Vetores
+
+Assim como pontos representam locais no plano, vetores representam _deslocamentos_.
+
+--
+
+$\vec u = (2,-1)$ 
+
+representa um deslocamento 2 unidades em $x$ e $-1$ unidade em $y$
+
+---
+
+## Algumas regras sobre vetores
+
+- Você pode somar vetores
+- Você pode multiplicar vetores por números
+- Você pode somar um vetor a um ponto e obter um novo ponto
+
+--
+
+Ponto + Vetor = Novo Ponto
+
+(ou, de outra maneira)
+
+`Posição inicial  + Vetor = Posição final`
+
+--
+
+Assim, o vetor que leva o ponto $A$ até o ponto $B$, denotado por $\vec{AB}$ tem que satisfazer a propriedade
+
+$$A + \vec{AB} = B$$
+
+$$\vec{AB} = B - A$$
+
+---
+
+## Distâncias
+
+A distância de um ponto $A$ até um ponto $B$ pode ser calculada medindo o tamanho do vetor deslocamento $\vec{AB}$.
+
+Chamamos o tamanho de um vetor de _norma_ e denotamos por $\\|\vec{AB}\\|$.
+
+--
+
+Se $\vec{AB} = (x,y)$, o Teorema de Pitágoras garante que 
+
+$$\\|\vec{AB}\\|^2 = x^2 + y^2$$
+
+ou seja, 
+
+$$\\|\vec{AB}\\| = \sqrt{x^2 + y^2}$$
+
+--
+
+Se $A = (x_1,y_1)$ e $B = (x_2,y_2)$ então
+
+$$\vec{AB} = B - A = (x_2 - x_1, y_2 - y_1)$$
+
+e temos a fórmula da distância entre dois pontos
+
+$$d_{A,B} = \\|\vec{AB}\\|  = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} $$
+
+
+---
+
+## Retas
+
+Pode ser representada de várias maneiras
+
+- Equação geral
+- Equação reduzida
+- Equação paramétrica
+- Equação simétrica
+
+--
+
+### Equação geral
+
+$$ax + by + c = 0$$
+
+com $a$, $b$ e $c$ números não todos nulos.
+
+
+--
+
+Equação geral da reta que passa por $(x_1,y_1)$ e $(x_2, y_2)$ pode ser encontrada resolvendo o determinante 
+
+$$\\begin{vmatrix} x & y & 1 \\\\ x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\end{vmatrix} = 0 $$
+
+--
+
+### Equação reduzida
+
+$$ y = mx + b $$ 
+
+$m$ é o _coeficiente angular_ e $b$ é o _coeficiente linear_.
+
+$$m = \frac{\Delta y}{\Delta x}$$
+
+--
+
+Para encontrar a equação da reta que passa por $(x_0, y_0)$ e tem coeficiente angular $m$ usamos
+
+$$y-y_0 = m(x-x_0)$$
+
+--
+
+### Equação paramétrica
+
+É uma equação da forma ponto + vetor. A reta que passa por $(x_0,y_0)$ e tem direção dada pelo vetor $(a,b)$ tem equação paramétrica
+
+$$\\begin{cases} x = x_0 + at \\\\ y = y_0 + bt \\end{cases},\quad t\in\mathbb{R}$$
+
+---
+
+É importante saber converter de um tipo de equação para outra
+
+---
+
+## Distância ponto até reta
+
+A distância de um ponto $P = (x_0,y_0)$ até uma reta $r$ de equação geral $ax + by + c = 0$ é dada por 
+
+$$d_{P,r} = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$$
+
+---
+
+## Posições relativas entre retas
+
+--
+
+- Retas paralelas: nunca se encontram
+  - Possuem mesmo coeficiente angular
+
+--
+
+- Retas concorrentes: se encontram em um ponto
+
+--
+
+- Retas perpendiculares: caso particular em que as retas se encontram formando ângulo de 90 graus
+  - Nesse caso, o produto dos coeficientes angulares é -1
+
+---
+
+## Círculos
+
+--
+
+Equação geral da circunferência de centro $(x_0,y_0)$ e raio $r$:
+
+$$(x-x_0)^2 + (y-y_0)^2 = r^2$$
+      </script>
+    </section>
+  </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/math/math.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    hash: true,
+
+    transition: 'convex', // default/cube/page/concave/zoom/linear/fade/none
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+  });
+</script>
+
+</body>
+</html>
