@@ -8,7 +8,7 @@ Aprendendo a utilizar softwares para cálculos matemáticos: Geogebra, Graspable
 - :fontawesome-regular-calendar-check: Data: 14/09/24
 - :fontawesome-solid-clock: Horário: 9h - 12h
 - :fontawesome-solid-door-open: Local: VV001 - Laboratório do Vasto Verde 
- - [Slides :material-presentation-play:](__oficina-software.md)
+- [Slides :material-presentation-play:](__oficina-software.md)
 
 ## O básico da Geometria Analítica
 
@@ -17,6 +17,8 @@ Plano cartesiano e seus elementos: origem, eixos, quadrantes. Distância entre p
 - :fontawesome-regular-calendar-check: Data: 05/10/24
 - :fontawesome-solid-clock: Horário: 9h - 12h
 - :fontawesome-solid-door-open: Local: A107
+- [Slides :material-presentation-play:](__minicurso-geoanal.md)
+
 
 ## Oficina de trigonometria: do triângulo ao ciclo
 
