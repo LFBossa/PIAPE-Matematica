@@ -5,14 +5,21 @@ search:
 ---
 # Inequações com módulo
 
+---
+
 Aqui, vamos utilizar a técnica de "fatiar a reta real" e separar em casos. 
 
 - Encontramos as raízes das expressões dentro do módulo. 
 - Cada raiz encontrada serve como um corte na reta.
 - Cada caso é um subintervalo da reta.
+
+---
+
 - Cada caso origina uma inequação sem módulo. 
 - Resolvemos essa inequação e fazemos a interseção com o subintervalo da reta. 
 - Após resolver cada caso, fazemos a união das soluções.
+
+---
 
 **Exemplos**
 
@@ -26,7 +33,5 @@ Aqui, vamos utilizar a técnica de "fatiar a reta real" e separar em casos.
 
 ---
 
-<div class="grid cards" markdown>
- - [Slides :material-presentation-play:](./aula08-slides.md)
- - [Exercícios :writing_hand:](./questoes08.pdf)
-</div>
+[Voltar ao conteudo](./03-equacoes/aula8)
+
