@@ -43,6 +43,10 @@ Caso $Q(x) = (x-a)^2$.
 
 $$\frac{P(x)}{Q(x)} = \frac{A}{x-a} + \frac{B}{(x-a)^2}$$
 
+### Exemplo 2
+
+$$\frac{3x+4}{x^2 -4x + 4} = \frac{A}{x-2} + \frac{B}{(x-2)^2}$$
+
 ## Caso 3: quando o polinômio não tem raiz
 
 Caso $Q(x)$ não tenha raízes reais, não tem muito o que fatorar
