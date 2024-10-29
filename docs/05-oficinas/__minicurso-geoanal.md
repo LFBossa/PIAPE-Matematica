@@ -202,3 +202,37 @@ $$d_{P,r} = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$$
 Equação geral da circunferência de centro $(x_0,y_0)$ e raio $r$:
 
 $$(x-x_0)^2 + (y-y_0)^2 = r^2$$
+
+---
+
+## Espaço 3D
+
+---
+
+Em 3 dimensões, temos 3 coordenadas $(x,y,z)$ 
+
+- $x$ é o eixo das abscissas
+- $y$ é o eixo das ordenadas
+- $z$ é o eixo das cotas
+
+--
+
+Em 3 dimensões, uma reta pode ser representada através de equações
+- paramétrica
+- simétrica
+
+--
+
+### Equação paramétrica da reta
+
+Reta que passa por $(x_0,y_0,z_0)$ e tem direção dada pelo vetor $(a,b,c)$
+
+$$\\begin{cases} x = x_0 + at \\\\ y = y_0 + bt \\\\ z = z_0 + ct \\end{cases},\quad t\in\mathbb{R}$$
+
+--
+
+### Equação simétrica da reta
+
+Isolando o $t$ na equação paramétrica, obtemos a equação simétrica da reta
+
+$$\frac{x-x_0}{a} = \frac{y-y_0}{b} = \frac{z-z_0}{c}$$
