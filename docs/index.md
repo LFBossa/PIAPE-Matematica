@@ -98,10 +98,9 @@ Vamos aprender a resolver equações e inequações dos mais variados tipos.
 
 ### Módulo IV: Tudo é Função
 
-Vamos ver que tudo em matemática é função.
-<!--
-> [Link para se inscrever no Módulo IV :fontawesome-solid-link:](https://nupe.blumenau.ufsc.br/piape-pedagogico-e-educacional/piape-calendario-atividades/) 
--->
+Vamos ver que tudo em matemática é função. 
+
+> [Link para se inscrever no Módulo IV :fontawesome-solid-link:](https://inscricoes.ufsc.br/piapeblumatematicam4242)  
 
 ??? abstract "Cronograma Módulo IV"
 
@@ -145,13 +144,15 @@ Trigonometria no triângulo retângulo. Trigonometria no ciclo trigonométrico.
 - :fontawesome-solid-clock: Horário: 9h - 12h
 - :fontawesome-solid-door-open: Local: B124 - LEMA
 
+
 ### Operações com gráficos de funções
 
 Gráfico de funções no GeoGebra. Operações com gráficos de funções: deslocamento, alongamento e compressão.
 
 - :fontawesome-regular-calendar-check: Data: 30/11/24
 - :fontawesome-solid-clock: Horário: 9h - 12h
-- :fontawesome-solid-door-open: Local: A107
+- :fontawesome-solid-door-open: Local: online
+- [Link para inscrição :fontawesome-solid-link:](https://inscricoes.ufsc.br/piapeblumatematicao4242) 
 
 ## Plantões de dúvidas
 
