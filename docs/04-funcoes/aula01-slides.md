@@ -91,7 +91,19 @@ $$\text{Im} f = \\{-2, 0, 1, 6\\}$$
 
 Sempre vale que $\text{Im} f \subseteq \text{CD} f$
 
+
 ---
 
-- [Slides](./aula01-slides.md)
-- [Exercícios :writing_hand:](./questoes01.pdf) 
+## Diagramas que não representam funções
+
+---
+
+![imagem](./04-funcoes/img/aula01-img03.svg)
+
+---
+
+![imagem](./04-funcoes/img/aula01-img04.svg)
+
+---
+
+[Voltar ao conteudo](./04-funcoes/aula01)
