@@ -33,5 +33,5 @@ Aqui, vamos utilizar a técnica de "fatiar a reta real" e separar em casos.
 
 ---
 
-[Voltar ao conteudo](./03-equacoes/aula8)
+[Voltar ao conteudo](./03-equacoes/aula08)
 
