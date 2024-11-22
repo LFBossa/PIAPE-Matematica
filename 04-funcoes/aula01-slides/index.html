@@ -23,66 +23,110 @@
              data-separator-vertical="^\n--\n$"
              data-notes="^Note:">
       <script type="text/template">
-        # Funções: definição, domínio, contradomínio e imagem.
+        # Funções
 
-## Introdução 
+## definição, domínio, contradomínio e imagem
 
-Antes de mais nada, precisamos nos situar. Eu assumo que vocês já tenham algum conhecimento de teoria dos conjuntos: noção intuitiva do que é um conjunto, o que significa dizer que um elemento pertence a um conjunto. 
-
-Dado que sabemos o que é um conjunto, podemos falar de funções. Funções nada mais são do que associações feitas entre elementos de diferentes conjuntos. Você associa um elemento de um conjunto A com um elemento de um conjunto B e tudo certo. 
-
-Sem adentrar no mundo matemático, podemos pensar em uma função associando cada elemento de um conjunto de chaves a um elemento de um conjunto de fechaduras. Ou também associando cada elemento de um conjunto de placas de veículos a um elemento de um conjunto de veículos. 
-
-Podemos pensar então em algo como
-
-```mermaid
-flowchart LR
-    chaves --> fechaduras;
-    placas --> veículos;
-```
+---
 
 Em notação matemática, usamos a notação $$f:A\to B$$ para representar uma função de nome $f$ que associa elementos do conjunto $A$ a elementos do conjunto $B$.
 
-Na notação acima, chamamos o conjunto $A$ de **domínio** da função $f$ e o conjunto $B$ de **contradomínio**.
+---
+
+## Nomenclatura
+
+$$f:A\to B$$
+
+- $f$: nome da função
+- $A$: **domínio** da função, denotado por $\text{Dom} f$
+- $B$: **contradomínio**, denotado por $\text{CD} f$
+
+
+---
 
 
 ## Formalizando
 
-Uma função é uma relação de um conjunto $A$ num conjunto $B$ tal que cada elemento de $A$ está associado a um único elemento de $B$.
-
-**Exemplo 1A: Condomínio Jambalaia**
-
-O seriado Toma Lá, Dá Cá se passa no fictício Condomínio Jambalaia. Considere $A$ o conjunto de pessoas que mora nesse condomínio e considere $B$ o conjunto dos apartamentos desse condomínio. Associe a cada pessoa de $A$ o apartamento que ela reside em $B$. Essa associação é uma função pois:
- - Cada pessoa de $A$ mora necessariamente em um apartamento de $B$. 
- - Exceto em casos absurdos, nenhuma pessoa mora em dois apartamentos. 
-
-**Exemplo 1B**
-
-Considere novamente o conjunto $A$ do exemplo acima. Podemos tentar definir uma função de $A$ em $A$, pela seguinte relação: associamos a cada elemento de $A$ o seu filho. Isso não permite definir uma função pois
-- Existem pessoas que não possuem filhos
-- Existem pessoas que até possuem filhos, mas eles não pertencem ao conjunto $A$
-- Existem pessoas que possuem mais de um filho que pertencem ao conjunto $A$
-
-**Exemplo 2: Veículos**
-
-Vamos pensar em veículos. Considere $A$ o conjunto de todas as placas de veículos e $B$ o conjunto de todos os veículos que existem no Brasil. Podemos associar a cada placa o seu veículo correspondente e obtemos uma função, pois:
-- Cada placa corresponde a um único veículo (desconsiderando os veículos clonados)
-- Um veículo não pode ter duas placas distintas
-
- 
-## Imagem
-
-A imagem de uma função é o conjunto de todos os elementos do contradomínio que estão associados a algum elemento do domínio.
-
- - No Exemplo 1, a imagem da função é o conjunto de todos os apartamentos em que mora alguém. 
- - No Exemplo 2, a imagem da função é o conjunto de todos os veículos emplacados (ou seja, veículos zero km não estão na imagem da função)
+Uma função é uma relação de um conjunto $A$ num conjunto $B$ tal que cada elemento de $A$ está associado a um _único_ elemento de $B$.
 
 ---
 
-<div class="grid cards" markdown>
- - [Slides :material-presentation-play:](./aula01-slides.md)
- - [Exercícios :writing_hand:](./questoes01.pdf)
-</div>
+**Definindo uma função por uma regra**
+
+$$\begin{align*} f:A&\to B \\\\ x&\mapsto 2x\end{align*}$$
+
+$f$ é a função que associa elementos do conjunto $A$ no conjunto $B$, transformando $x$ em $2x$.
+
+--
+
+Sendo $$A = \left\\{-1,0,\tfrac{1}{2},3\right\\}\\\\[1ex] B = \\{-2,-1,0,1,4,5,6\\}$$ temos a seguinte associação:
+
+--
+
+$$\begin{align*}
+f:A&\to B \\\\ 
+x&\mapsto 2x \\\\
+-1 & \mapsto -2\\\\
+0 & \mapsto 0 \\\\
+\tfrac{1}{2} & \mapsto 1 \\\\
+3 & \mapsto 6 \\\\
+\end{align*}$$
+
+---
+
+## Representação por diagrama
+
+No caso do domínio e contradomínio serem pequenos, podemos representar com um diagrama de flechas.
+
+--
+
+![imagem](./04-funcoes/img/aula01-img01.svg)
+
+---
+
+## Mais nomenclatura
+
+$$f\left(\tfrac{1}{2}\right) = 1$$
+
+Essa notação acima indica que o número $\tfrac{1}{2}$ está associado ao $1$. 
+
+- $\tfrac{1}{2}$ é o **argumento** da função
+- $1$ é a **imagem** do $\tfrac{1}{2}$ pela função $f$
+
+---
+
+## Imagem
+
+A imagem de uma função é o conjunto de todos os elementos do contradomínio que estão associados a algum elemento do domínio, denotada por $\text{Im} f$.
+
+---
+
+No diagrama de flechas, a imagem é composta de todos os elementos do contradomínio que recebem flechas.
+
+![imagem](./04-funcoes/img/aula01-img02.svg)
+
+---
+
+$$\text{Im} f = \\{-2, 0, 1, 6\\}$$
+
+Sempre vale que $\text{Im} f \subseteq \text{CD} f$
+
+
+---
+
+## Diagramas que não representam funções
+
+---
+
+![imagem](./04-funcoes/img/aula01-img03.svg)
+
+---
+
+![imagem](./04-funcoes/img/aula01-img04.svg)
+
+---
+
+[Voltar ao conteudo](./04-funcoes/aula01)
 
       </script>
     </section>
