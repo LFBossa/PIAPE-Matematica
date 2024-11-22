@@ -3,6 +3,7 @@
 \usepackage{amsmath, amssymb, amsfonts}
 \usepackage{multicol}
 \usepackage{enumerate}
+\usepackage{xcolor}
 
 % https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
 \usepackage{letltxmacro}
@@ -22,17 +23,9 @@
 \section*{Piape Matemática} 
 \textbf{Módulo IV - Tudo é função}\\
 \textbf{Exercícios Aula 01}         
-\begin{multicols}{2}
-\paragraph*{1.}  Esse exercício é meramente teórico. Não é necessário fazer cálculos. Para cada par de conjuntos abaixo, tente escrever uma relação entre seus elementos que seja uma função. Se não for possível, justifique.
+\begin{multicols}{2} 
 
-\begin{enumerate}[a)]
-    \item A = conjunto de pessoas de Blumenau\\B = nomes de pessoas
-    \item A = conjunto de números de CPF\\B = conjunto de pessoas
-    \item A = conjunto de números de telefone\\B = conjunto de pessoas
-    \item A = conjunto de números de telefone\\B = conjunto de números de CPF
-\end{enumerate}
-
-\paragraph*{2.} Para cada uma das regras abaixo, determine o domínio, contradomínio e imagem da função.
+\paragraph*{1.} Para cada uma das regras abaixo, determine o domínio, contradomínio e imagem da função.
 \begin{enumerate}[a)]
     \item $B = \{2,4,6,8\}$, $A = \{1,2,3,4,5\}$
     $$\begin{aligned}
@@ -51,9 +44,24 @@
         f:A&\to B\\
         x&\mapsto x^2
     \end{aligned}$$
+
+    \item $A = \{0, 2, \tfrac{9}{2}, 8\}$, $B = \{0,1,2,3,4,5,6\}$
+    $$\begin{aligned}
+        f:A&\to B\\
+        x&\mapsto \sqrt{2x} + 1
+    \end{aligned}$$
+
+    \item $A = \{0, 1, 4, 5\}$,\\ $B = \{0,1,2,3,\sqrt{3},4,\sqrt{5},\sqrt{11}\}$
+    $$\begin{aligned}
+        f:A&\to B\\
+        x&\mapsto \sqrt{2x+ 1}
+    \end{aligned}$$
+
 \end{enumerate}
 
-\paragraph*{3.} Explique o porquê as relações abaixo não representam funções.
+\newcolumn
+
+\paragraph*{2.} Explique o porquê as relações abaixo não representam funções.
 
 \begin{enumerate}[a)]
 
@@ -70,14 +78,26 @@
     \end{aligned}$$
 \end{enumerate}
 
+\paragraph*{3.} Encontre o domínio das seguintes funções:
+\begin{enumerate}[a)]
+    \item $f(x) = 2x + \sqrt{2x - 8}$
+    \item $g(x) =2^x + \dfrac{3x}{4x-6}$
+    \item $h(x) = 1+\log(4x - 4)$ 
+\end{enumerate}
+
+
 \end{multicols}
  
 
 \vspace*{\fill}
 {\footnotesize
-\paragraph*{Gabarito} \hspace*{\fill}\\
-\textbf{1.} a) Cada pessoa de Blumenau tem um nome. Logo, é possível estabelecer uma relação entre os elementos de A e B que seja uma função. b) Se considerarmos todos os possíveis números de CPF, existem alguns que ainda não foram atribuídos a pessoas. c) Existem números de telefones comerciais, então nem todo número de telefone está associado a uma pessoa. d) Pelo mesmo motivo da letra c, nem todo número de telefone está associado a um CPF.
-\textbf{2.} a) Domínio = B, Contradomínio = A, Imagem = $\{1,2,3,4\}$. b) Domínio = A, Contradomínio = B, Imagem = $\{2,4,6,8,10\}$. c) Domínio = A, Contradomínio = B, Imagem = $\{1,4,9,16\}$.
-\textbf{3.} a) A relação não é uma função porque, por exemplo, o número 1 não tem imagem. b) A relação não é uma função porque, por exemplo, o número -4 não tem raiz quadrada.
+\paragraph*{Gabarito} \color{darkgray} \hspace*{\fill}\\
+\textbf{1.} a) Domínio = B, Contradomínio = A, Imagem = $\{1,2,3,4\}$; 
+b) Domínio = A, Contradomínio = B, Imagem = $\{2,4,6,8,10\}$; 
+c) Domínio = A, Contradomínio = B, Imagem = $\{1,4,9,16\}$; 
+d) Domínio = A, Contradomínio = B, Imagem = $\{1,3,4,5\}$;
+e) Domínio = A, Contradomínio = B, Imagem = $\{1,\sqrt{3},3,\sqrt{11}\}$;\\
+\textbf{2.} a) A relação não é uma função porque, por exemplo, o número 1 não tem imagem. b) A relação não é uma função porque, por exemplo, o número -4 não tem raiz quadrada.\\
+\textbf{3.} a) $\text{Dom } f  = \{x\in\mathbb{R} \mid x\ge 4\}$; b)  $\text{Dom } g  = \left\{x\in\mathbb{R} \mid x \neq \tfrac{3}{2}\right\} $; c)  $\text{Dom } h  = \{x\in\mathbb{R} \mid x > 1\}$. \color{black}
 }
 \end{document}
