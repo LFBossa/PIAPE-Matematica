@@ -21,7 +21,11 @@ search:
 
 <img src="./04-funcoes/img/aula05-img00.svg" height="500"/>
 
+--
 
+**Função constante**
+
+- Reta totalmente horizontal
 
 ---
 
@@ -29,6 +33,12 @@ search:
 
 <img src="./04-funcoes/img/aula05-img01.svg" height="500"/>
 
+--
+
+**Função afim**
+
+- Reta com inclinação
+- Fórmula $f(x) = ax+ b$
 
 ---
 
@@ -36,6 +46,12 @@ search:
 
 <img src="./04-funcoes/img/aula05-img02.svg" height="500"/>
 
+--
+
+**Função quadrática**
+
+- Gráfico é uma parábola
+- Fórmula $f(x) = ax^2 + bx + c$
 
 ---
 
@@ -50,6 +66,12 @@ search:
 
 <img src="./04-funcoes/img/aula05-img04.svg" height="500"/>
 
+--
+
+**Função polinomial**
+
+- Fórmula geral $$f(x) = a_nx^n + a_{n-1}x^{n-1}+\ldots + a_1x+a_0$$
+- Tem até $n$ raízes (interseções com o eixo $x$)
 
 ---
 
@@ -64,6 +86,15 @@ search:
 
 <img src="./04-funcoes/img/aula05-img10.svg" height="500"/>
 
+--
+
+**Função racional**
+
+- Resultado da divisão de polinômios
+- Pode conter pólos (regiões onde o denominador zera)
+- Pode apresentar assíntotas (comportamento linear)
+
+
 ---
 
 **Função exponencial**
@@ -77,11 +108,26 @@ search:
 
 <img src="./04-funcoes/img/aula05-img06.svg" height="500"/>
 
+
+--
+
+**Função exponencial**
+
+- Fórmula geral $f(x) = a^x$
+- $\text{Im } f = \mathbb{R}_{+}$
+
 ---
 
 **Função logaritmica**
 
 <img src="./04-funcoes/img/aula05-img08.svg" height="500"/>
+
+--
+
+**Função logaritmica**
+
+- Fórmula geral $f(x) = \log_a(x)$
+- $\text{Dom } f = \mathbb{R}_{+}$
 
 ---
 
@@ -95,9 +141,18 @@ search:
 
 <img src="./04-funcoes/img/aula05-img12.png" height="500"/>
 
-
 ---
 
 **Função trigonométrica** 
 
 <img src="./04-funcoes/img/aula05-img13.png" height="500"/>
+
+--
+
+**Função trigonométrica** 
+
+- Periódica: seus valores se repetem em intervalos regulares
+
+---
+
+[Voltar ao conteúdo](./04-funcoes/aula05)
