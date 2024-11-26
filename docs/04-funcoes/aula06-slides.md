@@ -86,9 +86,33 @@ Ou, pela *contrapositiva*
 
 $$f(a) = f(b) \quad \Rightarrow \quad a = b$$
 
+--
+
+![Função injetora](./04-funcoes/img/aula06-img05.png)
+
+
+--
+
+**Teste da reta horizontal**
+
+<img src="./04-funcoes/img/aula06-img06.png" height="400"/>
+
+Uma reta horizontal corta o gráfico em no máximo 1 ponto.
+
+
 ---
 
 Funções **sobrejetoras** são funções cuja imagem é igual ao contradomínio. Em outros termos: qualquer elemento do contradomínio é a imagem de alguém do domínio. 
+
+--
+
+
+**Teste da reta horizontal**
+
+<img src="./04-funcoes/img/aula06-img07.png" height="400"/>
+
+Qualquer reta horizontal corta o gráfico em pelo menos 1 ponto.
+
 
 ---
 
@@ -102,3 +126,5 @@ Em geral, podemos *forçar* que uma função seja bijetora:
 
 
 ---
+
+[Voltar ao conteúdo](./04-funcoes/aula06)
