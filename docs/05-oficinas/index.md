@@ -35,3 +35,5 @@ Gráfico de funções no GeoGebra. Operações com gráficos de funções: deslo
 - :fontawesome-regular-calendar-check: Data: 30/11/24
 - :fontawesome-solid-clock: Horário: 9h - 12h
 - :fontawesome-solid-door-open: Local: A107
+- [Slides :material-presentation-play:](__minicurso-graficos.md)
+
