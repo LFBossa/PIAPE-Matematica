@@ -59,7 +59,7 @@ Podemos também calcular a divisão das funções $f/g$
 
 $$\frac{f}{g}\left(x\right) = \frac{f(x)}{g(x)} = \frac{3x + 2}{x^2+1} $$
 
---- 
+---
 
 Lembre-se que nos reais, também podemos tirar raízes quadradas, entaõ podemos definir $\sqrt{f}$
 
