@@ -33,10 +33,13 @@ As **oficinas** e **minicursos** são atividades pontuais, com duração entre 2
 
 ## Cronograma dos módulos
 
+Módulos são atividades que tem duração de um mês e trabalham mais profundamente determinados assuntos. Para obter certificado, é necessário pelo menos 75% de frequência. 
 
 [:fontawesome-solid-door-open: Aulas na sala A107](#cronograma-dos-modulos){.md-button}
 [:fontawesome-regular-calendar-check: Terças e quintas](#cronograma-dos-modulos){.md-button}
 [:fontawesome-solid-clock: 12h30 até 13h30](#cronograma-dos-modulos){.md-button}
+
+Confira abaixo o cronograma de assuntos trabalhados em cada módulo.
 
 - [Módulo I: Malabarismos algébricos](./cronograma-modulos.md#modulo-i-malabarismos-algebricos): Abril
 - [Módulo II: (in)equações](./cronograma-modulos.md#modulo-ii-inequacoes): Maio
@@ -44,6 +47,8 @@ As **oficinas** e **minicursos** são atividades pontuais, com duração entre 2
 
 ## Cronograma das atividades pontuais
 
+Atividades pontuais tem duração de um dia: são aulões, rodas de conversa, minicursos. Algumas delas tem direito a certificado. 
+Confira mais na [página das atividades](./cronograma-atividades.md).
 
 
 ## Plantões de dúvidas

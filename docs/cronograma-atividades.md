@@ -1,5 +1,6 @@
 # Cronograma Atividades 
 
+Atividades pontuais tem duração de um dia: são aulões, rodas de conversa, minicursos. Algumas delas tem direito a certificado. 
 
 ## Para além da sala de aula: aprendendo Matemática na universidade
 
