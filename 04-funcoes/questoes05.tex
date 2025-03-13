@@ -70,8 +70,29 @@
 \novografico{-3:3}{2-x}{j(x)}
 \novografico{-2:2}{1}{l(x)}
 
-\novografico{-3:7}{sin(deg(x))}{m(x)}
-\novografico{-1.5:1.5}{tan(deg(x))}{n(x)}
+\novografico{-10:10}{sin(deg(x))}{m(x)}
+\begin{tikzpicture}
+    \begin{axis}[
+        grid=both,
+        grid style={line width=.1pt, draw=gray!50, dashed},
+        major grid style={line width=.2pt,draw=gray!50, dashed},
+        axis lines=middle,
+        samples=200,
+        domain=-5:5,
+        width=5cm,
+        height=5cm,
+        xlabel=$x$,
+        ylabel={$n(x)$},
+        xlabel style={at={(current axis.right of origin)}, anchor=west},
+        ylabel style={at={(current axis.above origin)}, anchor=south},  
+        unbounded coords=jump,
+        ymax=10,
+        ymin=-10
+    ]
+    \addplot[blue, thick, y filter/.expression={abs(tan(deg(x)))>13? inf: y}] {tan(deg(x))}; 
+    \end{axis}
+\end{tikzpicture}
+%\novografico{-2:1.5}{tan(deg(x))}{n(x)}
 
 \begin{tikzpicture}
     \begin{axis}[
