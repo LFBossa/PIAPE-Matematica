@@ -53,3 +53,8 @@ reveal:
     path: theme
   plugin:
     path: reveal.js/plugin
+validation:
+  links: 
+    absolute_links: ignore
+    anchors: ignore
+    unrecognized_links: ignore
