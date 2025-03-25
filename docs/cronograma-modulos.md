@@ -1,5 +1,6 @@
 # Cronograma Módulos
 
+Módulos são atividades que tem duração de um mês e trabalham mais profundamente determinados assuntos. Para obter certificado, é necessário pelo menos 75% de frequência. 
 <!--
 ## Módulo I: Eu já deveria saber isso?
 
