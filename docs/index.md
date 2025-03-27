@@ -70,6 +70,6 @@ na sala A102 nos seguintes horários
 
 | Terças       |  Quintas      | Sextas    | 
 | :--------:   | :------:      | :-------: |
- 13h30 - 15h00 | 13h30 - 15h00 | 13h - 16h |
+ 13h30 - 15h00 | 13h30 - 15h00 | 13h - 16h <p>(Online no [:simple-moodle: Moodle](https://grupos.moodle.ufsc.br/course/view.php?id=4345))</p> |
 
-Para um conjunto detalhado de datas, veja o [Cronograma de Plantões de Dúvidas](https://docs.google.com/spreadsheets/d/1fOB-lBKupHONJbljWhVBt9CPQdrx7YAGkTmrKGrk2Hs/edit?gid=2011318317#gid=2011318317)
+Para um conjunto detalhado de datas, veja o [Cronograma de Plantões de Dúvidas](https://docs.google.com/spreadsheets/d/1dshzU5xPqX53HfqWWS66umjezv7RbXPLT4IB3lTbXcI/edit?usp=sharing)
