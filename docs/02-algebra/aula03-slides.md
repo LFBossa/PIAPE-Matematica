@@ -42,8 +42,28 @@ São expressões que aparecem corriqueiramente na matemática, por isso, _notáv
 
 $$(a+b)^2 = a^2 + 2ab + b^2$$
 
-$$(x+2)^2 = x^2 + 2\cdot 2 \cdot x + 2^2$$
+--
 
+**Exemplos**
+
+$$
+\begin{align*} (x+2)^2 &= \\\\
+\left(y + \frac{2}{3}\right)^2 &= \\\\
+\left(3z + \sqrt{5}\right)^2 &=  \\\\
+\end{align*}
+$$
+
+--
+
+
+**Exemplos**
+
+$$
+\begin{align*} (x+2)^2 &= x^2 + 4x + 4 \\\\
+\left(y + \frac{2}{3}\right)^2 &= y^2 + \frac{4}{3}y + \frac{4}{9} \\\\
+\left(3z + \sqrt{5}\right)^2 &=  9z^2 + 6\sqrt{5}z + 5\\\\
+\end{align*}
+$$
 
 ---
 
@@ -52,6 +72,23 @@ $$(x+2)^2 = x^2 + 2\cdot 2 \cdot x + 2^2$$
 
 $$(a-b)^2 = a^2 - 2ab + b^2$$
 
+--
+
+$$
+\begin{align*} (x-3)^2 &=  \\\\
+\left(\alpha - \frac{1}{2}\right)^2 &= \\\\
+\left(2\gamma - \sqrt{3}\right)^2 &= \\\\
+\end{align*}
+$$
+
+--
+
+$$
+\begin{align*} (x-3)^2 &= x^2 -6x + 9  \\\\
+\left(\alpha - \frac{1}{2}\right)^2 &= \alpha^2 - \alpha + \frac{1}{4}\\\\
+\left(2\gamma - \sqrt{3}\right)^2 &= 4\gamma^2 -4\sqrt{3}\gamma +3\\\\
+\end{align*}
+$$
 
 ---
 
