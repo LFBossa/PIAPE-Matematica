@@ -18,6 +18,8 @@ Plano cartesiano e seus elementos: origem, eixos, quadrantes. Distância entre p
 
 Trigonometria no triângulo retângulo. Trigonometria no ciclo trigonométrico.
 
+- [Slides :material-presentation-play:](__oficina-trigonometria.md)
+
 
 ## Operações com gráficos de funções
 
