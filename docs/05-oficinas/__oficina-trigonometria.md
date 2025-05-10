@@ -1,0 +1,136 @@
+---
+template: reveal.html
+search:
+  exclude: true
+---
+
+# Trigonometria
+
+Do triângulo para o círculo e além.
+
+---
+
+
+>Trigonometria: _trígōnon_ + _métron_ 
+>
+>(medida do triângulo)
+
+
+Parece difícil, mas é só multiplicação e divisão. 
+
+---
+
+**Porquê triângulos?**
+
+- Todos os triângulos que tenham os mesmos ângulos são semelhantes
+
+---
+
+Triângulos semelhantes tem a mesma proporção entre os lados.
+
+[Vamos verificar isso](https://www.geogebra.org/geometry)
+
+---
+
+## Triângulos retângulos
+
+Podem ser determinados por apenas um dos ângulos.
+
+
+---
+
+![Triângulo retângulo](./05-oficinas/img/trigonometria-01.png)
+
+---
+
+Em sua essência, seno, cosseno e  tangente de um ângulo são apenas _números_. 
+
+Esses números representam o resultado da divisão de lados do triângulo retângulo.
+
+---
+
+## Seno
+
+![Seno](./05-oficinas/img/trigonometria-02.png)
+
+$$\text{sen } \alpha = \frac{\text{cateto oposto}}{\text{hipotenusa}} $$
+
+
+---
+
+## Cosseno
+
+![Cosseno](./05-oficinas/img/trigonometria-03.png)
+
+$$\text{cos } \alpha = \frac{\text{cateto adjacente}}{\text{hipotenusa}} $$
+
+
+---
+
+## Tangente
+
+![Tangente](./05-oficinas/img/trigonometria-04.png)
+
+$$\text{tan } \alpha = \frac{\text{cateto oposto}}{\text{cateto adjacente}} $$
+
+
+---
+
+Qual o objetivo da trigonometria?
+
+> Assim como tudo na matemática, a gente usa dois valores conhecidos para encontrar um terceiro valor desconhecido. 
+
+---
+
+### Uma relação fundamental
+
+Note que podemos relacionar seno e cosseno usando o Teorema de Pitágoras.
+
+- $c_a$ = cateto adjacente
+- $c_o$ = cateto oposto
+- $h$ = hipotenusa
+
+O Teorema de Pitágoras nos diz que $c_a^2 + c_o^2 = h^2$
+
+--
+
+$$
+\begin{align*}
+c_a^2 &+ c_o^2 = h^2 & (\div h^2)\\\\[1ex]
+\frac{c_a^2}{h^2} &+ \frac{c_o^2}{h^2} = \frac{h^2}{h^2} \\\\[2ex]
+\left(\frac{c_a}{h} \right)^2 &+\left(\frac{c_o}{h} \right)^2 = 1\\\\[1ex]
+(\cos \alpha )^2 &+ (\text{sen } \alpha)^2 = 1
+\end{align*}
+$$
+
+
+
+---
+
+[Exercícios 1](https://exercicios.mundoeducacao.uol.com.br/exercicios-matematica/exercicios-sobre-razoes-trigonometricas.htm)
+
+[Exercícios 2](https://www.todamateria.com.br/exercicios-de-trigonometria-no-triangulo-retangulo-comentados/)
+
+
+[Exercício 3](https://exercicios.brasilescola.uol.com.br/exercicios-matematica/exercicios-sobre-trigonometria-no-triangulo-retangulo.htm)
+
+
+---
+
+## Ciclo
+
+[Construindo o ciclo](https://www.geogebra.org/calculator/xmpan53a)
+
+
+---
+
+## O que são radianos?
+
+[Construindo radianos](https://www.geogebra.org/calculator/c5ytjmpb)
+
+---
+
+# Referência
+
+[Aprendendo Trigonometria com a Plataforma GeoGebra
+](https://www.geogebra.org/m/M3vta5Uv)
