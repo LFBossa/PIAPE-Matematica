@@ -1,0 +1,91 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multicol}
+
+\usepackage{xcolor}
+\usepackage{paralist}
+
+\usepackage{enumerate}
+
+% https://tex.stackexchange.com/questions/29834/closed-square-root-symbol
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+\begin{document} 
+  
+\section*{Piape Matemática} 
+\textbf{Oficina de Operações com Gráficos}\\ 
+\begin{multicols}{2}
+\paragraph*{1.} Descreva verbalmente as transformações aplicadas ao gráfico de $f(x)$ para obter o gráfico de $g(x)$ em cada um dos itens abaixo:
+
+\begin{enumerate}[a)]
+    \item $g(x) = f(x) + 5$
+    \item $g(x) = f(x - 3)$
+    \item $g(x) = 2f(x)$
+    \item $g(x) = f(4x)$
+    \item $g(x) = -f(x)$
+    \item $g(x) = f(-x)$
+    \item $g(x) = f(x) - 10$
+    \item $g(x) = \frac{1}{2}f(x)$
+    \item $g(x) = f\left(\frac{1}{3}x\right)$
+    \item $g(x) = -f(x + 1) + 2$
+\end{enumerate} \newcolumn
+
+\paragraph*{2.} Escreva a equação da função $g(x)$ que representa a transformação descrita em cada item, a partir da função $f(x)$:
+    \begin{enumerate}[a)]
+        \item Deslocar o gráfico de $f(x)$ 4 unidades para baixo.
+        \item Deslocar o gráfico de $f(x)$ 2.5 unidades para a direita.
+        \item Alongar verticalmente o gráfico de $f(x)$ por um fator de 3.
+        \item Comprimir horizontalmente o gráfico de $f(x)$ por um fator de 2.
+        \item Refletir o gráfico de $f(x)$ em torno do eixo $x$.
+        \item Refletir o gráfico de $f(x)$ em torno do eixo $y$.
+        \item Comprimir verticalmente o gráfico de $f(x)$ por um fator de $\frac{1}{4}$.
+        \item Alongar horizontalmente o gráfico de $f(x)$ por um fator de 5.
+        \item Deslocar o gráfico de $f(x)$ 7 unidades para a esquerda e 1 unidade para cima.
+        \item Alongar verticalmente o gráfico de $f(x)$ por um fator de 2 e refletir em torno do eixo $y$.
+    \end{enumerate}
+
+\vspace*{0cm}
+\end{multicols}
+ 
+\vspace*{\fill}
+{\footnotesize\color{gray}
+\paragraph*{Gabarito} \hspace*{\fill}\\
+\textbf{1.}
+  \begin{inparaenum}[a)]
+        \item Deslocamento vertical de 5 unidades para cima.
+        \item Deslocamento horizontal de 3 unidades para a direita.
+        \item Alongamento vertical por um fator de 2.
+        \item Compressão horizontal por um fator de 4.
+        \item Reflexão vertical (em torno do eixo $x$).
+        \item Reflexão horizontal (em torno do eixo $y$).
+        \item Deslocamento vertical de 10 unidades para baixo.
+        \item Compressão vertical por um fator de $\frac{1}{2}$.
+        \item Alongamento horizontal por um fator de 3.
+        \item Reflexão vertical (em torno do eixo $x$), deslocamento horizontal de 1 unidade para a esquerda e deslocamento vertical de 2 unidades para cima.
+    \end{inparaenum}
+\textbf{2.}
+\begin{inparaenum}[a)]
+        \item $g(x) = f(x) - 4$
+        \item $g(x) = f(x - 2.5)$
+        \item $g(x) = 3f(x)$
+        \item $g(x) = f(2x)$
+        \item $g(x) = -f(x)$
+        \item $g(x) = f(-x)$
+        \item $g(x) = \frac{1}{4}f(x)$
+        \item $g(x) = f\left(\frac{1}{5}x\right)$
+        \item $g(x) = f(x + 7) + 1$
+        \item $g(x) = 2f(-x)$
+    \end{inparaenum}
+}
+\end{document}
