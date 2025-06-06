@@ -25,5 +25,6 @@ Trigonometria no triângulo retângulo. Trigonometria no ciclo trigonométrico.
 
 Gráfico de funções no GeoGebra. Operações com gráficos de funções: deslocamento, alongamento e compressão.
 
-- [Slides :material-presentation-play:](__minicurso-graficos.md)
+- [Slides :material-presentation-play:](__oficina-graficos.md)
+- [Exercícios :writing_hand:](./exercicios-graficos.pdf)
 
